@@ -1,0 +1,157 @@
+{
+  "id": "countdown-sale",
+  "name": "Countdown Sale Banner",
+  "category": "section",
+  "subcategory": "promo",
+  "description": "Urgency-driven sale banner with countdown timer and CTA",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "20px",
+          "paddingBottom": "20px"
+        },
+        "sm": {
+          "paddingTop": "28px",
+          "paddingBottom": "28px"
+        }
+      },
+      "children": [
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "LIMITED TIME OFFER"
+          },
+          "styleOverrides": {
+            "lineHeight": "1",
+            "display": "block",
+            "fontSize": "11px",
+            "color": "#e1e4e8",
+            "fontFamily": "inherit",
+            "fontWeight": "700",
+            "letterSpacing": "3px",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "paddingTop": "0",
+            "paddingRight": "0",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "marginRight": "0",
+            "marginLeft": "0"
+          }
+        },
+        {
+          "type": "heading",
+          "propOverrides": {
+            "text": "Flash Sale - Up to 50% Off",
+            "level": "h2",
+            "tag": "h2"
+          },
+          "responsiveStyles": {
+            "sm": {
+              "fontSize": "24px"
+            },
+            "xs": {
+              "fontSize": "20px"
+            }
+          },
+          "styleOverrides": {
+            "fontFamily": "inherit",
+            "fontWeight": "700",
+            "lineHeight": "1.2",
+            "display": "block",
+            "fontSize": "32px",
+            "color": "#ffffff",
+            "marginTop": "12px",
+            "marginBottom": "0",
+            "textAlign": "center",
+            "paddingTop": "12px",
+            "paddingRight": "0",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "marginRight": "0",
+            "marginLeft": "0"
+          }
+        },
+        {
+          "type": "countdown",
+          "propOverrides": {
+            "targetDate": "2026-04-01T00:00:00",
+            "expiredMessage": "Offer has ended!",
+            "label": "Sale ends in"
+          },
+          "styleOverrides": {
+            "digitColor": "#ffffff",
+            "labelColor": "#cccccc",
+            "digitFontSize": "36px",
+            "labelFontSize": "12px",
+            "separatorStyle": "colon",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "marginTop": "20px",
+            "marginRight": "0",
+            "marginBottom": "0",
+            "marginLeft": "0"
+          }
+        },
+        {
+          "type": "button",
+          "propOverrides": {
+            "text": "Shop the Sale",
+            "href": "",
+            "url": ""
+          },
+          "styleOverrides": {
+            "backgroundColor": "#ffffff",
+            "color": "#667eea",
+            "borderRadius": "6px",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "fontSize": "15px",
+            "fontFamily": "inherit",
+            "fontWeight": "700",
+            "paddingTop": "14px",
+            "paddingRight": "40px",
+            "paddingBottom": "14px",
+            "paddingLeft": "40px",
+            "marginTop": "10px",
+            "marginRight": "0",
+            "marginBottom": "0",
+            "marginLeft": "0",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "borderColor": "#ffffff",
+            "hoverColor": "#667eea",
+            "hoverBackgroundColor": "#ffffff",
+            "hoverBorderColor": "#ffffff",
+            "hoverAnimation": "none"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "maxWidth": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "textAlign": "center",
+        "backgroundColor": "#667eea",
+        "paddingTop": "40px",
+        "paddingBottom": "40px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "marginTop": "0",
+        "marginBottom": "0",
+        "marginRight": "0",
+        "marginLeft": "0",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

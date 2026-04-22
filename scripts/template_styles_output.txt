@@ -1,0 +1,4840 @@
+
+================================================================================
+TEMPLATE: announcement-bar (Announcement Bar)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: row
+    alignItems: center
+    justifyContent: center
+    gap: 12px
+    backgroundColor: #1a1a1a
+    paddingTop: 12px
+    paddingBottom: 12px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+
+  [1] text — "Free shipping on all orders ov..."
+    BASE STYLE:
+      lineHeight: 1
+      display: block
+      fontSize: 13px
+      color: #e1e4e8
+      fontWeight: 500
+      letterSpacing: 0.5px
+      marginTop: 0
+      marginBottom: 0
+      textAlign: center
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 11px
+
+  [2] button — "Shop Now"
+    BASE STYLE:
+      color: #ffffff
+      borderRadius: 3px
+      cursor: pointer
+      display: inline-block
+      fontSize: 11px
+      fontWeight: 600
+      letterSpacing: 0.5px
+      paddingTop: 6px
+      paddingRight: 16px
+      paddingBottom: 6px
+      paddingLeft: 16px
+      marginTop: 0
+      marginRight: 0
+      marginBottom: 0
+      marginLeft: 0
+      backgroundColor: #667eea
+      borderWidth: 1px
+      borderStyle: solid
+      borderColor: rgba(255,255,255,0.3)
+
+================================================================================
+TEMPLATE: before-after (Before / After Showcase)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    backgroundColor: #ffffff
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] heading — "See the Difference"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 36px
+      color: #1a1a1a
+      textAlign: center
+      marginTop: 0
+      marginBottom: 10px
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 22px
+    @sm:
+      fontSize: 27px
+
+  [2] columns-2
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+    COLUMN 0:
+      borderRadius: 8px
+      overflow: hidden
+      borderWidth: 1px
+      borderStyle: solid
+      borderColor: #e0e0e0
+    COLUMN 1:
+      borderRadius: 8px
+      overflow: hidden
+      borderWidth: 2px
+      borderStyle: solid
+      borderColor: #0066cc
+
+    [3] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 280px
+        objectFit: cover
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [4] container
+      BASE STYLE:
+        display: flex
+        flexDirection: column
+        height: auto
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 0
+        backgroundColor: #fafbfc
+        paddingTop: 20px
+        paddingBottom: 20px
+        paddingLeft: 20px
+        paddingRight: 20px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: flex-start
+        borderWidth: 0px
+        borderStyle: none
+
+      [5] text — "BEFORE"
+        BASE STYLE:
+          lineHeight: 1
+          display: block
+          fontSize: 11px
+          color: #6a737d
+          fontWeight: 700
+          letterSpacing: 2px
+          marginTop: 0
+          marginBottom: 0
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [6] text — "Describe the problem, starting..."
+        BASE STYLE:
+          lineHeight: 1.6
+          display: block
+          fontSize: 14px
+          color: #586069
+          marginTop: 8px
+          marginBottom: 0
+          paddingTop: 8px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+    [7] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 280px
+        objectFit: cover
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [8] container
+      BASE STYLE:
+        display: flex
+        flexDirection: column
+        height: auto
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 0
+        backgroundColor: #f6f8fa
+        paddingTop: 20px
+        paddingBottom: 20px
+        paddingLeft: 20px
+        paddingRight: 20px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: flex-start
+        borderWidth: 0px
+        borderStyle: none
+
+      [9] text — "AFTER"
+        BASE STYLE:
+          lineHeight: 1
+          display: block
+          fontSize: 11px
+          color: #667eea
+          fontWeight: 700
+          letterSpacing: 2px
+          marginTop: 0
+          marginBottom: 0
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [10] text — "Show the transformation, resul..."
+        BASE STYLE:
+          lineHeight: 1.6
+          display: block
+          fontSize: 14px
+          color: #586069
+          marginTop: 8px
+          marginBottom: 0
+          paddingTop: 8px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+================================================================================
+TEMPLATE: bestsellers-row (Bestsellers Row)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    backgroundColor: #fafbfc
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] columns-2
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [2] heading — "Bestsellers"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 32px
+        color: #1a1a1a
+        marginTop: 0
+        marginBottom: 8px
+        textAlign: left
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 8px
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+      @xs:
+        fontSize: 20px
+      @sm:
+        fontSize: 24px
+
+    [3] button — "View All"
+      BASE STYLE:
+        color: #667eea
+        borderRadius: 4px
+        cursor: pointer
+        display: block
+        fontSize: 13px
+        fontWeight: 600
+        paddingTop: 10px
+        paddingRight: 24px
+        paddingBottom: 10px
+        paddingLeft: 24px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: auto
+        borderWidth: 1px
+        borderStyle: solid
+        borderColor: #667eea
+
+  [4] columns-4
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [5] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 220px
+        objectFit: cover
+        borderRadius: 6px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [6] text — "BEST SELLER"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 10px
+        color: #667eea
+        fontWeight: 700
+        letterSpacing: 1px
+        marginTop: 10px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 10px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [7] heading — "Product Name"
+      BASE STYLE:
+        fontWeight: 600
+        lineHeight: 1.2
+        display: block
+        fontSize: 14px
+        color: #1a1a1a
+        marginTop: 6px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 6px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [8] text — "$49.00"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 14px
+        color: #586069
+        marginTop: 4px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 4px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [9] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 220px
+        objectFit: cover
+        borderRadius: 6px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [10] text — "NEW"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 10px
+        color: #667eea
+        fontWeight: 700
+        letterSpacing: 1px
+        marginTop: 10px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 10px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [11] heading — "Product Name"
+      BASE STYLE:
+        fontWeight: 600
+        lineHeight: 1.2
+        display: block
+        fontSize: 14px
+        color: #1a1a1a
+        marginTop: 6px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 6px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [12] text — "$59.00"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 14px
+        color: #586069
+        marginTop: 4px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 4px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [13] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 220px
+        objectFit: cover
+        borderRadius: 6px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [14] text — "POPULAR"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 10px
+        color: #667eea
+        fontWeight: 700
+        letterSpacing: 1px
+        marginTop: 10px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 10px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [15] heading — "Product Name"
+      BASE STYLE:
+        fontWeight: 600
+        lineHeight: 1.2
+        display: block
+        fontSize: 14px
+        color: #1a1a1a
+        marginTop: 6px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 6px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [16] text — "$39.00"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 14px
+        color: #586069
+        marginTop: 4px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 4px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [17] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 220px
+        objectFit: cover
+        borderRadius: 6px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [18] text — "SALE"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 10px
+        color: #667eea
+        fontWeight: 700
+        letterSpacing: 1px
+        marginTop: 10px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 10px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [19] heading — "Product Name"
+      BASE STYLE:
+        fontWeight: 600
+        lineHeight: 1.2
+        display: block
+        fontSize: 14px
+        color: #1a1a1a
+        marginTop: 6px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 6px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [20] text — "$29.00"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 14px
+        color: #586069
+        marginTop: 4px
+        marginBottom: 0
+        textAlign: center
+        paddingTop: 4px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+================================================================================
+TEMPLATE: brand-story (Brand Story)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    backgroundColor: #fafbfc
+    paddingTop: 0
+    paddingBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+
+  [1] columns-2
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [2] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 100%
+        objectFit: cover
+        minHeight: 400px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [3] container
+      BASE STYLE:
+        display: flex
+        flexDirection: column
+        justifyContent: center
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        paddingTop: 60px
+        paddingBottom: 60px
+        paddingLeft: 40px
+        paddingRight: 40px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: flex-start
+        borderWidth: 0px
+        borderStyle: none
+      @xs:
+        paddingTop: 30px
+        paddingBottom: 30px
+        paddingLeft: 16px
+        paddingRight: 16px
+      @sm:
+        paddingTop: 42px
+        paddingBottom: 42px
+
+      [4] text — "OUR STORY"
+        BASE STYLE:
+          lineHeight: 1
+          display: block
+          fontSize: 11px
+          color: #667eea
+          fontWeight: 700
+          letterSpacing: 2px
+          marginTop: 0
+          marginBottom: 0
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [5] heading — "Built with Purpose"
+        BASE STYLE:
+          fontWeight: bold
+          lineHeight: 1.2
+          display: block
+          fontSize: 32px
+          color: #1a1a1a
+          marginTop: 16px
+          marginBottom: 0
+          textAlign: left
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+        @xs:
+          fontSize: 20px
+        @sm:
+          fontSize: 24px
+
+      [6] text — "We started with a simple belie..."
+        BASE STYLE:
+          lineHeight: 1.8
+          display: block
+          fontSize: 15px
+          color: #586069
+          marginTop: 16px
+          marginBottom: 0
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [7] text — "Our commitment goes beyond pro..."
+        BASE STYLE:
+          lineHeight: 1.8
+          display: block
+          fontSize: 15px
+          color: #586069
+          marginTop: 16px
+          marginBottom: 0
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [8] button — "Learn More About Us"
+        BASE STYLE:
+          color: #667eea
+          borderRadius: 4px
+          cursor: pointer
+          display: inline-block
+          fontSize: 13px
+          fontWeight: 600
+          paddingTop: 12px
+          paddingRight: 28px
+          paddingBottom: 12px
+          paddingLeft: 28px
+          marginTop: 24px
+          marginRight: 0
+          marginBottom: 0
+          marginLeft: 0
+          borderWidth: 1px
+          borderStyle: solid
+          borderColor: #667eea
+
+================================================================================
+TEMPLATE: collection-showcase (Collection Showcase)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    backgroundColor: #ffffff
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] heading — "Shop by Category"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 36px
+      color: #1a1a1a
+      textAlign: center
+      marginTop: 0
+      marginBottom: 10px
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 22px
+    @sm:
+      fontSize: 27px
+
+  [2] columns-3
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [3] image-background
+      BASE STYLE:
+        position: relative
+        minHeight: 300px
+        backgroundSize: cover
+        backgroundPosition: center
+        backgroundRepeat: no-repeat
+        display: flex
+        alignItems: flex-end
+        justifyContent: center
+        overflow: hidden
+        borderRadius: 8px
+        backgroundColor: #f6f8fa
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+        borderWidth: 0px
+        borderStyle: none
+
+      [4] container
+        BASE STYLE:
+          width: 100%
+          maxWidth: 100%
+          boxSizing: border-box
+          overflow: hidden
+          display: flex
+          flexDirection: column
+          alignItems: center
+          backgroundColor: rgba(0,0,0,0.5)
+          flex: 0
+          height: auto
+          paddingTop: 16px
+          paddingBottom: 16px
+          paddingLeft: 16px
+          paddingRight: 16px
+          marginTop: 0
+          marginBottom: 0
+          marginRight: 0
+          marginLeft: 0
+          borderWidth: 0px
+          borderStyle: none
+
+        [5] heading — "New Arrivals"
+          BASE STYLE:
+            fontWeight: bold
+            lineHeight: 1.2
+            display: block
+            fontSize: 20px
+            color: #ffffff
+            textAlign: center
+            marginTop: 0
+            marginBottom: 0
+            paddingTop: 0
+            paddingRight: 0
+            paddingBottom: 0
+            paddingLeft: 0
+            marginRight: 0
+            marginLeft: 0
+
+        [6] button — "Shop Now"
+          BASE STYLE:
+            color: #ffffff
+            borderRadius: 3px
+            cursor: pointer
+            display: inline-block
+            fontSize: 12px
+            fontWeight: 600
+            paddingTop: 8px
+            paddingRight: 24px
+            paddingBottom: 8px
+            paddingLeft: 24px
+            marginTop: 10px
+            marginRight: 0
+            marginBottom: 0
+            marginLeft: 0
+            backgroundColor: #667eea
+            borderWidth: 1px
+            borderStyle: solid
+            borderColor: #ffffff
+
+    [7] image-background
+      BASE STYLE:
+        position: relative
+        minHeight: 300px
+        backgroundSize: cover
+        backgroundPosition: center
+        backgroundRepeat: no-repeat
+        display: flex
+        alignItems: flex-end
+        justifyContent: center
+        overflow: hidden
+        borderRadius: 8px
+        backgroundColor: #d5d5d5
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+        borderWidth: 0px
+        borderStyle: none
+
+      [8] container
+        BASE STYLE:
+          width: 100%
+          maxWidth: 100%
+          boxSizing: border-box
+          overflow: hidden
+          display: flex
+          flexDirection: column
+          alignItems: center
+          backgroundColor: rgba(0,0,0,0.5)
+          flex: 0
+          height: auto
+          paddingTop: 16px
+          paddingBottom: 16px
+          paddingLeft: 16px
+          paddingRight: 16px
+          marginTop: 0
+          marginBottom: 0
+          marginRight: 0
+          marginLeft: 0
+          borderWidth: 0px
+          borderStyle: none
+
+        [9] heading — "Bestsellers"
+          BASE STYLE:
+            fontWeight: bold
+            lineHeight: 1.2
+            display: block
+            fontSize: 20px
+            color: #ffffff
+            textAlign: center
+            marginTop: 0
+            marginBottom: 0
+            paddingTop: 0
+            paddingRight: 0
+            paddingBottom: 0
+            paddingLeft: 0
+            marginRight: 0
+            marginLeft: 0
+
+        [10] button — "Shop Now"
+          BASE STYLE:
+            color: #ffffff
+            borderRadius: 3px
+            cursor: pointer
+            display: inline-block
+            fontSize: 12px
+            fontWeight: 600
+            paddingTop: 8px
+            paddingRight: 24px
+            paddingBottom: 8px
+            paddingLeft: 24px
+            marginTop: 10px
+            marginRight: 0
+            marginBottom: 0
+            marginLeft: 0
+            backgroundColor: #667eea
+            borderWidth: 1px
+            borderStyle: solid
+            borderColor: #ffffff
+
+    [11] image-background
+      BASE STYLE:
+        position: relative
+        minHeight: 300px
+        backgroundSize: cover
+        backgroundPosition: center
+        backgroundRepeat: no-repeat
+        display: flex
+        alignItems: flex-end
+        justifyContent: center
+        overflow: hidden
+        borderRadius: 8px
+        backgroundColor: #c5c5c5
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+        borderWidth: 0px
+        borderStyle: none
+
+      [12] container
+        BASE STYLE:
+          width: 100%
+          maxWidth: 100%
+          boxSizing: border-box
+          overflow: hidden
+          display: flex
+          flexDirection: column
+          alignItems: center
+          backgroundColor: rgba(0,0,0,0.5)
+          flex: 0
+          height: auto
+          paddingTop: 16px
+          paddingBottom: 16px
+          paddingLeft: 16px
+          paddingRight: 16px
+          marginTop: 0
+          marginBottom: 0
+          marginRight: 0
+          marginLeft: 0
+          borderWidth: 0px
+          borderStyle: none
+
+        [13] heading — "Sale"
+          BASE STYLE:
+            fontWeight: bold
+            lineHeight: 1.2
+            display: block
+            fontSize: 20px
+            color: #ffffff
+            textAlign: center
+            marginTop: 0
+            marginBottom: 0
+            paddingTop: 0
+            paddingRight: 0
+            paddingBottom: 0
+            paddingLeft: 0
+            marginRight: 0
+            marginLeft: 0
+
+        [14] button — "Shop Now"
+          BASE STYLE:
+            color: #ffffff
+            borderRadius: 3px
+            cursor: pointer
+            display: inline-block
+            fontSize: 12px
+            fontWeight: 600
+            paddingTop: 8px
+            paddingRight: 24px
+            paddingBottom: 8px
+            paddingLeft: 24px
+            marginTop: 10px
+            marginRight: 0
+            marginBottom: 0
+            marginLeft: 0
+            backgroundColor: #667eea
+            borderWidth: 1px
+            borderStyle: solid
+            borderColor: #ffffff
+
+================================================================================
+TEMPLATE: content-fullwidth-text (Full-Width Text)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    backgroundColor: #ffffff
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 40px
+    paddingRight: 40px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+    paddingLeft: 16px
+    paddingRight: 16px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] heading — "Our Mission"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 36px
+      color: #1a1a1a
+      textAlign: center
+      marginTop: 0
+      marginBottom: 0
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 22px
+    @sm:
+      fontSize: 27px
+
+  [2] text — "We believe in building tools t..."
+    BASE STYLE:
+      lineHeight: 1.8
+      display: block
+      fontSize: 17px
+      color: #586069
+      maxWidth: 700px
+      textAlign: center
+      marginTop: 0
+      marginBottom: 0
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+
+================================================================================
+TEMPLATE: content-stats (Stats Row)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    backgroundColor: #1a1a1a
+    paddingTop: 40px
+    paddingBottom: 40px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 20px
+    paddingBottom: 20px
+  @sm:
+    paddingTop: 28px
+    paddingBottom: 28px
+
+  [1] columns-4
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+    COLUMN 0:
+      alignItems: center
+    COLUMN 1:
+      alignItems: center
+    COLUMN 2:
+      alignItems: center
+    COLUMN 3:
+      alignItems: center
+
+    [2] heading — "10K+"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 36px
+        color: #ffffff
+        textAlign: center
+        marginTop: 0
+        marginBottom: 0
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+      @xs:
+        fontSize: 22px
+      @sm:
+        fontSize: 27px
+
+    [3] text — "Customers"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 14px
+        color: #e1e4e8
+        textAlign: center
+        marginTop: 8px
+        marginBottom: 0
+        paddingTop: 8px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [4] heading — "99.9%"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 36px
+        color: #ffffff
+        textAlign: center
+        marginTop: 0
+        marginBottom: 0
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+      @xs:
+        fontSize: 22px
+      @sm:
+        fontSize: 27px
+
+    [5] text — "Uptime"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 14px
+        color: #e1e4e8
+        textAlign: center
+        marginTop: 8px
+        marginBottom: 0
+        paddingTop: 8px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [6] heading — "50M+"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 36px
+        color: #ffffff
+        textAlign: center
+        marginTop: 0
+        marginBottom: 0
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+      @xs:
+        fontSize: 22px
+      @sm:
+        fontSize: 27px
+
+    [7] text — "Page Views"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 14px
+        color: #e1e4e8
+        textAlign: center
+        marginTop: 8px
+        marginBottom: 0
+        paddingTop: 8px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [8] heading — "24/7"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 36px
+        color: #ffffff
+        textAlign: center
+        marginTop: 0
+        marginBottom: 0
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+      @xs:
+        fontSize: 22px
+      @sm:
+        fontSize: 27px
+
+    [9] text — "Support"
+      BASE STYLE:
+        lineHeight: 1
+        display: block
+        fontSize: 14px
+        color: #e1e4e8
+        textAlign: center
+        marginTop: 8px
+        marginBottom: 0
+        paddingTop: 8px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+================================================================================
+TEMPLATE: content-text-image (Text + Image)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    backgroundColor: #ffffff
+    paddingTop: 0
+    paddingBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+
+  [1] columns-2
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [2] container
+      BASE STYLE:
+        display: flex
+        flexDirection: column
+        justifyContent: center
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        paddingTop: 40px
+        paddingBottom: 40px
+        paddingLeft: 40px
+        paddingRight: 40px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: flex-start
+        borderWidth: 0px
+        borderStyle: none
+      @xs:
+        paddingTop: 20px
+        paddingBottom: 20px
+        paddingLeft: 16px
+        paddingRight: 16px
+      @sm:
+        paddingTop: 28px
+        paddingBottom: 28px
+
+      [3] heading — "About Our Story"
+        BASE STYLE:
+          fontWeight: bold
+          lineHeight: 1.2
+          display: block
+          fontSize: 32px
+          color: #1a1a1a
+          marginTop: 0
+          marginBottom: 0
+          textAlign: left
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+        @xs:
+          fontSize: 20px
+        @sm:
+          fontSize: 24px
+
+      [4] text — "Share your story with the worl..."
+        BASE STYLE:
+          lineHeight: 1.8
+          display: block
+          fontSize: 15px
+          color: #586069
+          marginTop: 16px
+          marginBottom: 0
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+    [5] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 100%
+        objectFit: cover
+        minHeight: 300px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+================================================================================
+TEMPLATE: countdown-sale (Countdown Sale Banner)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    textAlign: center
+    backgroundColor: #667eea
+    paddingTop: 40px
+    paddingBottom: 40px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 20px
+    paddingBottom: 20px
+  @sm:
+    paddingTop: 28px
+    paddingBottom: 28px
+
+  [1] text — "LIMITED TIME OFFER"
+    BASE STYLE:
+      lineHeight: 1
+      display: block
+      fontSize: 11px
+      color: #e1e4e8
+      fontWeight: 700
+      letterSpacing: 3px
+      marginTop: 0
+      marginBottom: 0
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+
+  [2] heading — "Flash Sale - Up to 50% Off"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 32px
+      color: #ffffff
+      marginTop: 12px
+      marginBottom: 0
+      textAlign: center
+      paddingTop: 12px
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @sm:
+      fontSize: 24px
+    @xs:
+      fontSize: 20px
+
+  [3] countdown
+    BASE STYLE:
+      digitColor: #ffffff
+      labelColor: #cccccc
+      digitFontSize: 36px
+      labelFontSize: 12px
+      separatorStyle: colon
+      marginTop: 20px
+      marginRight: 0
+      marginBottom: 0
+      marginLeft: 0
+
+  [4] button — "Shop the Sale"
+    BASE STYLE:
+      backgroundColor: #ffffff
+      color: #667eea
+      borderRadius: 6px
+      cursor: pointer
+      display: inline-block
+      fontSize: 15px
+      fontWeight: 700
+      paddingTop: 14px
+      paddingRight: 40px
+      paddingBottom: 14px
+      paddingLeft: 40px
+      marginTop: 24px
+      marginRight: 0
+      marginBottom: 0
+      marginLeft: 0
+      borderWidth: 0px
+      borderStyle: none
+
+================================================================================
+TEMPLATE: cta-banner (Banner CTA)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    textAlign: center
+    backgroundColor: #667eea
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] heading — "Ready to Get Started?"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 36px
+      color: #ffffff
+      marginTop: 0
+      marginBottom: 0
+      textAlign: center
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @sm:
+      fontSize: 28px
+    @xs:
+      fontSize: 22px
+
+  [2] text — "Join thousands of satisfied cu..."
+    BASE STYLE:
+      lineHeight: 1.6
+      display: block
+      fontSize: 18px
+      color: #e1e4e8
+      maxWidth: 500px
+      marginTop: 16px
+      marginBottom: 0
+      textAlign: center
+      paddingTop: 16px
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 14px
+
+  [3] button — "Start Free Trial"
+    BASE STYLE:
+      backgroundColor: #ffffff
+      color: #667eea
+      borderRadius: 6px
+      cursor: pointer
+      display: inline-block
+      fontSize: 16px
+      fontWeight: 700
+      paddingTop: 16px
+      paddingRight: 40px
+      paddingBottom: 16px
+      paddingLeft: 40px
+      marginTop: 24px
+      marginRight: 0
+      marginBottom: 0
+      marginLeft: 0
+      borderWidth: 0px
+      borderStyle: none
+
+================================================================================
+TEMPLATE: cta-minimal (Minimal CTA)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: row
+    alignItems: center
+    justifyContent: center
+    gap: 24px
+    backgroundColor: #fafbfc
+    borderTop: 1px solid #eee
+    borderBottom: 1px solid #eee
+    paddingTop: 40px
+    paddingBottom: 40px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @sm:
+    flexDirection: column
+    textAlign: center
+    paddingTop: 28px
+    paddingBottom: 28px
+  @xs:
+    paddingTop: 20px
+    paddingBottom: 20px
+
+  [1] text — "Ready to start building?"
+    BASE STYLE:
+      lineHeight: 1
+      display: block
+      fontSize: 18px
+      color: #586069
+      fontWeight: 500
+      marginTop: 0
+      marginBottom: 0
+      textAlign: center
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 14px
+
+  [2] button — "Get Started"
+    BASE STYLE:
+      backgroundColor: #22c55e
+      color: #ffffff
+      borderRadius: 4px
+      cursor: pointer
+      display: inline-block
+      fontSize: 14px
+      fontWeight: 600
+      paddingTop: 12px
+      paddingRight: 32px
+      paddingBottom: 12px
+      paddingLeft: 32px
+      marginTop: 0
+      marginRight: 0
+      marginBottom: 0
+      marginLeft: 0
+      borderWidth: 0px
+      borderStyle: none
+
+================================================================================
+TEMPLATE: cta-split (Split CTA)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    backgroundColor: #f6f8fa
+    paddingTop: 0
+    paddingBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+
+  [1] columns-2
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [2] container
+      BASE STYLE:
+        display: flex
+        flexDirection: column
+        justifyContent: center
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        paddingTop: 40px
+        paddingBottom: 40px
+        paddingLeft: 40px
+        paddingRight: 40px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: flex-start
+        borderWidth: 0px
+        borderStyle: none
+      @xs:
+        paddingTop: 20px
+        paddingBottom: 20px
+        paddingLeft: 16px
+        paddingRight: 16px
+      @sm:
+        paddingTop: 28px
+        paddingBottom: 28px
+
+      [3] heading — "Don't Miss Out"
+        BASE STYLE:
+          fontWeight: bold
+          lineHeight: 1.2
+          display: block
+          fontSize: 32px
+          color: #1a1a1a
+          marginTop: 0
+          marginBottom: 0
+          textAlign: left
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+        @xs:
+          fontSize: 20px
+        @sm:
+          fontSize: 24px
+
+      [4] text — "Sign up today and get exclusiv..."
+        BASE STYLE:
+          lineHeight: 1.6
+          display: block
+          fontSize: 16px
+          color: #586069
+          marginTop: 12px
+          marginBottom: 0
+          textAlign: left
+          paddingTop: 12px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+    [5] container
+      BASE STYLE:
+        display: flex
+        flexDirection: column
+        alignItems: center
+        justifyContent: center
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        paddingTop: 40px
+        paddingBottom: 40px
+        paddingLeft: 40px
+        paddingRight: 40px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        borderWidth: 0px
+        borderStyle: none
+      @xs:
+        paddingTop: 20px
+        paddingBottom: 20px
+        paddingLeft: 16px
+        paddingRight: 16px
+      @sm:
+        paddingTop: 28px
+        paddingBottom: 28px
+
+      [6] button — "Sign Up Now"
+        BASE STYLE:
+          backgroundColor: #22c55e
+          color: #ffffff
+          borderRadius: 6px
+          cursor: pointer
+          display: inline-block
+          fontSize: 18px
+          fontWeight: 700
+          paddingTop: 16px
+          paddingRight: 48px
+          paddingBottom: 16px
+          paddingLeft: 48px
+          marginTop: 0
+          marginRight: 0
+          marginBottom: 0
+          marginLeft: 0
+          borderWidth: 0px
+          borderStyle: none
+        @xs:
+          fontSize: 14px
+          paddingLeft: 24px
+          paddingRight: 24px
+
+================================================================================
+TEMPLATE: faq-accordion (FAQ Section)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    backgroundColor: #ffffff
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] columns-1
+    BASE STYLE:
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [2] heading — "Frequently Asked Questions"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 36px
+        color: #1a1a1a
+        textAlign: center
+        marginTop: 0
+        marginBottom: 10px
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+      @xs:
+        fontSize: 22px
+      @sm:
+        fontSize: 27px
+
+  [3] columns-1
+    BASE STYLE:
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [4] accordion
+      BASE STYLE:
+        width: 100%
+
+================================================================================
+TEMPLATE: features-3col (3-Column Features)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    backgroundColor: #ffffff
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] heading — "Why Choose Us"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 36px
+      color: #1a1a1a
+      textAlign: center
+      marginTop: 0
+      marginBottom: 10px
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 22px
+    @sm:
+      fontSize: 27px
+
+  [2] columns-3
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+    COLUMN 0:
+      alignItems: center
+    COLUMN 1:
+      alignItems: center
+    COLUMN 2:
+      alignItems: center
+
+    [3] icon
+      BASE STYLE:
+        display: inline-block
+        width: 48px
+        height: 48px
+        iconSize: 48px
+        iconColor: #667eea
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+    [4] heading — "Fast Performance"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 20px
+        color: #1a1a1a
+        textAlign: center
+        marginTop: 16px
+        marginBottom: 0
+        paddingTop: 16px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [5] text — "Lightning-fast load times that..."
+      BASE STYLE:
+        lineHeight: 1.6
+        display: block
+        fontSize: 14px
+        color: #586069
+        textAlign: center
+        marginTop: 8px
+        marginBottom: 0
+        paddingTop: 8px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [6] icon
+      BASE STYLE:
+        display: inline-block
+        width: 48px
+        height: 48px
+        iconSize: 48px
+        iconColor: #667eea
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+    [7] heading — "Easy to Use"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 20px
+        color: #1a1a1a
+        textAlign: center
+        marginTop: 16px
+        marginBottom: 0
+        paddingTop: 16px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [8] text — "Intuitive interface designed f..."
+      BASE STYLE:
+        lineHeight: 1.6
+        display: block
+        fontSize: 14px
+        color: #586069
+        textAlign: center
+        marginTop: 8px
+        marginBottom: 0
+        paddingTop: 8px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [9] icon
+      BASE STYLE:
+        display: inline-block
+        width: 48px
+        height: 48px
+        iconSize: 48px
+        iconColor: #667eea
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+    [10] heading — "Fully Responsive"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 20px
+        color: #1a1a1a
+        textAlign: center
+        marginTop: 16px
+        marginBottom: 0
+        paddingTop: 16px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [11] text — "Looks perfect on every device,..."
+      BASE STYLE:
+        lineHeight: 1.6
+        display: block
+        fontSize: 14px
+        color: #586069
+        textAlign: center
+        marginTop: 8px
+        marginBottom: 0
+        paddingTop: 8px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+================================================================================
+TEMPLATE: features-alternating (Alternating Feature Rows)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    gap: 40px
+    backgroundColor: #ffffff
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] columns-2
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+    COLUMN 1:
+      justifyContent: center
+      paddingTop: 20px
+      paddingBottom: 20px
+      paddingLeft: 20px
+      paddingRight: 20px
+
+    [2] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 300px
+        objectFit: cover
+        borderRadius: 8px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [3] heading — "Feature One"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 28px
+        color: #1a1a1a
+        marginTop: 0
+        marginBottom: 0
+        textAlign: left
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+      @xs:
+        fontSize: 20px
+      @sm:
+        fontSize: 22px
+
+    [4] text — "Explain this feature in detail..."
+      BASE STYLE:
+        lineHeight: 1.6
+        display: block
+        fontSize: 15px
+        color: #586069
+        marginTop: 12px
+        marginBottom: 0
+        textAlign: left
+        paddingTop: 12px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+  [5] columns-2
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+    COLUMN 0:
+      justifyContent: center
+      paddingTop: 20px
+      paddingBottom: 20px
+      paddingLeft: 20px
+      paddingRight: 20px
+
+    [6] heading — "Feature Two"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 28px
+        color: #1a1a1a
+        marginTop: 0
+        marginBottom: 0
+        textAlign: left
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+      @xs:
+        fontSize: 20px
+      @sm:
+        fontSize: 22px
+
+    [7] text — "Describe the second feature. P..."
+      BASE STYLE:
+        lineHeight: 1.6
+        display: block
+        fontSize: 15px
+        color: #586069
+        marginTop: 12px
+        marginBottom: 0
+        textAlign: left
+        paddingTop: 12px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [8] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 300px
+        objectFit: cover
+        borderRadius: 8px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+================================================================================
+TEMPLATE: hero-centered (Centered Hero)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    justifyContent: center
+    textAlign: center
+    backgroundColor: #1a1a1a
+    paddingTop: 80px
+    paddingBottom: 80px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 40px
+    paddingBottom: 40px
+  @sm:
+    paddingTop: 56px
+    paddingBottom: 56px
+
+  [1] heading — "Your Bold Headline Here"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 48px
+      color: #ffffff
+      marginTop: 0
+      marginBottom: 0
+      textAlign: center
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @sm:
+      fontSize: 36px
+    @xs:
+      fontSize: 28px
+
+  [2] text — "A compelling subtitle that sup..."
+    BASE STYLE:
+      lineHeight: 1.6
+      display: block
+      fontSize: 18px
+      color: #e1e4e8
+      maxWidth: 600px
+      marginTop: 20px
+      marginBottom: 0
+      textAlign: center
+      paddingTop: 20px
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @sm:
+      fontSize: 16px
+    @xs:
+      fontSize: 14px
+
+  [3] button — "Get Started"
+    BASE STYLE:
+      backgroundColor: #667eea
+      color: #ffffff
+      borderRadius: 6px
+      cursor: pointer
+      display: inline-block
+      fontSize: 16px
+      fontWeight: 600
+      marginTop: 20px
+      paddingTop: 16px
+      paddingRight: 40px
+      paddingBottom: 16px
+      paddingLeft: 40px
+      marginRight: 0
+      marginBottom: 0
+      marginLeft: 0
+      borderWidth: 0px
+      borderStyle: none
+
+================================================================================
+TEMPLATE: hero-image-bg (Image Background Hero)
+================================================================================
+
+[0] image-background
+  BASE STYLE:
+    position: relative
+    minHeight: 500px
+    backgroundSize: cover
+    backgroundPosition: center center
+    backgroundRepeat: no-repeat
+    display: flex
+    alignItems: center
+    justifyContent: center
+    overflow: hidden
+    backgroundColor: #1a1a1a
+    paddingTop: 80px
+    paddingBottom: 80px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+
+  [1] container
+    BASE STYLE:
+      display: flex
+      flexDirection: column
+      alignItems: center
+      justifyContent: center
+      backgroundColor: #333333
+      width: 100%
+      height: 100%
+      maxWidth: 100%
+      boxSizing: border-box
+      overflow: visible
+      flex: 1
+      paddingTop: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      marginTop: 0
+      marginBottom: 0
+      marginRight: 0
+      marginLeft: 0
+      borderWidth: 0px
+      borderStyle: none
+
+    [2] heading — "Immersive Experience"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 52px
+        color: #ffffff
+        textAlign: center
+        marginTop: 0
+        marginBottom: 0
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+      @sm:
+        fontSize: 36px
+      @xs:
+        fontSize: 28px
+
+    [3] text — "Create stunning visual experie..."
+      BASE STYLE:
+        lineHeight: 1.6
+        display: block
+        fontSize: 18px
+        color: #e1e4e8
+        textAlign: center
+        marginTop: 16px
+        marginBottom: 0
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+      @xs:
+        fontSize: 14px
+
+    [4] button — "Explore"
+      BASE STYLE:
+        backgroundColor: #667eea
+        color: #ffffff
+        borderRadius: 6px
+        cursor: pointer
+        display: inline-block
+        fontSize: 16px
+        fontWeight: 600
+        marginTop: 30px
+        paddingTop: 16px
+        paddingRight: 40px
+        paddingBottom: 16px
+        paddingLeft: 40px
+        borderWidth: 2px
+        borderStyle: solid
+        borderColor: rgba(255,255,255,0.3)
+
+================================================================================
+TEMPLATE: hero-split (Split Hero)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    backgroundColor: #ffffff
+    paddingTop: 0
+    paddingBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+
+  [1] columns-2
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [2] container
+      BASE STYLE:
+        display: flex
+        flexDirection: column
+        justifyContent: center
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        paddingTop: 60px
+        paddingBottom: 60px
+        paddingLeft: 40px
+        paddingRight: 40px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: flex-start
+        borderWidth: 0px
+        borderStyle: none
+      @xs:
+        paddingTop: 30px
+        paddingBottom: 30px
+        paddingLeft: 16px
+        paddingRight: 16px
+      @sm:
+        paddingTop: 42px
+        paddingBottom: 42px
+
+      [3] heading — "Build Something Amazing"
+        BASE STYLE:
+          fontWeight: bold
+          lineHeight: 1.2
+          display: block
+          fontSize: 42px
+          color: #1a1a1a
+          marginTop: 0
+          marginBottom: 0
+          textAlign: left
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+        @sm:
+          fontSize: 32px
+        @xs:
+          fontSize: 25px
+
+      [4] text — "Describe your product or servi..."
+        BASE STYLE:
+          lineHeight: 1.6
+          display: block
+          fontSize: 16px
+          color: #586069
+          marginTop: 20px
+          marginBottom: 0
+          textAlign: left
+          paddingTop: 20px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [5] button — "Learn More"
+        BASE STYLE:
+          backgroundColor: #667eea
+          color: #ffffff
+          borderRadius: 6px
+          cursor: pointer
+          display: inline-block
+          fontSize: 15px
+          fontWeight: 600
+          paddingTop: 14px
+          paddingRight: 32px
+          paddingBottom: 14px
+          paddingLeft: 32px
+          marginTop: 24px
+          marginRight: 0
+          marginBottom: 0
+          marginLeft: 0
+          borderWidth: 0px
+          borderStyle: none
+
+    [6] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 100%
+        objectFit: cover
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+================================================================================
+TEMPLATE: image-gallery (Image Gallery / Lookbook)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    backgroundColor: #ffffff
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] heading — "The Lookbook"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 36px
+      color: #1a1a1a
+      textAlign: center
+      marginTop: 0
+      marginBottom: 10px
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 22px
+    @sm:
+      fontSize: 27px
+
+  [2] columns-3
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [3] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 300px
+        objectFit: cover
+        borderRadius: 4px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [4] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 200px
+        objectFit: cover
+        borderRadius: 4px
+        marginTop: 8px
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [5] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 200px
+        objectFit: cover
+        borderRadius: 4px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [6] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 300px
+        objectFit: cover
+        borderRadius: 4px
+        marginTop: 8px
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [7] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 300px
+        objectFit: cover
+        borderRadius: 4px
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [8] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 200px
+        objectFit: cover
+        borderRadius: 4px
+        marginTop: 8px
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+================================================================================
+TEMPLATE: instagram-feed (Instagram / UGC Feed)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    backgroundColor: #fafbfc
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] text — "#YOURBRAND"
+    BASE STYLE:
+      lineHeight: 1
+      display: block
+      fontSize: 12px
+      color: #6a737d
+      fontWeight: 600
+      letterSpacing: 2px
+      textAlign: center
+      marginTop: 0
+      marginBottom: 0
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+
+  [2] heading — "Share Your Style"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 32px
+      color: #1a1a1a
+      textAlign: center
+      marginTop: 12px
+      marginBottom: 10px
+      paddingTop: 12px
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 20px
+    @sm:
+      fontSize: 24px
+
+  [3] columns-6
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [4] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 160px
+        objectFit: cover
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [5] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 160px
+        objectFit: cover
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [6] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 160px
+        objectFit: cover
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [7] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 160px
+        objectFit: cover
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [8] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 160px
+        objectFit: cover
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+    [9] image
+      BASE STYLE:
+        display: block
+        width: 100%
+        height: 160px
+        objectFit: cover
+        marginTop: 0
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+================================================================================
+TEMPLATE: logo-banner (Logo Trust Bar)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    gap: 20px
+    backgroundColor: #fafbfc
+    borderTop: 1px solid #eee
+    borderBottom: 1px solid #eee
+    paddingTop: 32px
+    paddingBottom: 32px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+
+  [1] text — "AS FEATURED IN"
+    BASE STYLE:
+      lineHeight: 1
+      display: block
+      fontSize: 11px
+      color: #6a737d
+      fontWeight: 600
+      letterSpacing: 2px
+      textAlign: center
+      marginTop: 0
+      marginBottom: 0
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+
+  [2] columns-5
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+    COLUMN 0:
+      alignItems: center
+    COLUMN 1:
+      alignItems: center
+    COLUMN 2:
+      alignItems: center
+    COLUMN 3:
+      alignItems: center
+    COLUMN 4:
+      alignItems: center
+
+    [3] image
+      BASE STYLE:
+        display: block
+        width: 120px
+        height: 40px
+        objectFit: contain
+        opacity: 0.5
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+    [4] image
+      BASE STYLE:
+        display: block
+        width: 120px
+        height: 40px
+        objectFit: contain
+        opacity: 0.5
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+    [5] image
+      BASE STYLE:
+        display: block
+        width: 120px
+        height: 40px
+        objectFit: contain
+        opacity: 0.5
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+    [6] image
+      BASE STYLE:
+        display: block
+        width: 120px
+        height: 40px
+        objectFit: contain
+        opacity: 0.5
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+    [7] image
+      BASE STYLE:
+        display: block
+        width: 120px
+        height: 40px
+        objectFit: contain
+        opacity: 0.5
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+================================================================================
+TEMPLATE: multi-column-text (Multi-Column Text)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    backgroundColor: #ffffff
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] heading — "Our Values"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 36px
+      color: #1a1a1a
+      textAlign: center
+      marginTop: 0
+      marginBottom: 10px
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 22px
+    @sm:
+      fontSize: 27px
+
+  [2] columns-3
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [3] heading — "Sustainability"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 20px
+        color: #1a1a1a
+        marginTop: 0
+        marginBottom: 0
+        textAlign: left
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [4] divider
+      BASE STYLE:
+        borderColor: #667eea
+        width: 40px
+        marginTop: 12px
+        marginRight: 0
+        marginBottom: 12px
+        marginLeft: 0
+
+    [5] text — "We source materials responsibl..."
+      BASE STYLE:
+        lineHeight: 1.8
+        display: block
+        fontSize: 14px
+        color: #586069
+        marginTop: 0
+        marginBottom: 0
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [6] heading — "Quality"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 20px
+        color: #1a1a1a
+        marginTop: 0
+        marginBottom: 0
+        textAlign: left
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [7] divider
+      BASE STYLE:
+        borderColor: #667eea
+        width: 40px
+        marginTop: 12px
+        marginRight: 0
+        marginBottom: 12px
+        marginLeft: 0
+
+    [8] text — "Each product undergoes rigorou..."
+      BASE STYLE:
+        lineHeight: 1.8
+        display: block
+        fontSize: 14px
+        color: #586069
+        marginTop: 0
+        marginBottom: 0
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [9] heading — "Community"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 20px
+        color: #1a1a1a
+        marginTop: 0
+        marginBottom: 0
+        textAlign: left
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [10] divider
+      BASE STYLE:
+        borderColor: #667eea
+        width: 40px
+        marginTop: 12px
+        marginRight: 0
+        marginBottom: 12px
+        marginLeft: 0
+
+    [11] text — "We believe in giving back. A p..."
+      BASE STYLE:
+        lineHeight: 1.8
+        display: block
+        fontSize: 14px
+        color: #586069
+        marginTop: 0
+        marginBottom: 0
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+================================================================================
+TEMPLATE: newsletter-signup (Newsletter Signup)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    backgroundColor: #f6f8fa
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] columns-1
+    BASE STYLE:
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [2] heading — "Stay in the Loop"
+      BASE STYLE:
+        fontWeight: bold
+        lineHeight: 1.2
+        display: block
+        fontSize: 32px
+        color: #1a1a1a
+        textAlign: center
+        marginTop: 0
+        marginBottom: 0
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+      @xs:
+        fontSize: 20px
+      @sm:
+        fontSize: 24px
+
+    [3] text — "Subscribe for exclusive offers..."
+      BASE STYLE:
+        lineHeight: 1.6
+        display: block
+        fontSize: 15px
+        color: #586069
+        textAlign: center
+        marginTop: 0
+        marginBottom: 0
+        paddingTop: 0
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+  [4] columns-1
+    BASE STYLE:
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [5] form
+      BASE STYLE:
+        width: 100%
+        buttonColor: #ffffff
+        buttonBackgroundColor: #000000
+        marginTop: 24px
+        marginRight: 0
+        marginBottom: 0
+        marginLeft: 0
+
+================================================================================
+TEMPLATE: pricing-2tier (2-Tier Comparison)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    backgroundColor: #fafbfc
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] heading — "Choose Your Plan"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 36px
+      color: #1a1a1a
+      textAlign: center
+      marginTop: 0
+      marginBottom: 10px
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 22px
+    @sm:
+      fontSize: 27px
+
+  [2] columns-2
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+    @xs:
+      flexDirection: column
+
+    [3] container
+      BASE STYLE:
+        borderRadius: 8px
+        backgroundColor: #ffffff
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        display: flex
+        flexDirection: column
+        textAlign: center
+        paddingTop: 32px
+        paddingBottom: 32px
+        paddingLeft: 32px
+        paddingRight: 32px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: center
+        borderWidth: 1px
+        borderStyle: solid
+        borderColor: #e1e4e8
+      @xs:
+        paddingLeft: 16px
+        paddingRight: 16px
+
+      [4] heading — "Free"
+        BASE STYLE:
+          fontWeight: 600
+          lineHeight: 1.2
+          display: block
+          fontSize: 22px
+          color: #1a1a1a
+          marginTop: 0
+          marginBottom: 0
+          textAlign: center
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [5] heading — "$0"
+        BASE STYLE:
+          fontWeight: bold
+          lineHeight: 1.2
+          display: block
+          fontSize: 42px
+          color: #1a1a1a
+          marginTop: 16px
+          marginBottom: 20px
+          textAlign: center
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 20px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+        @xs:
+          fontSize: 25px
+        @sm:
+          fontSize: 32px
+
+      [6] text — "Basic features
+Community suppo..."
+        BASE STYLE:
+          lineHeight: 2.2
+          display: block
+          fontSize: 15px
+          color: #586069
+          marginTop: 0
+          marginBottom: 24px
+          textAlign: center
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 24px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [7] button — "Get Started Free"
+        BASE STYLE:
+          color: #667eea
+          borderRadius: 6px
+          cursor: pointer
+          display: block
+          fontSize: 15px
+          fontWeight: 600
+          width: 100%
+          paddingTop: 14px
+          paddingRight: 32px
+          paddingBottom: 14px
+          paddingLeft: 32px
+          marginTop: auto
+          marginRight: 0
+          marginBottom: 0
+          marginLeft: 0
+          borderWidth: 2px
+          borderStyle: solid
+          borderColor: #667eea
+
+    [8] container
+      BASE STYLE:
+        borderRadius: 8px
+        backgroundColor: #f6f8fa
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        display: flex
+        flexDirection: column
+        textAlign: center
+        paddingTop: 32px
+        paddingBottom: 32px
+        paddingLeft: 32px
+        paddingRight: 32px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: center
+        borderWidth: 2px
+        borderStyle: solid
+        borderColor: #667eea
+      @xs:
+        paddingLeft: 16px
+        paddingRight: 16px
+
+      [9] heading — "Pro"
+        BASE STYLE:
+          fontWeight: 600
+          lineHeight: 1.2
+          display: block
+          fontSize: 22px
+          color: #667eea
+          marginTop: 0
+          marginBottom: 0
+          textAlign: center
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [10] heading — "$19/mo"
+        BASE STYLE:
+          fontWeight: bold
+          lineHeight: 1.2
+          display: block
+          fontSize: 42px
+          color: #1a1a1a
+          marginTop: 16px
+          marginBottom: 20px
+          textAlign: center
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 20px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+        @xs:
+          fontSize: 25px
+        @sm:
+          fontSize: 32px
+
+      [11] text — "All features
+Priority support
+..."
+        BASE STYLE:
+          lineHeight: 2.2
+          display: block
+          fontSize: 15px
+          color: #586069
+          marginTop: 0
+          marginBottom: 24px
+          textAlign: center
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 24px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [12] button — "Upgrade to Pro"
+        BASE STYLE:
+          backgroundColor: #667eea
+          color: #ffffff
+          borderRadius: 6px
+          cursor: pointer
+          display: block
+          fontSize: 15px
+          fontWeight: 600
+          width: 100%
+          paddingTop: 14px
+          paddingRight: 32px
+          paddingBottom: 14px
+          paddingLeft: 32px
+          marginTop: auto
+          marginRight: 0
+          marginBottom: 0
+          marginLeft: 0
+          borderWidth: 0px
+          borderStyle: none
+
+================================================================================
+TEMPLATE: pricing-3tier (3-Tier Pricing)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    backgroundColor: #ffffff
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] heading — "Simple, Transparent Pricing"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 36px
+      color: #1a1a1a
+      textAlign: center
+      marginTop: 0
+      marginBottom: 0
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 22px
+    @sm:
+      fontSize: 27px
+
+  [2] text — "Choose the plan that fits your..."
+    BASE STYLE:
+      lineHeight: 1.6
+      display: block
+      fontSize: 16px
+      color: #6a737d
+      textAlign: center
+      marginTop: 0
+      marginBottom: 10px
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+
+  [3] columns-3
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+    @xs:
+      flexDirection: column
+
+    [4] container
+      BASE STYLE:
+        borderRadius: 8px
+        backgroundColor: #ffffff
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        display: flex
+        flexDirection: column
+        textAlign: center
+        paddingTop: 32px
+        paddingBottom: 32px
+        paddingLeft: 32px
+        paddingRight: 32px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: center
+        borderWidth: 1px
+        borderStyle: solid
+        borderColor: #e1e4e8
+      @xs:
+        paddingLeft: 16px
+        paddingRight: 16px
+
+      [5] heading — "Starter"
+        BASE STYLE:
+          fontWeight: 600
+          lineHeight: 1.2
+          display: block
+          fontSize: 20px
+          color: #1a1a1a
+          marginTop: 0
+          marginBottom: 0
+          textAlign: center
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [6] heading — "$9/mo"
+        BASE STYLE:
+          fontWeight: bold
+          lineHeight: 1.2
+          display: block
+          fontSize: 36px
+          color: #1a1a1a
+          marginTop: 16px
+          marginBottom: 16px
+          textAlign: center
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 16px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+        @xs:
+          fontSize: 22px
+        @sm:
+          fontSize: 27px
+
+      [7] text — "Perfect for individuals gettin..."
+        BASE STYLE:
+          lineHeight: 1.6
+          display: block
+          fontSize: 14px
+          color: #6a737d
+          marginTop: 0
+          marginBottom: 20px
+          textAlign: center
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 20px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [8] divider
+        BASE STYLE:
+          borderColor: #667eea
+          borderWidth: 1px
+
+      [9] text — "5 Projects
+10GB Storage
+Email ..."
+        BASE STYLE:
+          lineHeight: 2
+          display: block
+          fontSize: 14px
+          color: #586069
+          marginTop: 20px
+          marginBottom: 20px
+          textAlign: center
+          paddingTop: 20px
+          paddingRight: 0
+          paddingBottom: 20px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [10] button — "Choose Starter"
+        BASE STYLE:
+          color: #667eea
+          borderRadius: 6px
+          cursor: pointer
+          display: block
+          fontSize: 14px
+          fontWeight: 600
+          width: 100%
+          paddingTop: 12px
+          paddingRight: 24px
+          paddingBottom: 12px
+          paddingLeft: 24px
+          marginTop: auto
+          marginRight: 0
+          marginBottom: 0
+          marginLeft: 0
+          borderWidth: 2px
+          borderStyle: solid
+          borderColor: #667eea
+
+    [11] container
+      BASE STYLE:
+        borderRadius: 8px
+        backgroundColor: #f6f8fa
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        display: flex
+        flexDirection: column
+        textAlign: center
+        paddingTop: 32px
+        paddingBottom: 32px
+        paddingLeft: 32px
+        paddingRight: 32px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: center
+        borderWidth: 2px
+        borderStyle: solid
+        borderColor: #667eea
+      @xs:
+        paddingLeft: 16px
+        paddingRight: 16px
+
+      [12] heading — "Professional"
+        BASE STYLE:
+          fontWeight: 600
+          lineHeight: 1.2
+          display: block
+          fontSize: 20px
+          color: #667eea
+          marginTop: 0
+          marginBottom: 0
+          textAlign: center
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [13] heading — "$29/mo"
+        BASE STYLE:
+          fontWeight: bold
+          lineHeight: 1.2
+          display: block
+          fontSize: 36px
+          color: #1a1a1a
+          marginTop: 16px
+          marginBottom: 16px
+          textAlign: center
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 16px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+        @xs:
+          fontSize: 22px
+        @sm:
+          fontSize: 27px
+
+      [14] text — "Best for growing teams and bus..."
+        BASE STYLE:
+          lineHeight: 1.6
+          display: block
+          fontSize: 14px
+          color: #6a737d
+          marginTop: 0
+          marginBottom: 20px
+          textAlign: center
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 20px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [15] divider
+        BASE STYLE:
+          borderColor: #667eea
+          borderWidth: 1px
+
+      [16] text — "Unlimited Projects
+100GB Stora..."
+        BASE STYLE:
+          lineHeight: 2
+          display: block
+          fontSize: 14px
+          color: #586069
+          marginTop: 20px
+          marginBottom: 20px
+          textAlign: center
+          paddingTop: 20px
+          paddingRight: 0
+          paddingBottom: 20px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [17] button — "Choose Professional"
+        BASE STYLE:
+          backgroundColor: #667eea
+          color: #ffffff
+          borderRadius: 6px
+          cursor: pointer
+          display: block
+          fontSize: 14px
+          fontWeight: 600
+          width: 100%
+          paddingTop: 12px
+          paddingRight: 24px
+          paddingBottom: 12px
+          paddingLeft: 24px
+          marginTop: auto
+          marginRight: 0
+          marginBottom: 0
+          marginLeft: 0
+          borderWidth: 0px
+          borderStyle: none
+
+    [18] container
+      BASE STYLE:
+        borderRadius: 8px
+        backgroundColor: #ffffff
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        display: flex
+        flexDirection: column
+        textAlign: center
+        paddingTop: 32px
+        paddingBottom: 32px
+        paddingLeft: 32px
+        paddingRight: 32px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: center
+        borderWidth: 1px
+        borderStyle: solid
+        borderColor: #e1e4e8
+      @xs:
+        paddingLeft: 16px
+        paddingRight: 16px
+
+      [19] heading — "Enterprise"
+        BASE STYLE:
+          fontWeight: 600
+          lineHeight: 1.2
+          display: block
+          fontSize: 20px
+          color: #1a1a1a
+          marginTop: 0
+          marginBottom: 0
+          textAlign: center
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [20] heading — "$99/mo"
+        BASE STYLE:
+          fontWeight: bold
+          lineHeight: 1.2
+          display: block
+          fontSize: 36px
+          color: #1a1a1a
+          marginTop: 16px
+          marginBottom: 16px
+          textAlign: center
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 16px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+        @xs:
+          fontSize: 22px
+        @sm:
+          fontSize: 27px
+
+      [21] text — "For large organizations with c..."
+        BASE STYLE:
+          lineHeight: 1.6
+          display: block
+          fontSize: 14px
+          color: #6a737d
+          marginTop: 0
+          marginBottom: 20px
+          textAlign: center
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 20px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [22] divider
+        BASE STYLE:
+          borderColor: #667eea
+          borderWidth: 1px
+
+      [23] text — "Everything in Pro
+Dedicated Su..."
+        BASE STYLE:
+          lineHeight: 2
+          display: block
+          fontSize: 14px
+          color: #586069
+          marginTop: 20px
+          marginBottom: 20px
+          textAlign: center
+          paddingTop: 20px
+          paddingRight: 0
+          paddingBottom: 20px
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [24] button — "Contact Sales"
+        BASE STYLE:
+          color: #667eea
+          borderRadius: 6px
+          cursor: pointer
+          display: block
+          fontSize: 14px
+          fontWeight: 600
+          width: 100%
+          paddingTop: 12px
+          paddingRight: 24px
+          paddingBottom: 12px
+          paddingLeft: 24px
+          marginTop: auto
+          marginRight: 0
+          marginBottom: 0
+          marginLeft: 0
+          borderWidth: 2px
+          borderStyle: solid
+          borderColor: #667eea
+
+================================================================================
+TEMPLATE: product-card-grid (Product Card Grid)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    backgroundColor: #ffffff
+
+  [1] heading — "Our Products"
+    BASE STYLE:
+      color: #1a1a1a
+
+  [2] columns-3
+    BASE STYLE:
+      gap: 24px
+    COLUMN 0:
+      alignItems: center
+      borderRadius: 8px
+      overflow: hidden
+      backgroundColor: #ffffff
+    COLUMN 1:
+      alignItems: center
+      borderRadius: 8px
+      overflow: hidden
+      backgroundColor: #ffffff
+    COLUMN 2:
+      alignItems: center
+      borderRadius: 8px
+      overflow: hidden
+      backgroundColor: #ffffff
+
+    [3] image
+      BASE STYLE:
+        objectFit: cover
+
+    [4] heading — "Product Name"
+      BASE STYLE:
+        color: #1a1a1a
+
+    [5] text — "$49.00"
+      BASE STYLE:
+        color: #586069
+
+    [6] button — "Add to Cart"
+      BASE STYLE:
+        backgroundColor: #1a1a1a
+        color: #ffffff
+
+    [7] image
+      BASE STYLE:
+        objectFit: cover
+
+    [8] heading — "Product Name"
+      BASE STYLE:
+        color: #1a1a1a
+
+    [9] text — "$59.00"
+      BASE STYLE:
+        color: #586069
+
+    [10] button — "Add to Cart"
+      BASE STYLE:
+        backgroundColor: #1a1a1a
+        color: #ffffff
+
+    [11] image
+      BASE STYLE:
+        objectFit: cover
+
+    [12] heading — "Product Name"
+      BASE STYLE:
+        color: #1a1a1a
+
+    [13] text — "$39.00"
+      BASE STYLE:
+        color: #586069
+
+    [14] button — "Add to Cart"
+      BASE STYLE:
+        backgroundColor: #1a1a1a
+        color: #ffffff
+
+================================================================================
+TEMPLATE: shipping-guarantee-bar (Shipping & Guarantee Bar)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    backgroundColor: #fafbfc
+    borderTop: 1px solid #eee
+    borderBottom: 1px solid #eee
+    paddingTop: 24px
+    paddingBottom: 24px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+
+  [1] columns-4
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+    COLUMN 0:
+      alignItems: center
+    COLUMN 1:
+      alignItems: center
+    COLUMN 2:
+      alignItems: center
+    COLUMN 3:
+      alignItems: center
+
+    [2] icon
+      BASE STYLE:
+        display: inline-block
+        width: 28px
+        height: 28px
+        iconSize: 28px
+        iconColor: #667eea
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+    [3] heading — "Free Shipping"
+      BASE STYLE:
+        fontWeight: 600
+        lineHeight: 1.2
+        display: block
+        fontSize: 13px
+        color: #1a1a1a
+        textAlign: center
+        marginTop: 8px
+        marginBottom: 0
+        paddingTop: 8px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [4] text — "On orders over $50"
+      BASE STYLE:
+        lineHeight: 1.3
+        display: block
+        fontSize: 11px
+        color: #6a737d
+        textAlign: center
+        marginTop: 4px
+        marginBottom: 0
+        paddingTop: 4px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [5] icon
+      BASE STYLE:
+        display: inline-block
+        width: 28px
+        height: 28px
+        iconSize: 28px
+        iconColor: #667eea
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+    [6] heading — "Easy Returns"
+      BASE STYLE:
+        fontWeight: 600
+        lineHeight: 1.2
+        display: block
+        fontSize: 13px
+        color: #1a1a1a
+        textAlign: center
+        marginTop: 8px
+        marginBottom: 0
+        paddingTop: 8px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [7] text — "30-day money back"
+      BASE STYLE:
+        lineHeight: 1.3
+        display: block
+        fontSize: 11px
+        color: #6a737d
+        textAlign: center
+        marginTop: 4px
+        marginBottom: 0
+        paddingTop: 4px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [8] icon
+      BASE STYLE:
+        display: inline-block
+        width: 28px
+        height: 28px
+        iconSize: 28px
+        iconColor: #667eea
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+    [9] heading — "Secure Checkout"
+      BASE STYLE:
+        fontWeight: 600
+        lineHeight: 1.2
+        display: block
+        fontSize: 13px
+        color: #1a1a1a
+        textAlign: center
+        marginTop: 8px
+        marginBottom: 0
+        paddingTop: 8px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [10] text — "SSL encrypted payment"
+      BASE STYLE:
+        lineHeight: 1.3
+        display: block
+        fontSize: 11px
+        color: #6a737d
+        textAlign: center
+        marginTop: 4px
+        marginBottom: 0
+        paddingTop: 4px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [11] icon
+      BASE STYLE:
+        display: inline-block
+        width: 28px
+        height: 28px
+        iconSize: 28px
+        iconColor: #667eea
+        marginTop: 0
+        marginRight: auto
+        marginBottom: 0
+        marginLeft: auto
+
+    [12] heading — "24/7 Support"
+      BASE STYLE:
+        fontWeight: 600
+        lineHeight: 1.2
+        display: block
+        fontSize: 13px
+        color: #1a1a1a
+        textAlign: center
+        marginTop: 8px
+        marginBottom: 0
+        paddingTop: 8px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+    [13] text — "Chat with us anytime"
+      BASE STYLE:
+        lineHeight: 1.3
+        display: block
+        fontSize: 11px
+        color: #6a737d
+        textAlign: center
+        marginTop: 4px
+        marginBottom: 0
+        paddingTop: 4px
+        paddingRight: 0
+        paddingBottom: 0
+        paddingLeft: 0
+        marginRight: 0
+        marginLeft: 0
+
+================================================================================
+TEMPLATE: testimonial-spotlight (Quote Spotlight)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    textAlign: center
+    backgroundColor: #1a1a1a
+    paddingTop: 80px
+    paddingBottom: 80px
+    paddingLeft: 40px
+    paddingRight: 40px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 40px
+    paddingBottom: 40px
+    paddingLeft: 16px
+    paddingRight: 16px
+  @sm:
+    paddingTop: 56px
+    paddingBottom: 56px
+
+  [1] text — ""This is the single best tool ..."
+    BASE STYLE:
+      lineHeight: 1.8
+      display: block
+      fontSize: 24px
+      color: #e1e4e8
+      fontStyle: italic
+      maxWidth: 700px
+      marginTop: 0
+      marginBottom: 0
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @sm:
+      fontSize: 20px
+    @xs:
+      fontSize: 19px
+
+  [2] text — "Alex Turner"
+    BASE STYLE:
+      lineHeight: 1
+      display: block
+      fontSize: 16px
+      color: #e1e4e8
+      fontWeight: 600
+      marginTop: 24px
+      marginBottom: 0
+      paddingTop: 24px
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+
+  [3] text — "VP of Engineering, GlobalTech"
+    BASE STYLE:
+      lineHeight: 1
+      display: block
+      fontSize: 13px
+      color: #e1e4e8
+      marginTop: 6px
+      marginBottom: 0
+      paddingTop: 6px
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+
+================================================================================
+TEMPLATE: testimonials-cards (Testimonial Cards)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    backgroundColor: #fafbfc
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] heading — "What Our Customers Say"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 36px
+      color: #1a1a1a
+      textAlign: center
+      marginTop: 0
+      marginBottom: 10px
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 22px
+    @sm:
+      fontSize: 27px
+
+  [2] columns-3
+    BASE STYLE:
+      flexDirection: row
+      gap: 24px
+      alignItems: stretch
+      justifyContent: flex-start
+
+    [3] container
+      BASE STYLE:
+        backgroundColor: #ffffff
+        borderRadius: 8px
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        display: flex
+        flexDirection: column
+        paddingTop: 24px
+        paddingBottom: 24px
+        paddingLeft: 24px
+        paddingRight: 24px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: flex-start
+        borderWidth: 0px
+        borderStyle: none
+      @xs:
+        paddingLeft: 12px
+        paddingRight: 12px
+
+      [4] text — ""This product completely trans..."
+        BASE STYLE:
+          lineHeight: 1.6
+          display: block
+          fontSize: 15px
+          color: #586069
+          fontStyle: italic
+          marginTop: 0
+          marginBottom: 0
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [5] text — "Sarah Johnson"
+        BASE STYLE:
+          lineHeight: 1
+          display: block
+          fontSize: 14px
+          color: #586069
+          fontWeight: 600
+          marginTop: 16px
+          marginBottom: 0
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [6] text — "CEO, TechCorp"
+        BASE STYLE:
+          lineHeight: 1
+          display: block
+          fontSize: 12px
+          color: #6a737d
+          marginTop: 4px
+          marginBottom: 0
+          paddingTop: 4px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+    [7] container
+      BASE STYLE:
+        backgroundColor: #ffffff
+        borderRadius: 8px
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        display: flex
+        flexDirection: column
+        paddingTop: 24px
+        paddingBottom: 24px
+        paddingLeft: 24px
+        paddingRight: 24px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: flex-start
+        borderWidth: 0px
+        borderStyle: none
+      @xs:
+        paddingLeft: 12px
+        paddingRight: 12px
+
+      [8] text — ""Incredible quality and attent..."
+        BASE STYLE:
+          lineHeight: 1.6
+          display: block
+          fontSize: 15px
+          color: #586069
+          fontStyle: italic
+          marginTop: 0
+          marginBottom: 0
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [9] text — "Mike Chen"
+        BASE STYLE:
+          lineHeight: 1
+          display: block
+          fontSize: 14px
+          color: #586069
+          fontWeight: 600
+          marginTop: 16px
+          marginBottom: 0
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [10] text — "Founder, StartupXYZ"
+        BASE STYLE:
+          lineHeight: 1
+          display: block
+          fontSize: 12px
+          color: #6a737d
+          marginTop: 4px
+          marginBottom: 0
+          paddingTop: 4px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+    [11] container
+      BASE STYLE:
+        backgroundColor: #ffffff
+        borderRadius: 8px
+        height: 100%
+        width: 100%
+        maxWidth: 100%
+        boxSizing: border-box
+        overflow: hidden
+        flex: 1
+        display: flex
+        flexDirection: column
+        paddingTop: 24px
+        paddingBottom: 24px
+        paddingLeft: 24px
+        paddingRight: 24px
+        marginTop: 0
+        marginBottom: 0
+        marginRight: 0
+        marginLeft: 0
+        alignItems: flex-start
+        borderWidth: 0px
+        borderStyle: none
+      @xs:
+        paddingLeft: 12px
+        paddingRight: 12px
+
+      [12] text — ""The best investment we've mad..."
+        BASE STYLE:
+          lineHeight: 1.6
+          display: block
+          fontSize: 15px
+          color: #586069
+          fontStyle: italic
+          marginTop: 0
+          marginBottom: 0
+          paddingTop: 0
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [13] text — "Emily Roberts"
+        BASE STYLE:
+          lineHeight: 1
+          display: block
+          fontSize: 14px
+          color: #586069
+          fontWeight: 600
+          marginTop: 16px
+          marginBottom: 0
+          paddingTop: 16px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+      [14] text — "Director, MediaGroup"
+        BASE STYLE:
+          lineHeight: 1
+          display: block
+          fontSize: 12px
+          color: #6a737d
+          marginTop: 4px
+          marginBottom: 0
+          paddingTop: 4px
+          paddingRight: 0
+          paddingBottom: 0
+          paddingLeft: 0
+          marginRight: 0
+          marginLeft: 0
+
+================================================================================
+TEMPLATE: video-showcase (Video Showcase)
+================================================================================
+
+[0] container
+  BASE STYLE:
+    height: 100%
+    width: 100%
+    maxWidth: 100%
+    boxSizing: border-box
+    overflow: hidden
+    flex: 1
+    display: flex
+    flexDirection: column
+    alignItems: center
+    textAlign: center
+    backgroundColor: #1a1a1a
+    paddingTop: 60px
+    paddingBottom: 60px
+    paddingLeft: 20px
+    paddingRight: 20px
+    marginTop: 0
+    marginBottom: 0
+    marginRight: 0
+    marginLeft: 0
+    borderWidth: 0px
+    borderStyle: none
+  @xs:
+    paddingTop: 30px
+    paddingBottom: 30px
+  @sm:
+    paddingTop: 42px
+    paddingBottom: 42px
+
+  [1] heading — "See It in Action"
+    BASE STYLE:
+      fontWeight: bold
+      lineHeight: 1.2
+      display: block
+      fontSize: 36px
+      color: #ffffff
+      marginTop: 0
+      marginBottom: 0
+      textAlign: center
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+    @xs:
+      fontSize: 22px
+    @sm:
+      fontSize: 27px
+
+  [2] text — "Watch how our product transfor..."
+    BASE STYLE:
+      lineHeight: 1.6
+      display: block
+      fontSize: 16px
+      color: #e1e4e8
+      maxWidth: 500px
+      marginTop: 0
+      marginBottom: 10px
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 32px
+      paddingLeft: 0
+      marginRight: 0
+      marginLeft: 0
+
+  [3] video
+    BASE STYLE:
+      display: block
+      width: 100%
+      height: auto
+      maxWidth: 800px
+      borderRadius: 8px
+      marginTop: 0
+      marginRight: 0
+      marginBottom: 0
+      marginLeft: 0

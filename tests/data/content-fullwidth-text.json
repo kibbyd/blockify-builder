@@ -1,0 +1,84 @@
+{
+  "id": "content-fullwidth-text",
+  "name": "Full-Width Text",
+  "category": "section",
+  "subcategory": "content",
+  "description": "Centered full-width text content block",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "30px",
+          "paddingBottom": "30px",
+          "paddingLeft": "16px",
+          "paddingRight": "16px"
+        },
+        "sm": {
+          "paddingTop": "42px",
+          "paddingBottom": "42px"
+        }
+      },
+      "children": [
+        {
+          "type": "heading",
+          "propOverrides": {
+            "text": "Our Mission",
+            "level": "h2",
+            "tag": "h2"
+          },
+          "responsiveStyles": {
+            "xs": {
+              "fontSize": "22px"
+            },
+            "sm": {
+              "fontSize": "27px"
+            }
+          },
+          "styleOverrides": {
+            "fontWeight": "700",
+            "fontFamily": "inherit",
+            "fontSize": "36px",
+            "color": "#1a1a1a",
+            "textAlign": "center",
+            "marginTop": "0",
+            "marginBottom": "20px"
+          }
+        },
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "We believe in building tools that empower creators. Our platform is designed from the ground up to be intuitive, powerful, and flexible. Whether you're building your first website or your hundredth, we provide the building blocks you need to bring your vision to life."
+          },
+          "styleOverrides": {
+            "lineHeight": "1.8",
+            "fontWeight": "400",
+            "fontFamily": "inherit",
+            "fontSize": "17px",
+            "color": "#586069",
+            "textAlign": "center",
+            "marginTop": "0",
+            "marginBottom": "0"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "paddingTop": "60px",
+        "paddingBottom": "60px",
+        "paddingLeft": "80px",
+        "paddingRight": "80px",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": "before-after",
+  "name": "Before / After Showcase",
+  "category": "section",
+  "subcategory": "content",
+  "description": "Side-by-side before and after comparison with images and text",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "30px",
+          "paddingBottom": "30px"
+        },
+        "sm": {
+          "paddingTop": "42px",
+          "paddingBottom": "42px"
+        }
+      },
+      "children": [
+        {
+          "type": "heading",
+          "propOverrides": {
+            "text": "See the Difference",
+            "level": "h2",
+            "tag": "h2"
+          },
+          "responsiveStyles": {
+            "xs": {
+              "fontSize": "22px"
+            },
+            "sm": {
+              "fontSize": "27px"
+            }
+          },
+          "styleOverrides": {
+            "fontWeight": "700",
+            "fontFamily": "inherit",
+            "lineHeight": "1.2",
+            "fontSize": "36px",
+            "color": "#1a1a1a",
+            "textAlign": "center",
+            "marginTop": "0",
+            "marginBottom": "10px"
+          }
+        },
+        {
+          "type": "columns-2",
+          "propOverrides": {
+            "columns": 2
+          },
+          "columnStyles": {
+            "0": {
+              "borderRadius": "8px",
+              "overflow": "hidden",
+              "borderWidth": "1px",
+              "borderStyle": "solid",
+              "borderColor": "#e0e0e0"
+            },
+            "1": {
+              "borderRadius": "8px",
+              "overflow": "hidden",
+              "borderWidth": "2px",
+              "borderStyle": "solid",
+              "borderColor": "#0066cc"
+            }
+          },
+          "columns": [
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "Before",
+                  "settingId": "image"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "100%",
+                  "height": "280px",
+                  "objectFit": "cover"
+                }
+              },
+              {
+                "type": "container",
+                "children": [
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "BEFORE"
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "1",
+                      "fontFamily": "inherit",
+                      "fontSize": "11px",
+                      "color": "#6a737d",
+                      "fontWeight": "700",
+                      "letterSpacing": "2px",
+                      "marginTop": "0",
+                      "marginBottom": "0"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "Describe the problem, starting point, or original state that your product or service addresses."
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "1.6",
+                      "fontWeight": "400",
+                      "fontFamily": "inherit",
+                      "fontSize": "14px",
+                      "color": "#586069",
+                      "marginTop": "8px",
+                      "marginBottom": "0"
+                    }
+                  }
+                ],
+                "styleOverrides": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "height": "100%",
+                  "width": "100%",
+                  "boxSizing": "border-box",
+                  "overflow": "hidden",
+                  "flex": "1",
+                  "backgroundColor": "#fafbfc",
+                  "paddingTop": "20px",
+                  "paddingBottom": "20px",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "alignItems": "flex-start",
+                  "borderWidth": "0px",
+                  "borderStyle": "none"
+                }
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "After",
+                  "settingId": "image_2"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "100%",
+                  "height": "280px",
+                  "objectFit": "cover"
+                }
+              },
+              {
+                "type": "container",
+                "children": [
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "AFTER"
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "1",
+                      "fontFamily": "inherit",
+                      "fontSize": "11px",
+                      "color": "#667eea",
+                      "fontWeight": "700",
+                      "letterSpacing": "2px",
+                      "marginTop": "0",
+                      "marginBottom": "0"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "Show the transformation, result, or improvement that your product delivers. Make it tangible."
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "1.6",
+                      "fontWeight": "400",
+                      "fontFamily": "inherit",
+                      "fontSize": "14px",
+                      "color": "#586069",
+                      "marginTop": "8px",
+                      "marginBottom": "0"
+                    }
+                  }
+                ],
+                "styleOverrides": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "height": "100%",
+                  "width": "100%",
+                  "boxSizing": "border-box",
+                  "overflow": "hidden",
+                  "flex": "1",
+                  "backgroundColor": "#f6f8fa",
+                  "paddingTop": "20px",
+                  "paddingBottom": "20px",
+                  "paddingLeft": "20px",
+                  "paddingRight": "20px",
+                  "alignItems": "flex-start",
+                  "borderWidth": "0px",
+                  "borderStyle": "none"
+                }
+              }
+            ]
+          ],
+          "styleOverrides": {
+            "flexDirection": "row",
+            "gap": "24px"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "paddingTop": "60px",
+        "paddingBottom": "60px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

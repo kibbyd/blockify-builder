@@ -1,0 +1,166 @@
+{
+  "id": "hero-image-bg",
+  "name": "Image Background Hero",
+  "category": "section",
+  "subcategory": "hero",
+  "description": "Hero section with background image, overlay heading, and CTA",
+  "elements": [
+    {
+      "type": "image-background",
+      "propOverrides": {
+        "src": "",
+        "alt": "",
+        "settingId": "background_image",
+        "minHeight": "500px",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center",
+        "backgroundRepeat": "no-repeat"
+      },
+      "children": [
+        {
+          "type": "container",
+          "children": [
+            {
+              "type": "heading",
+              "propOverrides": {
+                "text": "Immersive Experience",
+                "level": "h1",
+                "tag": "h1"
+              },
+              "responsiveStyles": {
+                "sm": {
+                  "fontSize": "36px"
+                },
+                "xs": {
+                  "fontSize": "28px"
+                }
+              },
+              "styleOverrides": {
+                "fontFamily": "inherit",
+                "fontWeight": "700",
+                "lineHeight": "1.2",
+                "display": "block",
+                "fontSize": "52px",
+                "color": "#ffffff",
+                "textAlign": "center",
+                "marginTop": "0",
+                "marginBottom": "0",
+                "paddingTop": "0",
+                "paddingRight": "0",
+                "paddingBottom": "0",
+                "paddingLeft": "0",
+                "marginRight": "0",
+                "marginLeft": "0"
+              }
+            },
+            {
+              "type": "text",
+              "propOverrides": {
+                "text": "Create stunning visual experiences that captivate your audience."
+              },
+              "responsiveStyles": {
+                "xs": {
+                  "fontSize": "14px"
+                }
+              },
+              "styleOverrides": {
+                "fontFamily": "inherit",
+                "fontWeight": "400",
+                "lineHeight": "1.6",
+                "display": "block",
+                "fontSize": "18px",
+                "color": "#e1e4e8",
+                "textAlign": "center",
+                "marginTop": "16px",
+                "marginBottom": "0",
+                "paddingTop": "0",
+                "paddingRight": "0",
+                "paddingBottom": "0",
+                "paddingLeft": "0",
+                "marginRight": "0",
+                "marginLeft": "0"
+              }
+            },
+            {
+              "type": "button",
+              "propOverrides": {
+                "text": "Explore",
+                "href": "",
+                "url": ""
+              },
+              "styleOverrides": {
+                "backgroundColor": "#667eea",
+                "color": "#ffffff",
+                "borderRadius": "6px",
+                "cursor": "pointer",
+                "display": "inline-block",
+                "hoverColor": "#ffffff",
+                "hoverBackgroundColor": "#667eea",
+                "fontFamily": "inherit",
+                "fontSize": "16px",
+                "fontWeight": "600",
+                "marginTop": "30px",
+                "marginBottom": "0",
+                "marginRight": "0",
+                "marginLeft": "0",
+                "paddingTop": "16px",
+                "paddingRight": "40px",
+                "paddingBottom": "16px",
+                "paddingLeft": "40px",
+                "borderWidth": "1px",
+                "borderStyle": "solid",
+                "borderColor": "#667eea",
+                "hoverBorderColor": "#667eea",
+                "hoverAnimation": "none"
+              }
+            }
+          ],
+          "styleOverrides": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "width": "100%",
+            "height": "100%",
+            "maxWidth": "100%",
+            "boxSizing": "border-box",
+            "overflow": "visible",
+            "flex": "1",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "paddingRight": "0",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "marginRight": "0",
+            "marginLeft": "0",
+            "borderWidth": "0px",
+            "borderStyle": "none"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "position": "relative",
+        "minHeight": "500px",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center center",
+        "backgroundRepeat": "no-repeat",
+        "display": "flex",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "backgroundColor": "#1a1a1a",
+        "paddingTop": "80px",
+        "paddingBottom": "80px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "marginTop": "0",
+        "marginBottom": "0",
+        "marginRight": "0",
+        "marginLeft": "0",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

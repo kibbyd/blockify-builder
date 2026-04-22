@@ -1,0 +1,103 @@
+{
+  "id": "testimonial-spotlight",
+  "name": "Quote Spotlight",
+  "category": "section",
+  "subcategory": "testimonials",
+  "description": "Single large quote with author attribution",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "40px",
+          "paddingBottom": "40px",
+          "paddingLeft": "16px",
+          "paddingRight": "16px"
+        },
+        "sm": {
+          "paddingTop": "56px",
+          "paddingBottom": "56px"
+        }
+      },
+      "children": [
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "\"This is the single best tool we have ever used. It has fundamentally changed how our team operates and delivers results.\""
+          },
+          "responsiveStyles": {
+            "sm": {
+              "fontSize": "20px"
+            },
+            "xs": {
+              "fontSize": "19px"
+            }
+          },
+          "styleOverrides": {
+            "lineHeight": "1.8",
+            "fontSize": "24px",
+            "color": "#e1e4e8",
+            "fontStyle": "italic",
+            "fontWeight": "400",
+            "fontFamily": "inherit",
+            "maxWidth": "700px",
+            "marginTop": "0",
+            "marginBottom": "0"
+          }
+        },
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "Alex Turner"
+          },
+          "styleOverrides": {
+            "fontSize": "16px",
+            "color": "#e1e4e8",
+            "fontWeight": "600",
+            "fontFamily": "inherit",
+            "marginTop": "24px",
+            "marginBottom": "0"
+          }
+        },
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "VP of Engineering, GlobalTech"
+          },
+          "styleOverrides": {
+            "lineHeight": "1",
+            "display": "block",
+            "fontSize": "13px",
+            "color": "#e1e4e8",
+            "marginTop": "6px",
+            "marginBottom": "0",
+            "paddingTop": "6px",
+            "paddingRight": "0",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "marginRight": "0",
+            "marginLeft": "0"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "textAlign": "center",
+        "backgroundColor": "#1a1a1a",
+        "paddingTop": "80px",
+        "paddingBottom": "80px",
+        "paddingLeft": "40px",
+        "paddingRight": "40px",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

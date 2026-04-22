@@ -1,0 +1,225 @@
+{
+  "id": "multi-column-text",
+  "name": "Multi-Column Text",
+  "category": "section",
+  "subcategory": "content",
+  "description": "Three-column text layout for about, values, or mission content",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "30px",
+          "paddingBottom": "30px"
+        },
+        "sm": {
+          "paddingTop": "42px",
+          "paddingBottom": "42px"
+        }
+      },
+      "children": [
+        {
+          "type": "heading",
+          "propOverrides": {
+            "text": "Our Values",
+            "level": "h2",
+            "tag": "h2"
+          },
+          "responsiveStyles": {
+            "xs": {
+              "fontSize": "22px"
+            },
+            "sm": {
+              "fontSize": "27px"
+            }
+          },
+          "styleOverrides": {
+            "fontWeight": "700",
+            "lineHeight": "1.2",
+            "fontSize": "36px",
+            "fontFamily": "inherit",
+            "color": "#1a1a1a",
+            "textAlign": "center",
+            "marginTop": "0",
+            "marginBottom": "20px"
+          }
+        },
+        {
+          "type": "columns-3",
+          "propOverrides": {
+            "columns": 3
+          },
+          "styleOverrides": {
+            "flexDirection": "row",
+            "gap": "24px"
+          },
+          "columnStyles": {
+            "0": { "alignItems": "flex-start", "paddingLeft": "40px", "paddingRight": "40px" },
+            "1": { "alignItems": "flex-start", "paddingLeft": "40px", "paddingRight": "40px" },
+            "2": { "alignItems": "flex-start", "paddingLeft": "40px", "paddingRight": "40px" }
+          },
+          "columns": [
+            [
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "Sustainability",
+                  "level": "h3",
+                  "tag": "h3"
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "lineHeight": "1.2",
+                  "fontSize": "20px",
+                  "fontFamily": "inherit",
+                  "color": "#1a1a1a",
+                  "marginTop": "0",
+                  "marginBottom": "0",
+                  "textAlign": "left"
+                }
+              },
+              {
+                "type": "divider",
+                "styleOverrides": {
+                  "borderColor": "#667eea",
+                  "width": "40px",
+                  "marginTop": "12px",
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "We source materials responsibly and minimize our environmental footprint at every stage of production. Every product is designed to last."
+                },
+                "styleOverrides": {
+                  "lineHeight": "1.8",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "fontFamily": "inherit",
+                  "color": "#586069",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              }
+            ],
+            [
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "Quality",
+                  "level": "h3",
+                  "tag": "h3"
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "lineHeight": "1.2",
+                  "fontSize": "20px",
+                  "fontFamily": "inherit",
+                  "color": "#1a1a1a",
+                  "marginTop": "0",
+                  "marginBottom": "0",
+                  "textAlign": "left"
+                }
+              },
+              {
+                "type": "divider",
+                "styleOverrides": {
+                  "borderColor": "#667eea",
+                  "width": "40px",
+                  "marginTop": "12px",
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "Each product undergoes rigorous testing to ensure it meets the highest standards. We never cut corners on craftsmanship or materials."
+                },
+                "styleOverrides": {
+                  "lineHeight": "1.8",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "fontFamily": "inherit",
+                  "color": "#586069",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              }
+            ],
+            [
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "Community",
+                  "level": "h3",
+                  "tag": "h3"
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "lineHeight": "1.2",
+                  "fontSize": "20px",
+                  "fontFamily": "inherit",
+                  "color": "#1a1a1a",
+                  "marginTop": "0",
+                  "marginBottom": "0",
+                  "textAlign": "left"
+                }
+              },
+              {
+                "type": "divider",
+                "styleOverrides": {
+                  "borderColor": "#667eea",
+                  "width": "40px",
+                  "marginTop": "12px",
+                  "marginBottom": "12px",
+                  "marginLeft": "0",
+                  "marginRight": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "We believe in giving back. A portion of every sale goes to organizations working to create positive change in communities worldwide."
+                },
+                "styleOverrides": {
+                  "lineHeight": "1.8",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "fontFamily": "inherit",
+                  "color": "#586069",
+                  "marginTop": "0",
+                  "marginBottom": "0"
+                }
+              }
+            ]
+          ],
+          "styleOverrides": {
+            "flexDirection": "row",
+            "gap": "24px"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "backgroundColor": "#ffffff",
+        "paddingTop": "60px",
+        "paddingBottom": "60px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

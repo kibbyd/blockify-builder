@@ -1,0 +1,195 @@
+{
+  "id": "logo-banner",
+  "name": "Logo Trust Bar",
+  "category": "section",
+  "subcategory": "trust",
+  "description": "\"As seen in\" media logo row for social proof",
+  "elements": [
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "AS FEATURED IN"
+          },
+          "styleOverrides": {
+            "lineHeight": "1",
+            "display": "block",
+            "fontFamily": "inherit",
+            "fontSize": "11px",
+            "color": "#6a737d",
+            "fontWeight": "600",
+            "letterSpacing": "2px",
+            "textAlign": "center",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "paddingTop": "0",
+            "paddingRight": "0",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "marginRight": "0",
+            "marginLeft": "0"
+          }
+        },
+        {
+          "type": "columns-5",
+          "propOverrides": {
+            "columns": 5
+          },
+          "columnStyles": {
+            "0": {
+              "alignItems": "center"
+            },
+            "1": {
+              "alignItems": "center"
+            },
+            "2": {
+              "alignItems": "center"
+            },
+            "3": {
+              "alignItems": "center"
+            },
+            "4": {
+              "alignItems": "center"
+            }
+          },
+          "columns": [
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "Logo 1",
+                  "settingId": "image"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "120px",
+                  "height": "40px",
+                  "objectFit": "contain",
+                  "opacity": "0.5",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "Logo 2",
+                  "settingId": "image_2"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "120px",
+                  "height": "40px",
+                  "objectFit": "contain",
+                  "opacity": "0.5",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "Logo 3",
+                  "settingId": "image_3"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "120px",
+                  "height": "40px",
+                  "objectFit": "contain",
+                  "opacity": "0.5",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "Logo 4",
+                  "settingId": "image_4"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "120px",
+                  "height": "40px",
+                  "objectFit": "contain",
+                  "opacity": "0.5",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "Logo 5",
+                  "settingId": "image_5"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "120px",
+                  "height": "40px",
+                  "objectFit": "contain",
+                  "opacity": "0.5",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              }
+            ]
+          ],
+          "styleOverrides": {
+            "flexDirection": "row",
+            "gap": "24px",
+            "alignItems": "stretch",
+            "justifyContent": "flex-start"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "maxWidth": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "gap": "20px",
+        "backgroundColor": "#ffffff",
+        "paddingTop": "32px",
+        "paddingBottom": "32px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "marginTop": "0",
+        "marginBottom": "0",
+        "marginRight": "0",
+        "marginLeft": "0"
+      }
+    }
+  ]
+}

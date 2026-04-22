@@ -1,0 +1,273 @@
+{
+  "announcement-bar": {
+    "": {
+      "": [],
+      "": ["backgroundColor", "paddingTop", "paddingBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color",
+        "hoverColor", "backgroundColor", "hoverBackgroundColor",
+        "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"],
+  "countdown-sale": {
+    "": {
+      "": [],
+      "": ["backgroundColor", "paddingTop", "paddingBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "": {
+      "": [],
+      "": ["digitFontSize", "digitColor", "labelFontSize", "labelColor", "separatorStyle", "paddingTop", "paddingBottom", "marginTop"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color",
+        "hoverColor", "backgroundColor", "hoverBackgroundColor",
+        "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"],
+  "hero-centered": {
+    "": {
+      "": [],
+      "": ["backgroundColor", "paddingTop", "paddingBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontFamily", "fontWeight", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontFamily", "fontWeight", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color",
+        "hoverColor", "backgroundColor", "hoverBackgroundColor",
+        "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"],
+  "hero-image-bg": {
+    "image-background": {
+      "": ["src", "alt"],
+      "": ["paddingTop", "paddingBottom"],
+    "": {
+      "": [],
+      "": ["alignItems"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color",
+        "hoverColor", "backgroundColor", "hoverBackgroundColor",
+        "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"],
+  "shipping-guarantee-bar": {
+    "": {
+      "": [],
+      "": ["backgroundColor", "paddingLeft", "paddingRight"],
+    "columns-": {
+      "": [],
+      "": ["flexDirection"],
+    "": {
+      "": [],
+      "": [],
+    "": {
+      "": ["src", "alt"],
+      "": ["iconSize"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"],
+  "logo-banner": {
+    "": {
+      "": [],
+      "": ["backgroundColor", "paddingTop", "paddingBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "columns-": {
+      "": [],
+      "": ["flexDirection"],
+    "": {
+      "": [],
+      "": [],
+    "": {
+      "": ["src", "alt"],
+      "": ["opacity"],
+  "hero-split": {
+    "": {
+      "": [],
+      "": ["backgroundColor", "paddingTop", "paddingBottom", "paddingLeft", "paddingRight"],
+    "columns-": {
+      "": [],
+      "": ["flexDirection"],
+    "": {
+      "": [],
+      "": [],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color", "textAlign", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color", "textAlign", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "fontWeight", "fontFamily", "color",
+        "hoverColor", "backgroundColor", "hoverBackgroundColor",
+        "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"],
+    "": {
+      "": ["src", "alt"],
+      "": [],
+  "product-card-grid": {
+    "": {
+      "": [],
+      "": ["backgroundColor", "paddingTop", "paddingBottom"],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "color", "fontWeight", "fontFamily", "marginTop", "marginBottom"],
+    "columns-": {
+      "": [],
+      "": ["gap", "flexDirection"],
+    "": {
+      "": [],
+      "": [],
+    "": {
+      "": ["src", "alt"],
+      "": [],
+    "": {
+      "": ["text"],
+      "": ["fontSize", "color", "fontWeight", "fontFamily", "marginTop", "marginBottom"],
+    "": {
+      "": ["text", "url"],
+      "": ["backgroundColor", "color", "hoverColor", "hoverBackgroundColor", "borderColor", "hoverBorderColor", "hoverAnimation"],
+  "before-after": {
+    "": { "": [], "": ["backgroundColor", "paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "columns-": { "": [], "": ["flexDirection", "gap"] },
+    "": { "": [], "": [] },
+    "": { "": ["src", "alt"], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+  "bestsellers-row": {
+    "": { "": [], "": [] },
+    "columns-": { "": [], "": [] },
+    "columns-": { "": [], "": [] },
+    "": { "": [], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "hoverColor", "backgroundColor", "hoverBackgroundColor", "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"] },
+    "": { "": ["src", "alt"], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+  "brand-story": {
+    "": { "": [], "": ["backgroundColor", "paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "columns-": { "": [], "": ["flexDirection", "gap"] },
+    "": { "": [], "": [] },
+    "": { "": ["src", "alt"], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "": { "": ["text", "href", "url"], "": ["fontSize", "fontWeight", "fontFamily", "color", "hoverColor", "backgroundColor", "hoverBackgroundColor", "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"] },
+  "content-fullwidth-text": {
+    "": { "": [], "": ["backgroundColor", "paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+  "content-stats": {
+    "": { "": [], "": ["backgroundColor", "paddingLeft", "paddingRight"] },
+    "columns-": { "": [], "": ["flexDirection", "gap"] },
+    "": { "": [], "": ["backgroundColor"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+  "content-text-image": {
+    "": { "": [], "": ["backgroundColor", "paddingTop", "paddingBottom"] },
+    "columns-": { "": [], "": ["flexDirection", "gap"] },
+    "": { "": [], "": ["paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingLeft", "paddingRight", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingLeft", "paddingRight", "marginTop", "marginBottom"] },
+    "": { "": ["src", "alt"], "": [] },
+  "cta-banner": {
+    "": { "": [], "": ["backgroundColor", "paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "hoverColor", "backgroundColor", "hoverBackgroundColor", "borderColor", "hoverBorderColor", "hoverAnimation", "paddingTop", "paddingRight", "paddingBottom", "paddingLeft", "marginTop", "marginBottom", "marginRight", "marginLeft"] },
+  "cta-minimal": {
+    "": { "": [], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "hoverColor", "backgroundColor", "hoverBackgroundColor", "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"] },
+  "cta-split": {
+    "": { "": [], "": ["paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "columns-": { "": [], "": ["flexDirection", "gap"] },
+    "": { "": [], "": ["paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "hoverColor", "backgroundColor", "hoverBackgroundColor", "borderColor", "hoverBorderColor", "hoverAnimation", "paddingTop", "paddingRight", "paddingBottom", "paddingLeft"] },
+  "faq-accordion": {
+    "": { "": [], "": [] },
+    "columns-": { "": [], "": [] },
+    "": { "": [], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"] },
+    "": { "": [], "": [] },
+  "features-3col": {
+    "": { "": [], "": ["backgroundColor", "paddingTop", "paddingBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "columns-": { "": [], "": ["flexDirection", "gap"] },
+    "": { "": [], "": [] },
+    "": { "": ["src", "alt"], "": ["iconSize", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+  "features-alternating": {
+    "": { "": [], "": ["backgroundColor", "paddingTop", "paddingBottom"] },
+    "columns-": { "": [], "": ["flexDirection", "gap"] },
+    "": { "": [], "": [] },
+    "": { "": ["src", "alt"], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom", "paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom", "paddingLeft", "paddingRight"] },
+  "image-gallery": {
+    "": { "": [], "": ["backgroundColor", "paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "columns-": { "": [], "": ["flexDirection", "gap"] },
+    "": { "": [], "": [] },
+    "": { "": ["src", "alt"], "": ["marginTop", "marginRight", "marginBottom", "marginLeft"] },
+  "instagram-feed": {
+    "": { "": [], "": ["paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "columns-": { "": [], "": ["flexDirection", "gap"] },
+    "": { "": [], "": [] },
+    "": { "": ["src", "alt"], "": [] },
+  "multi-column-text": {
+    "": { "": [], "": ["backgroundColor", "paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "columns-": { "": [], "": ["flexDirection", "gap"] },
+    "": { "": [], "": ["paddingLeft", "paddingRight"] },
+    "": { "": [], "": ["borderColor", "width", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+  "newsletter-signup": {
+    "": { "": [], "": [] },
+    "columns-": { "": [], "": [] },
+    "": { "": [], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"] },
+    "": { "": [], "": [] },
+  "pricing-2tier": {
+    "": { "": [], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"] },
+    "columns-": { "": [], "": [] },
+    "": { "": [], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "hoverColor", "backgroundColor", "hoverBackgroundColor", "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"] },
+  "pricing-3tier": {
+    "": { "": [], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"] },
+    "columns-": { "": [], "": [] },
+    "": { "": [], "": [] },
+    "": { "": [], "": [] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "hoverColor", "backgroundColor", "hoverBackgroundColor", "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"] },
+  "testimonial-spotlight": {
+    "": { "": [], "": ["backgroundColor", "paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+  "testimonials-cards": {
+    "": { "": [], "": ["paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    "columns-": { "": [], "": ["flexDirection", "gap"] },
+    "": { "": [], "": ["paddingTop", "paddingBottom", "paddingLeft", "paddingRight"] },
+    "": { "": ["text"], "": ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] }

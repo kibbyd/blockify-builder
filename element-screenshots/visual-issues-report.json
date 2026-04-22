@@ -1,0 +1,210 @@
+[
+  {
+    "element": "add-to-cart",
+    "name": "Add to Cart",
+    "index": 20,
+    "problems": [
+      {
+        "tag": "BUTTON",
+        "elId": "el-test-49-button",
+        "text": "Add to Cart",
+        "issue": "no-padding"
+      }
+    ]
+  },
+  {
+    "element": "product-card",
+    "name": "Product Card",
+    "index": 21,
+    "problems": [
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "Add to Cart",
+        "issue": "no-padding"
+      }
+    ]
+  },
+  {
+    "element": "product-grid",
+    "name": "Product Grid",
+    "index": 22,
+    "problems": [
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "product.title",
+        "issue": "no-padding"
+      },
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "Add to Cart",
+        "issue": "no-padding"
+      }
+    ]
+  },
+  {
+    "element": "collection-list",
+    "name": "Collection List",
+    "index": 23,
+    "problems": [
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "collection.title",
+        "issue": "no-padding"
+      },
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "collection.title",
+        "issue": "no-padding"
+      },
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "collection.title",
+        "issue": "no-padding"
+      },
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "collection.title",
+        "issue": "no-padding"
+      },
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "collection.title",
+        "issue": "no-padding"
+      },
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "collection.title",
+        "issue": "no-padding"
+      }
+    ]
+  },
+  {
+    "element": "slideshow",
+    "name": "Slideshow",
+    "index": 29,
+    "problems": [
+      {
+        "tag": "H2",
+        "elId": "",
+        "text": "Slide 2",
+        "height": 0,
+        "issue": "zero-height"
+      },
+      {
+        "tag": "P",
+        "elId": "",
+        "text": "Second slide description.",
+        "height": 0,
+        "issue": "zero-height"
+      },
+      {
+        "tag": "H2",
+        "elId": "",
+        "text": "Slide 3",
+        "height": 0,
+        "issue": "zero-height"
+      },
+      {
+        "tag": "P",
+        "elId": "",
+        "text": "Third slide description.",
+        "height": 0,
+        "issue": "zero-height"
+      }
+    ]
+  },
+  {
+    "element": "popup",
+    "name": "Popup",
+    "index": 31,
+    "problems": [
+      {
+        "tag": "BUTTON",
+        "elId": "",
+        "text": "Open Popup",
+        "issue": "no-padding"
+      },
+      {
+        "tag": "BUTTON",
+        "elId": "",
+        "text": "×",
+        "height": 0,
+        "issue": "zero-height"
+      },
+      {
+        "tag": "BUTTON",
+        "elId": "",
+        "text": "×",
+        "issue": "no-padding"
+      },
+      {
+        "tag": "H3",
+        "elId": "",
+        "text": "Special Offer!",
+        "height": 0,
+        "issue": "zero-height"
+      },
+      {
+        "tag": "P",
+        "elId": "",
+        "text": "Sign up for our newsletter and get 10% off your first order.",
+        "height": 0,
+        "issue": "zero-height"
+      },
+      {
+        "tag": "BUTTON",
+        "elId": "",
+        "text": "Subscribe",
+        "height": 0,
+        "issue": "zero-height"
+      },
+      {
+        "tag": "BUTTON",
+        "elId": "",
+        "text": "Subscribe",
+        "issue": "no-padding"
+      }
+    ]
+  },
+  {
+    "element": "flip-card",
+    "name": "Flip Card",
+    "index": 34,
+    "problems": [
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "Learn More",
+        "issue": "no-padding"
+      }
+    ]
+  },
+  {
+    "element": "blog-posts",
+    "name": "Blog Posts",
+    "index": 38,
+    "problems": [
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "article.title",
+        "issue": "no-padding"
+      },
+      {
+        "tag": "A",
+        "elId": "",
+        "text": "Read More",
+        "issue": "no-padding"
+      }
+    ]
+  }
+]

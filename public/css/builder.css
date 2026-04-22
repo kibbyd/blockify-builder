@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f0f2f5;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.builder-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Toolbar */
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    height: 60px;
+}
+
+.toolbar-left, .toolbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.toolbar h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-toolbar {
+    padding: 8px 16px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-toolbar:hover {
+    background: #f5f5f5;
+}
+
+.btn-primary {
+    background: #0066cc;
+    color: white;
+    border-color: #0066cc;
+}
+
+.btn-primary:hover {
+    background: #0052a3;
+}
+
+.viewport-controls {
+    display: flex;
+    gap: 5px;
+    background: #f5f5f5;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.viewport-btn {
+    padding: 6px 10px;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+.viewport-btn:hover {
+    background: #e0e0e0;
+}
+
+.viewport-btn.active {
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Main Layout */
+.builder-main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+/* Sidebars */
+.sidebar {
+    background: white;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-left {
+    width: 280px;
+}
+
+.sidebar-right {
+    width: 320px;
+    border-left: 1px solid #ddd;
+    border-right: none;
+}
+
+.sidebar-tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 12px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+    border-bottom: 2px solid transparent;
+}
+
+.tab-btn:hover {
+    background: #f5f5f5;
+}
+
+.tab-btn.active {
+    border-bottom-color: #0066cc;
+    color: #0066cc;
+}
+
+.tab-content {
+    display: none;
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Components */
+.component-category {
+    margin-bottom: 20px;
+}
+
+.component-category h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.component-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.component-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 6px;
+    cursor: move;
+    transition: all 0.2s;
+    font-size: 12px;
+}
+
+.component-item:hover {
+    background: #e0e0e0;
+    transform: translateY(-2px);
+}
+
+.component-icon {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Canvas */
+.canvas-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #f0f2f5;
+}
+
+.canvas-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    overflow: auto;
+}
+
+.canvas {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    min-height: 600px;
+    width: 100%;
+    max-width: 100%;
+    transition: max-width 0.3s;
+    position: relative;
+}
+
+.canvas-content {
+    padding: 20px;
+    min-height: 600px;
+    position: relative;
+}
+
+.empty-canvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: #999;
+    font-size: 16px;
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+}
+
+/* Code View */
+.code-view {
+    position: absolute;
+    inset: 0;
+    background: white;
+    padding: 20px;
+}
+
+.code-editor {
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    resize: none;
+}
+
+/* Properties Panel */
+.properties-panel {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.properties-panel h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+#properties-content {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+#properties-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+#properties-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+#properties-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+#properties-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.no-selection {
+    color: #999;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.property-section {
+    margin-bottom: 25px;
+}
+
+.property-section h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.property-group label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.property-group label span {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.property-group input,
+.property-group select,
+.property-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.spacing-inputs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.spacing-inputs input {
+    text-align: center;
+}
+
+/* Element Selection */
+.element-selected {
+    outline: 2px solid #0066cc;
+    outline-offset: 2px;
+    position: relative;
+}
+
+.element-hover {
+    outline: 2px dashed #0066cc;
+    outline-offset: 2px;
+}
+
+/* Element Toolbar */
+.element-toolbar {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    display: flex;
+    gap: 2px;
+    z-index: 1000;
+}
+
+.tool-btn {
+    padding: 6px 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.tool-btn:hover {
+    background: #f0f0f0;
+}
+
+/* Drag and Drop */
+.drag-over {
+    background: #e3f2fd;
+    border: 2px dashed #2196f3;
+    border-radius: 8px;
+}
+
+.dragging {
+    opacity: 0.5;
+}
+
+.dragging-active .builder-element:not(.dragging) {
+    border: 1px dashed #ccc;
+    margin: 5px 0;
+}
+
+.drop-placeholder {
+    height: 4px;
+    background: #2196f3;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.drop-indicator {
+    height: 4px;
+    background: #0066cc;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    z-index: 10000;
+}
+
+.component-item.dragging {
+    opacity: 0.5;
+    transform: rotate(5deg);
+}
+
+.canvas-content.drag-over {
+    background: rgba(0, 102, 204, 0.05);
+}
+
+.builder-element:hover:not(.dragging) {
+    outline: 2px dashed #0066cc;
+    outline-offset: 2px;
+}
+
+.image-placeholder {
+    background: #f8f9fa;
+    border: 2px dashed #dee2e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.image-placeholder:hover {
+    background: #e9ecef;
+    border-color: #adb5bd;
+}
+
+/* Resize Handles */
+.resize-handles {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.resize-handle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 2px solid #0066cc;
+    border-radius: 50%;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.resize-handle.top-left {
+    top: -5px;
+    left: -5px;
+    cursor: nw-resize;
+}
+
+.resize-handle.top-right {
+    top: -5px;
+    right: -5px;
+    cursor: ne-resize;
+}
+
+.resize-handle.bottom-left {
+    bottom: -5px;
+    left: -5px;
+    cursor: sw-resize;
+}
+
+.resize-handle.bottom-right {
+    bottom: -5px;
+    right: -5px;
+    cursor: se-resize;
+}
+
+/* Upload Area */
+.upload-area {
+    margin-bottom: 20px;
+}
+
+.upload-btn {
+    width: 100%;
+    padding: 20px;
+    background: #f5f5f5;
+    border: 2px dashed #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.upload-btn:hover {
+    background: #e0e0e0;
+    border-color: #999;
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.media-item {
+    aspect-ratio: 1;
+    background: #f5f5f5;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.media-item:hover {
+    transform: scale(1.05);
+}
+
+.media-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Context Menu */
+.context-menu {
+    position: fixed;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 5px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    z-index: 10000;
+}
+
+.context-item {
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.2s;
+}
+
+.context-item:hover {
+    background: #f0f0f0;
+}
+
+.context-menu hr {
+    margin: 5px 0;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Search Box */
+.search-box {
+    margin-bottom: 15px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+/* Blocks List */
+.blocks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.block-item {
+    padding: 12px;
+    background: #f5f5f5;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 13px;
+}
+
+.block-item:hover {
+    background: #e0e0e0;
+    transform: translateX(5px);
+}
+
+.block-item.active {
+    background: #0066cc;
+    color: white;
+}

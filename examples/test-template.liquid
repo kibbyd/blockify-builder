@@ -1,0 +1,33 @@
+{% comment %}
+Example Liquid template demonstrating responsive styles usage
+Add data-responsive-id attributes to elements you want to style responsively
+{% endcomment %}
+
+<div data-responsive-id="example-container">
+  <h1>Responsive Styles Example</h1>
+
+  <div data-responsive-id="example-columns">
+    <div data-responsive-id="example-column-1">
+      <h2>Column 1</h2>
+      <p>This column will have responsive padding and width.</p>
+    </div>
+
+    <div data-responsive-id="example-column-2">
+      <h2>Column 2</h2>
+      <p>Columns will stack on mobile and be side-by-side on desktop.</p>
+    </div>
+
+    <div data-responsive-id="example-column-3">
+      <h2>Column 3</h2>
+      <p>Responsive styles are managed server-side and injected as CSS.</p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Example Section",
+  "tag": "section",
+  "settings": []
+}
+{% endschema %}

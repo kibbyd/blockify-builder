@@ -1,0 +1,238 @@
+{
+  "id": "content-stats",
+  "name": "Stats Row",
+  "category": "section",
+  "subcategory": "content",
+  "description": "Row of statistics with numbers and labels",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "20px",
+          "paddingBottom": "20px"
+        },
+        "sm": {
+          "paddingTop": "28px",
+          "paddingBottom": "28px"
+        }
+      },
+      "children": [
+        {
+          "type": "columns-4",
+          "propOverrides": {
+            "columns": 4
+          },
+          "columnStyles": {
+            "0": {
+              "alignItems": "center",
+              "backgroundColor": "#1a1a1a"
+            },
+            "1": {
+              "alignItems": "center",
+              "backgroundColor": "#1a1a1a"
+            },
+            "2": {
+              "alignItems": "center",
+              "backgroundColor": "#1a1a1a"
+            },
+            "3": {
+              "alignItems": "center",
+              "backgroundColor": "#1a1a1a"
+            }
+          },
+          "columns": [
+            [
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "10K+",
+                  "level": "h2",
+                  "tag": "h2"
+                },
+                "responsiveStyles": {
+                  "xs": {
+                    "fontSize": "22px"
+                  },
+                  "sm": {
+                    "fontSize": "27px"
+                  }
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "fontFamily": "inherit",
+                  "fontSize": "36px",
+                  "color": "#ffffff",
+                  "textAlign": "center",
+                  "marginTop": "10px",
+                  "marginBottom": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "Customers"
+                },
+                "styleOverrides": {
+                  "fontWeight": "400",
+                  "fontFamily": "inherit",
+                  "fontSize": "14px",
+                  "color": "#e1e4e8",
+                  "textAlign": "center",
+                  "marginTop": "16px",
+                  "marginBottom": "10px"
+                }
+              }
+            ],
+            [
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "99.9%",
+                  "level": "h2",
+                  "tag": "h2"
+                },
+                "responsiveStyles": {
+                  "xs": {
+                    "fontSize": "22px"
+                  },
+                  "sm": {
+                    "fontSize": "27px"
+                  }
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "fontFamily": "inherit",
+                  "fontSize": "36px",
+                  "color": "#ffffff",
+                  "textAlign": "center",
+                  "marginTop": "10px",
+                  "marginBottom": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "Uptime"
+                },
+                "styleOverrides": {
+                  "fontWeight": "400",
+                  "fontFamily": "inherit",
+                  "fontSize": "14px",
+                  "color": "#e1e4e8",
+                  "textAlign": "center",
+                  "marginTop": "16px",
+                  "marginBottom": "10px"
+                }
+              }
+            ],
+            [
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "50M+",
+                  "level": "h2",
+                  "tag": "h2"
+                },
+                "responsiveStyles": {
+                  "xs": {
+                    "fontSize": "22px"
+                  },
+                  "sm": {
+                    "fontSize": "27px"
+                  }
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "fontFamily": "inherit",
+                  "fontSize": "36px",
+                  "color": "#ffffff",
+                  "textAlign": "center",
+                  "marginTop": "10px",
+                  "marginBottom": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "Page Views"
+                },
+                "styleOverrides": {
+                  "fontWeight": "400",
+                  "fontFamily": "inherit",
+                  "fontSize": "14px",
+                  "color": "#e1e4e8",
+                  "textAlign": "center",
+                  "marginTop": "16px",
+                  "marginBottom": "10px"
+                }
+              }
+            ],
+            [
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "24/7",
+                  "level": "h2",
+                  "tag": "h2"
+                },
+                "responsiveStyles": {
+                  "xs": {
+                    "fontSize": "22px"
+                  },
+                  "sm": {
+                    "fontSize": "27px"
+                  }
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "fontFamily": "inherit",
+                  "fontSize": "36px",
+                  "color": "#ffffff",
+                  "textAlign": "center",
+                  "marginTop": "10px",
+                  "marginBottom": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "Support"
+                },
+                "styleOverrides": {
+                  "fontWeight": "400",
+                  "fontFamily": "inherit",
+                  "fontSize": "14px",
+                  "color": "#e1e4e8",
+                  "textAlign": "center",
+                  "marginTop": "8px",
+                  "marginBottom": "0"
+                }
+              }
+            ]
+          ],
+          "styleOverrides": {
+            "flexDirection": "row",
+            "gap": "24px"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "backgroundColor": "#1a1a1a",
+        "paddingTop": "40px",
+        "paddingBottom": "40px",
+        "paddingLeft": "0",
+        "paddingRight": "0",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

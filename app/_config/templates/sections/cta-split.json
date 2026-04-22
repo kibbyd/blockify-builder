@@ -1,0 +1,206 @@
+{
+  "id": "cta-split",
+  "name": "Split CTA",
+  "category": "section",
+  "subcategory": "cta",
+  "description": "Two-column CTA with text on one side and action on the other",
+  "elements": [
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "columns-2",
+          "propOverrides": {
+            "columns": 2
+          },
+          "columns": [
+            [
+              {
+                "type": "container",
+                "responsiveStyles": {
+                  "xs": {
+                    "paddingTop": "20px",
+                    "paddingBottom": "20px",
+                    "paddingLeft": "16px",
+                    "paddingRight": "16px"
+                  },
+                  "sm": {
+                    "paddingTop": "28px",
+                    "paddingBottom": "28px"
+                  }
+                },
+                "children": [
+                  {
+                    "type": "heading",
+                    "propOverrides": {
+                      "text": "Don't Miss Out",
+                      "level": "h2",
+                      "tag": "h2"
+                    },
+                    "responsiveStyles": {
+                      "xs": {
+                        "fontSize": "20px"
+                      },
+                      "sm": {
+                        "fontSize": "24px"
+                      }
+                    },
+                    "styleOverrides": {
+                      "fontWeight": "700",
+                      "fontFamily": "inherit",
+                      "lineHeight": "1.2",
+                      "fontSize": "32px",
+                      "color": "#1a1a1a",
+                      "marginTop": "0",
+                      "marginBottom": "0",
+                      "textAlign": "left"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "Sign up today and get exclusive access to our latest features and updates."
+                    },
+                    "styleOverrides": {
+                      "fontWeight": "400",
+                      "fontFamily": "inherit",
+                      "lineHeight": "1.6",
+                      "fontSize": "16px",
+                      "color": "#586069",
+                      "marginTop": "12px",
+                      "marginBottom": "0",
+                      "textAlign": "left"
+                    }
+                  }
+                ],
+                "styleOverrides": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "height": "100%",
+                  "width": "100%",
+                  "boxSizing": "border-box",
+                  "overflow": "hidden",
+                  "flex": "1",
+                  "paddingTop": "40px",
+                  "paddingBottom": "40px",
+                  "paddingLeft": "40px",
+                  "paddingRight": "40px",
+                  "alignItems": "flex-start",
+                  "borderWidth": "0px",
+                  "borderStyle": "none"
+                }
+              }
+            ],
+            [
+              {
+                "type": "container",
+                "responsiveStyles": {
+                  "xs": {
+                    "paddingTop": "20px",
+                    "paddingBottom": "20px",
+                    "paddingLeft": "16px",
+                    "paddingRight": "16px"
+                  },
+                  "sm": {
+                    "paddingTop": "28px",
+                    "paddingBottom": "28px"
+                  }
+                },
+                "children": [
+                  {
+                    "type": "button",
+                    "propOverrides": {
+                      "text": "Sign Up Now",
+                      "href": "",
+                      "url": ""
+                    },
+                    "responsiveStyles": {
+                      "xs": {
+                        "fontSize": "14px",
+                        "paddingLeft": "24px",
+                        "paddingRight": "24px"
+                      }
+                    },
+                    "styleOverrides": {
+                      "backgroundColor": "#22c55e",
+                      "color": "#ffffff",
+                      "borderRadius": "6px",
+                      "cursor": "pointer",
+                      "display": "inline-block",
+                      "fontSize": "18px",
+                      "fontWeight": "700",
+                      "paddingTop": "16px",
+                      "paddingRight": "48px",
+                      "paddingBottom": "16px",
+                      "paddingLeft": "48px",
+                      "hoverColor": "#ffffff",
+                      "hoverBackgroundColor": "#22c55e",
+                      "hoverBorderColor": "#22c55e",
+                      "hoverAnimation": "none",
+                      "fontFamily": "inherit",
+                      "borderColor": "#22c55e",
+                      "borderWidth": "1px",
+                      "borderStyle": "solid"
+                    }
+                  }
+                ],
+                "styleOverrides": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "height": "100%",
+                  "width": "100%",
+                  "boxSizing": "border-box",
+                  "overflow": "hidden",
+                  "flex": "1",
+                  "paddingTop": "40px",
+                  "paddingBottom": "40px",
+                  "paddingLeft": "40px",
+                  "paddingRight": "40px",
+                  "borderWidth": "0px",
+                  "borderStyle": "none"
+                }
+              }
+            ]
+          ],
+          "columnStyles": {
+            "0": {
+              "paddingTop": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "paddingRight": "0"
+            },
+            "1": {
+              "paddingTop": "0",
+              "paddingBottom": "0",
+              "paddingLeft": "0",
+              "paddingRight": "0"
+            }
+          },
+          "styleOverrides": {
+            "flexDirection": "row",
+            "gap": "24px"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "backgroundColor": "#f6f8fa",
+        "paddingTop": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "paddingRight": "0",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

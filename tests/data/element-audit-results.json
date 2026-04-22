@@ -1,0 +1,1209 @@
+{
+  "report": [
+    {
+      "type": "container",
+      "property": "backgroundColor",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "container",
+      "property": "gradientType",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "column",
+      "property": "flexDirection",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "heading",
+      "property": "text",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "heading",
+      "property": "tag",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "text",
+      "property": "text",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "text",
+      "property": "fontFamily",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "image",
+      "property": "src",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "image",
+      "property": "alt",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "image",
+      "property": "width",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "image",
+      "property": "height",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "image",
+      "property": "maxWidth",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "image",
+      "property": "maxHeight",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "image",
+      "property": "objectFit",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "video",
+      "property": "src",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "video",
+      "property": "alt",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "video",
+      "property": "controls",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "video",
+      "property": "autoplay",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "video",
+      "property": "muted",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "video",
+      "property": "loop",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "video",
+      "property": "width",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "video",
+      "property": "height",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "video",
+      "property": "borderWidth",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "video",
+      "property": "borderStyle",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "button",
+      "property": "text",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "button",
+      "property": "url",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "button",
+      "property": "openInNewTab",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "button",
+      "property": "fontFamily",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "icon",
+      "property": "src",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "icon",
+      "property": "alt",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "icon",
+      "property": "iconSize",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "spacer",
+      "property": "height",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "spacer",
+      "property": "width",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "list",
+      "property": "html",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "list",
+      "property": "fontSize",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "list",
+      "property": "color",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "list",
+      "property": "lineHeight",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "list",
+      "property": "marginTop",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "list",
+      "property": "marginBottom",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "list",
+      "property": "marginLeft",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "list",
+      "property": "marginRight",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "table",
+      "property": "html",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "table",
+      "property": "tableCellPadding",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "table",
+      "property": "tableBorderWidth",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "table",
+      "property": "tableBorderColor",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "table",
+      "property": "headerColor",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "table",
+      "property": "headerTextColor",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "table",
+      "property": "stripedRows",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "table",
+      "property": "hoverHighlight",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "table",
+      "property": "fontFamily",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "map",
+      "property": "address",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "map",
+      "property": "width",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "map",
+      "property": "height",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "map",
+      "property": "borderWidth",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "map",
+      "property": "borderStyle",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "divider",
+      "property": "borderColor",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "divider",
+      "property": "borderWidth",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "divider",
+      "property": "width",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "divider",
+      "property": "marginTop",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "divider",
+      "property": "marginBottom",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "divider",
+      "property": "marginLeft",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "divider",
+      "property": "marginRight",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "accordion",
+      "property": "itemCount",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "accordion",
+      "property": "titleFontFamily",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "tabs",
+      "property": "tabCount",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "tabs",
+      "property": "tabFontFamily",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "countdown",
+      "property": "targetDate",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "countdown",
+      "property": "expiredMessage",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "countdown",
+      "property": "showDays",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "countdown",
+      "property": "showHours",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "countdown",
+      "property": "showMinutes",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "countdown",
+      "property": "showSeconds",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "countdown",
+      "property": "digitFontFamily",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "slideshow",
+      "property": "slideCount",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "slideshow",
+      "property": "autoplay",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "slideshow",
+      "property": "autoplayInterval",
+      "kind": "content",
+      "route": 1,
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "slideshow",
+      "property": "showArrows",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "slideshow",
+      "property": "showDots",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "slideshow",
+      "property": "headingFontFamily",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "form",
+      "property": "formAction",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "form",
+      "property": "showName",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "form",
+      "property": "showEmail",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "form",
+      "property": "showPhone",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "form",
+      "property": "showMessage",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "form",
+      "property": "submitText",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "form",
+      "property": "namePlaceholder",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "form",
+      "property": "emailPlaceholder",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "form",
+      "property": "phonePlaceholder",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "form",
+      "property": "messagePlaceholder",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "form",
+      "property": "fontFamily",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "popup",
+      "property": "triggerText",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "popup",
+      "property": "popupTitle",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "popup",
+      "property": "popupContent",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "popup",
+      "property": "showEmailField",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "popup",
+      "property": "emailPlaceholder",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "popup",
+      "property": "submitText",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "popup",
+      "property": "fontFamily",
+      "kind": "content",
+      "route": "panel-only",
+      "hasDefault": false,
+      "hasToggle": false,
+      "canBeSchema": false
+    },
+    {
+      "type": "marquee",
+      "property": "text",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "marquee",
+      "property": "speed",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "marquee",
+      "property": "pauseOnHover",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": true
+    },
+    {
+      "type": "marquee",
+      "property": "direction",
+      "kind": "content",
+      "route": "2-PARTIAL",
+      "hasDefault": true,
+      "hasToggle": false,
+      "canBeSchema": false
+    }
+  ],
+  "violations": [
+    {
+      "type": "heading",
+      "property": "text",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "heading",
+      "property": "tag",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=false"
+    },
+    {
+      "type": "text",
+      "property": "text",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "image",
+      "property": "src",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "image",
+      "property": "alt",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "video",
+      "property": "src",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "video",
+      "property": "alt",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "video",
+      "property": "controls",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "video",
+      "property": "autoplay",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "video",
+      "property": "muted",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "video",
+      "property": "loop",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "button",
+      "property": "text",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "button",
+      "property": "url",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "icon",
+      "property": "src",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "icon",
+      "property": "alt",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "list",
+      "property": "html",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "table",
+      "property": "html",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "table",
+      "property": "tableCellPadding",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "table",
+      "property": "tableBorderWidth",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "table",
+      "property": "tableBorderColor",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "table",
+      "property": "headerColor",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "table",
+      "property": "headerTextColor",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "table",
+      "property": "stripedRows",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "table",
+      "property": "hoverHighlight",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "accordion",
+      "property": "itemCount",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "tabs",
+      "property": "tabCount",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "slideshow",
+      "property": "slideCount",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "slideshow",
+      "property": "showArrows",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "slideshow",
+      "property": "showDots",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "form",
+      "property": "formAction",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "form",
+      "property": "showName",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "form",
+      "property": "showEmail",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "form",
+      "property": "showPhone",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "form",
+      "property": "showMessage",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "form",
+      "property": "submitText",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "form",
+      "property": "namePlaceholder",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "form",
+      "property": "emailPlaceholder",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "form",
+      "property": "phonePlaceholder",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "form",
+      "property": "messagePlaceholder",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "popup",
+      "property": "triggerText",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "popup",
+      "property": "popupTitle",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "popup",
+      "property": "popupContent",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "popup",
+      "property": "showEmailField",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "popup",
+      "property": "emailPlaceholder",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "popup",
+      "property": "submitText",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "marquee",
+      "property": "text",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "marquee",
+      "property": "speed",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "marquee",
+      "property": "pauseOnHover",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=true"
+    },
+    {
+      "type": "marquee",
+      "property": "direction",
+      "kind": "content",
+      "issue": "Partial Route 2: hasDefault=true, hasToggle=false, canBeSchema=false"
+    }
+  ]
+}

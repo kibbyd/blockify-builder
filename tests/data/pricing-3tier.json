@@ -1,0 +1,636 @@
+{
+  "id": "pricing-3tier",
+  "name": "3-Tier Pricing",
+  "category": "section",
+  "subcategory": "pricing",
+  "description": "Three-tier pricing table with featured middle plan",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "30px",
+          "paddingBottom": "30px"
+        },
+        "sm": {
+          "paddingTop": "42px",
+          "paddingBottom": "42px"
+        }
+      },
+      "children": [
+        {
+          "type": "heading",
+          "propOverrides": {
+            "text": "Simple, Transparent Pricing",
+            "level": "h2",
+            "tag": "h2"
+          },
+          "responsiveStyles": {
+            "xs": {
+              "fontSize": "22px"
+            },
+            "sm": {
+              "fontSize": "27px"
+            }
+          },
+          "styleOverrides": {
+            "fontWeight": "700",
+            "lineHeight": "1.2",
+            "display": "block",
+            "fontSize": "36px",
+            "color": "#1a1a1a",
+            "textAlign": "center",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "paddingTop": "0",
+            "paddingRight": "0",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "marginRight": "0",
+            "marginLeft": "0"
+          }
+        },
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "Choose the plan that fits your needs. Upgrade anytime."
+          },
+          "styleOverrides": {
+            "lineHeight": "1.6",
+            "display": "block",
+            "fontSize": "16px",
+            "color": "#6a737d",
+            "textAlign": "center",
+            "marginTop": "0",
+            "marginBottom": "10px",
+            "paddingTop": "0",
+            "paddingRight": "0",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "marginRight": "0",
+            "marginLeft": "0"
+          }
+        },
+        {
+          "type": "columns-3",
+          "propOverrides": {
+            "columns": 3
+          },
+          "responsiveStyles": {
+            "xs": {
+              "flexDirection": "column"
+            }
+          },
+          "columnStyles": {
+            "0": { "alignItems": "stretch" },
+            "1": { "alignItems": "stretch" },
+            "2": { "alignItems": "stretch" }
+          },
+          "columns": [
+            [
+              {
+                "type": "container",
+                "responsiveStyles": {
+                  "xs": {
+                    "paddingLeft": "16px",
+                    "paddingRight": "16px"
+                  }
+                },
+                "children": [
+                  {
+                    "type": "heading",
+                    "propOverrides": {
+                      "text": "Starter",
+                      "level": "h3",
+                      "tag": "h3"
+                    },
+                    "styleOverrides": {
+                      "fontWeight": "600",
+                      "lineHeight": "1.2",
+                      "display": "block",
+                      "fontSize": "20px",
+                      "color": "#1a1a1a",
+                      "marginTop": "0",
+                      "marginBottom": "0",
+                      "textAlign": "center",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "heading",
+                    "propOverrides": {
+                      "text": "$9/mo",
+                      "level": "h2",
+                      "tag": "h2"
+                    },
+                    "responsiveStyles": {
+                      "xs": {
+                        "fontSize": "22px"
+                      },
+                      "sm": {
+                        "fontSize": "27px"
+                      }
+                    },
+                    "styleOverrides": {
+                      "fontWeight": "700",
+                      "lineHeight": "1.2",
+                      "display": "block",
+                      "fontSize": "36px",
+                      "color": "#1a1a1a",
+                      "marginTop": "16px",
+                      "marginBottom": "16px",
+                      "textAlign": "center",
+                      "paddingTop": "16px",
+                      "paddingRight": "0",
+                      "paddingBottom": "16px",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "Perfect for individuals getting started"
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "1.6",
+                      "display": "block",
+                      "fontSize": "14px",
+                      "color": "#6a737d",
+                      "marginTop": "0",
+                      "marginBottom": "20px",
+                      "textAlign": "center",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "20px",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "divider",
+                    "styleOverrides": {
+                      "borderColor": "#667eea",
+                      "borderWidth": "1px"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "5 Projects\n10GB Storage\nEmail Support"
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "2",
+                      "display": "block",
+                      "fontSize": "14px",
+                      "color": "#586069",
+                      "marginTop": "20px",
+                      "marginBottom": "20px",
+                      "textAlign": "center",
+                      "paddingTop": "20px",
+                      "paddingRight": "0",
+                      "paddingBottom": "20px",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "propOverrides": {
+                      "text": "Choose Starter",
+                      "href": "",
+                      "url": ""
+                    },
+                    "styleOverrides": {
+                      "color": "#667eea",
+                      "borderRadius": "6px",
+                      "cursor": "pointer",
+                      "display": "block",
+                      "fontSize": "14px",
+                      "fontWeight": "600",
+                      "width": "100%",
+                      "paddingTop": "12px",
+                      "paddingRight": "24px",
+                      "paddingBottom": "12px",
+                      "paddingLeft": "24px",
+                      "marginTop": "auto",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "borderWidth": "2px",
+                      "borderStyle": "solid",
+                      "borderColor": "#667eea"
+                    }
+                  }
+                ],
+                "styleOverrides": {
+                  "borderRadius": "8px",
+                  "backgroundColor": "#ffffff",
+                  "height": "100%",
+                  "width": "100%",
+                  "maxWidth": "100%",
+                  "boxSizing": "border-box",
+                  "overflow": "hidden",
+                  "flex": "1",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "textAlign": "center",
+                  "paddingTop": "32px",
+                  "paddingBottom": "32px",
+                  "paddingLeft": "32px",
+                  "paddingRight": "32px",
+                  "marginTop": "0",
+                  "marginBottom": "0",
+                  "marginRight": "0",
+                  "marginLeft": "0",
+                  "alignItems": "center",
+                  "borderWidth": "1px",
+                  "borderStyle": "solid",
+                  "borderColor": "#e1e4e8"
+                }
+              }
+            ],
+            [
+              {
+                "type": "container",
+                "responsiveStyles": {
+                  "xs": {
+                    "paddingLeft": "16px",
+                    "paddingRight": "16px"
+                  }
+                },
+                "children": [
+                  {
+                    "type": "heading",
+                    "propOverrides": {
+                      "text": "Professional",
+                      "level": "h3",
+                      "tag": "h3"
+                    },
+                    "styleOverrides": {
+                      "fontWeight": "600",
+                      "lineHeight": "1.2",
+                      "display": "block",
+                      "fontSize": "20px",
+                      "color": "#667eea",
+                      "marginTop": "0",
+                      "marginBottom": "0",
+                      "textAlign": "center",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "heading",
+                    "propOverrides": {
+                      "text": "$29/mo",
+                      "level": "h2",
+                      "tag": "h2"
+                    },
+                    "responsiveStyles": {
+                      "xs": {
+                        "fontSize": "22px"
+                      },
+                      "sm": {
+                        "fontSize": "27px"
+                      }
+                    },
+                    "styleOverrides": {
+                      "fontWeight": "700",
+                      "lineHeight": "1.2",
+                      "display": "block",
+                      "fontSize": "36px",
+                      "color": "#1a1a1a",
+                      "marginTop": "16px",
+                      "marginBottom": "16px",
+                      "textAlign": "center",
+                      "paddingTop": "16px",
+                      "paddingRight": "0",
+                      "paddingBottom": "16px",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "Best for growing teams and businesses"
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "1.6",
+                      "display": "block",
+                      "fontSize": "14px",
+                      "color": "#6a737d",
+                      "marginTop": "0",
+                      "marginBottom": "20px",
+                      "textAlign": "center",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "20px",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "divider",
+                    "styleOverrides": {
+                      "borderColor": "#667eea",
+                      "borderWidth": "1px"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "Unlimited Projects\n100GB Storage\nPriority Support\nAdvanced Analytics"
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "2",
+                      "display": "block",
+                      "fontSize": "14px",
+                      "color": "#586069",
+                      "marginTop": "20px",
+                      "marginBottom": "20px",
+                      "textAlign": "center",
+                      "paddingTop": "20px",
+                      "paddingRight": "0",
+                      "paddingBottom": "20px",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "propOverrides": {
+                      "text": "Choose Professional",
+                      "href": "",
+                      "url": ""
+                    },
+                    "styleOverrides": {
+                      "backgroundColor": "#667eea",
+                      "color": "#ffffff",
+                      "borderRadius": "6px",
+                      "cursor": "pointer",
+                      "display": "block",
+                      "fontSize": "14px",
+                      "fontWeight": "600",
+                      "width": "100%",
+                      "paddingTop": "12px",
+                      "paddingRight": "24px",
+                      "paddingBottom": "12px",
+                      "paddingLeft": "24px",
+                      "marginTop": "auto",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "borderWidth": "0px",
+                      "borderStyle": "none"
+                    }
+                  }
+                ],
+                "styleOverrides": {
+                  "borderRadius": "8px",
+                  "backgroundColor": "#f6f8fa",
+                  "height": "100%",
+                  "width": "100%",
+                  "maxWidth": "100%",
+                  "boxSizing": "border-box",
+                  "overflow": "hidden",
+                  "flex": "1",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "textAlign": "center",
+                  "paddingTop": "32px",
+                  "paddingBottom": "32px",
+                  "paddingLeft": "32px",
+                  "paddingRight": "32px",
+                  "marginTop": "0",
+                  "marginBottom": "0",
+                  "marginRight": "0",
+                  "marginLeft": "0",
+                  "alignItems": "center",
+                  "borderWidth": "2px",
+                  "borderStyle": "solid",
+                  "borderColor": "#667eea"
+                }
+              }
+            ],
+            [
+              {
+                "type": "container",
+                "responsiveStyles": {
+                  "xs": {
+                    "paddingLeft": "16px",
+                    "paddingRight": "16px"
+                  }
+                },
+                "children": [
+                  {
+                    "type": "heading",
+                    "propOverrides": {
+                      "text": "Enterprise",
+                      "level": "h3",
+                      "tag": "h3"
+                    },
+                    "styleOverrides": {
+                      "fontWeight": "600",
+                      "lineHeight": "1.2",
+                      "display": "block",
+                      "fontSize": "20px",
+                      "color": "#1a1a1a",
+                      "marginTop": "0",
+                      "marginBottom": "0",
+                      "textAlign": "center",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "0",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "heading",
+                    "propOverrides": {
+                      "text": "$99/mo",
+                      "level": "h2",
+                      "tag": "h2"
+                    },
+                    "responsiveStyles": {
+                      "xs": {
+                        "fontSize": "22px"
+                      },
+                      "sm": {
+                        "fontSize": "27px"
+                      }
+                    },
+                    "styleOverrides": {
+                      "fontWeight": "700",
+                      "lineHeight": "1.2",
+                      "display": "block",
+                      "fontSize": "36px",
+                      "color": "#1a1a1a",
+                      "marginTop": "16px",
+                      "marginBottom": "16px",
+                      "textAlign": "center",
+                      "paddingTop": "16px",
+                      "paddingRight": "0",
+                      "paddingBottom": "16px",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "For large organizations with custom needs"
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "1.6",
+                      "display": "block",
+                      "fontSize": "14px",
+                      "color": "#6a737d",
+                      "marginTop": "0",
+                      "marginBottom": "20px",
+                      "textAlign": "center",
+                      "paddingTop": "0",
+                      "paddingRight": "0",
+                      "paddingBottom": "20px",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "divider",
+                    "styleOverrides": {
+                      "borderColor": "#667eea",
+                      "borderWidth": "1px"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "Everything in Pro\nDedicated Support\nCustom Integrations\nSLA Guarantee"
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "2",
+                      "display": "block",
+                      "fontSize": "14px",
+                      "color": "#586069",
+                      "marginTop": "20px",
+                      "marginBottom": "20px",
+                      "textAlign": "center",
+                      "paddingTop": "20px",
+                      "paddingRight": "0",
+                      "paddingBottom": "20px",
+                      "paddingLeft": "0",
+                      "marginRight": "0",
+                      "marginLeft": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "propOverrides": {
+                      "text": "Contact Sales",
+                      "href": "",
+                      "url": ""
+                    },
+                    "styleOverrides": {
+                      "color": "#667eea",
+                      "borderRadius": "6px",
+                      "cursor": "pointer",
+                      "display": "block",
+                      "fontSize": "14px",
+                      "fontWeight": "600",
+                      "width": "100%",
+                      "paddingTop": "12px",
+                      "paddingRight": "24px",
+                      "paddingBottom": "12px",
+                      "paddingLeft": "24px",
+                      "marginTop": "auto",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "borderWidth": "2px",
+                      "borderStyle": "solid",
+                      "borderColor": "#667eea"
+                    }
+                  }
+                ],
+                "styleOverrides": {
+                  "borderRadius": "8px",
+                  "backgroundColor": "#ffffff",
+                  "height": "100%",
+                  "width": "100%",
+                  "maxWidth": "100%",
+                  "boxSizing": "border-box",
+                  "overflow": "hidden",
+                  "flex": "1",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "textAlign": "center",
+                  "paddingTop": "32px",
+                  "paddingBottom": "32px",
+                  "paddingLeft": "32px",
+                  "paddingRight": "32px",
+                  "marginTop": "0",
+                  "marginBottom": "0",
+                  "marginRight": "0",
+                  "marginLeft": "0",
+                  "alignItems": "center",
+                  "borderWidth": "1px",
+                  "borderStyle": "solid",
+                  "borderColor": "#e1e4e8"
+                }
+              }
+            ]
+          ],
+          "styleOverrides": {
+            "flexDirection": "row",
+            "gap": "24px",
+            "alignItems": "stretch",
+            "justifyContent": "flex-start"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "maxWidth": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "paddingTop": "60px",
+        "paddingBottom": "60px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "marginTop": "0",
+        "marginBottom": "0",
+        "marginRight": "0",
+        "marginLeft": "0",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

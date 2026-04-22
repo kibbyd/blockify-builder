@@ -1,0 +1,105 @@
+{
+  "id": "cta-minimal",
+  "name": "Minimal CTA",
+  "category": "section",
+  "subcategory": "cta",
+  "description": "Clean, minimal call-to-action strip",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "sm": {
+          "flexDirection": "column",
+          "textAlign": "center",
+          "paddingTop": "28px",
+          "paddingBottom": "28px"
+        },
+        "xs": {
+          "paddingTop": "20px",
+          "paddingBottom": "20px"
+        }
+      },
+      "children": [
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "Ready to start building?"
+          },
+          "responsiveStyles": {
+            "xs": {
+              "fontSize": "14px"
+            }
+          },
+          "styleOverrides": {
+            "lineHeight": "1",
+            "display": "block",
+            "fontSize": "18px",
+            "color": "#586069",
+            "fontWeight": "500",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "textAlign": "center",
+            "paddingTop": "0",
+            "paddingRight": "0",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "marginRight": "0",
+            "marginLeft": "0"
+          }
+        },
+        {
+          "type": "button",
+          "propOverrides": {
+            "text": "Get Started",
+            "href": "",
+            "url": ""
+          },
+          "styleOverrides": {
+            "backgroundColor": "#22c55e",
+            "color": "#ffffff",
+            "borderRadius": "4px",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "paddingTop": "12px",
+            "paddingRight": "32px",
+            "paddingBottom": "12px",
+            "paddingLeft": "32px",
+            "marginTop": "0",
+            "marginRight": "0",
+            "marginBottom": "0",
+            "marginLeft": "0",
+            "borderWidth": "0px",
+            "borderStyle": "none"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "gap": "24px",
+        "backgroundColor": "#fafbfc",
+        "borderTop": "1px solid #eee",
+        "borderBottom": "1px solid #eee",
+        "paddingTop": "40px",
+        "paddingBottom": "40px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "marginTop": "0",
+        "marginBottom": "0",
+        "marginRight": "0",
+        "marginLeft": "0",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

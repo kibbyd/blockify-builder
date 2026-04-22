@@ -1,0 +1,146 @@
+{
+  "id": "hero-centered",
+  "name": "Centered Hero",
+  "category": "section",
+  "subcategory": "hero",
+  "description": "Centered hero with heading, subtext, and CTA button",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "40px",
+          "paddingBottom": "40px"
+        },
+        "sm": {
+          "paddingTop": "56px",
+          "paddingBottom": "56px"
+        }
+      },
+      "children": [
+        {
+          "type": "heading",
+          "propOverrides": {
+            "text": "Your Bold Headline Here",
+            "level": "h1",
+            "tag": "h1"
+          },
+          "responsiveStyles": {
+            "sm": {
+              "fontSize": "36px"
+            },
+            "xs": {
+              "fontSize": "28px"
+            }
+          },
+          "styleOverrides": {
+            "fontWeight": "700",
+            "fontFamily": "inherit",
+            "lineHeight": "1.2",
+            "display": "block",
+            "fontSize": "48px",
+            "color": "#ffffff",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "textAlign": "center",
+            "paddingTop": "0",
+            "paddingRight": "0",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "marginRight": "0",
+            "marginLeft": "0"
+          }
+        },
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "A compelling subtitle that supports your main message and drives action."
+          },
+          "responsiveStyles": {
+            "sm": {
+              "fontSize": "16px"
+            },
+            "xs": {
+              "fontSize": "14px"
+            }
+          },
+          "styleOverrides": {
+            "lineHeight": "1.6",
+            "display": "block",
+            "fontSize": "18px",
+            "color": "#e1e4e8",
+            "fontFamily": "inherit",
+            "fontWeight": "400",
+            "maxWidth": "600px",
+            "marginTop": "10px",
+            "marginBottom": "0",
+            "textAlign": "center",
+            "paddingTop": "10px",
+            "paddingRight": "0",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "marginRight": "0",
+            "marginLeft": "0"
+          }
+        },
+        {
+          "type": "button",
+          "propOverrides": {
+            "text": "Get Started",
+            "href": "",
+            "url": ""
+          },
+          "styleOverrides": {
+            "backgroundColor": "#667eea",
+            "color": "#ffffff",
+            "borderRadius": "6px",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "fontSize": "16px",
+            "fontFamily": "inherit",
+            "fontWeight": "600",
+            "marginTop": "20px",
+            "paddingTop": "16px",
+            "paddingRight": "40px",
+            "paddingBottom": "16px",
+            "paddingLeft": "40px",
+            "marginRight": "0",
+            "marginBottom": "0",
+            "marginLeft": "0",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "borderColor": "#667eea",
+            "hoverColor": "#ffffff",
+            "hoverBackgroundColor": "#667eea",
+            "hoverBorderColor": "#667eea",
+            "hoverAnimation": "none"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "maxWidth": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "textAlign": "center",
+        "backgroundColor": "#1a1a1a",
+        "paddingTop": "80px",
+        "paddingBottom": "80px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "marginTop": "0",
+        "marginBottom": "0",
+        "marginRight": "0",
+        "marginLeft": "0",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

@@ -1,0 +1,927 @@
+{
+  "container": {
+    "styleProps": [
+      "backgroundColor",
+      "gradientType",
+      "gradientAngle",
+      "gradientColor1",
+      "gradientColor2",
+      "gradientColor3",
+      "gradientColor4",
+      "gradientColor5",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "marginLeft",
+      "marginRight",
+      "gap",
+      "width",
+      "maxWidth",
+      "minHeight",
+      "height",
+      "display",
+      "flexDirection",
+      "justifyContent",
+      "alignItems",
+      "flexWrap",
+      "overflow"
+    ],
+    "contentProps": []
+  },
+  "columns-1": {
+    "styleProps": [
+      "flexDirection",
+      "justifyContent",
+      "alignItems",
+      "overflow",
+      "width",
+      "height",
+      "minHeight",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor",
+      "backgroundColor"
+    ],
+    "contentProps": []
+  },
+  "columns-2": {
+    "styleProps": [
+      "flexDirection",
+      "justifyContent",
+      "alignItems",
+      "overflow",
+      "width",
+      "height",
+      "minHeight",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor",
+      "backgroundColor"
+    ],
+    "contentProps": []
+  },
+  "columns-3": {
+    "styleProps": [
+      "flexDirection",
+      "justifyContent",
+      "alignItems",
+      "overflow",
+      "width",
+      "height",
+      "minHeight",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor",
+      "backgroundColor"
+    ],
+    "contentProps": []
+  },
+  "columns-4": {
+    "styleProps": [
+      "flexDirection",
+      "justifyContent",
+      "alignItems",
+      "overflow",
+      "width",
+      "height",
+      "minHeight",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor",
+      "backgroundColor"
+    ],
+    "contentProps": []
+  },
+  "columns-5": {
+    "styleProps": [
+      "flexDirection",
+      "justifyContent",
+      "alignItems",
+      "overflow",
+      "width",
+      "height",
+      "minHeight",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor",
+      "backgroundColor"
+    ],
+    "contentProps": []
+  },
+  "columns-6": {
+    "styleProps": [
+      "flexDirection",
+      "justifyContent",
+      "alignItems",
+      "overflow",
+      "width",
+      "height",
+      "minHeight",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor",
+      "backgroundColor"
+    ],
+    "contentProps": []
+  },
+  "column": {
+    "styleProps": [
+      "flexDirection",
+      "justifyContent",
+      "alignItems",
+      "alignSelf",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "backgroundColor"
+    ],
+    "contentProps": []
+  },
+  "heading": {
+    "styleProps": [
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textAlign",
+      "textTransform",
+      "textDecoration",
+      "color",
+      "marginTop",
+      "marginBottom",
+      "marginLeft",
+      "marginRight",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "textShadowOffsetX",
+      "textShadowOffsetY",
+      "textShadowBlur",
+      "textShadowColor"
+    ],
+    "contentProps": [
+      "text",
+      "tag"
+    ]
+  },
+  "text": {
+    "styleProps": [
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "textAlign",
+      "letterSpacing",
+      "textTransform",
+      "textDecoration",
+      "color",
+      "marginTop",
+      "marginBottom",
+      "marginLeft",
+      "marginRight",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "hoverColor",
+      "hoverBackgroundColor",
+      "hoverTextDecoration",
+      "hoverBorderWidth",
+      "hoverBorderStyle",
+      "hoverBorderColor",
+      "hoverOpacity",
+      "textShadowOffsetX",
+      "textShadowOffsetY",
+      "textShadowBlur",
+      "textShadowColor"
+    ],
+    "contentProps": [
+      "text"
+    ]
+  },
+  "image": {
+    "styleProps": [
+      "width",
+      "height",
+      "maxWidth",
+      "objectFit",
+      "opacity",
+      "borderRadius",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor",
+      "marginTop",
+      "marginBottom",
+      "marginLeft",
+      "marginRight",
+      "alignSelf",
+      "hoverAnimation",
+      "hoverOpacity",
+      "hoverBoxShadowOffsetX",
+      "hoverBoxShadowOffsetY",
+      "hoverBoxShadowBlur",
+      "hoverBoxShadowSpread",
+      "hoverBoxShadowColor",
+      "display"
+    ],
+    "contentProps": [
+      "src"
+    ]
+  },
+  "video": {
+    "styleProps": [
+      "width",
+      "borderRadius",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor",
+      "marginTop",
+      "marginBottom",
+      "marginLeft",
+      "marginRight",
+      "display"
+    ],
+    "contentProps": [
+      "src",
+      "controls",
+      "autoplay",
+      "muted",
+      "loop"
+    ]
+  },
+  "button": {
+    "styleProps": [
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "textAlign",
+      "color",
+      "backgroundColor",
+      "width",
+      "minWidth",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "marginLeft",
+      "marginRight",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor",
+      "hoverColor",
+      "hoverBackgroundColor",
+      "hoverBorderColor",
+      "hoverAnimation"
+    ],
+    "contentProps": [
+      "text",
+      "url",
+      "openInNewTab"
+    ]
+  },
+  "icon": {
+    "styleProps": [
+      "iconSize",
+      "iconColor",
+      "marginTop",
+      "marginBottom"
+    ],
+    "contentProps": [
+      "src"
+    ]
+  },
+  "spacer": {
+    "styleProps": [
+      "height"
+    ],
+    "contentProps": []
+  },
+  "image-background": {
+    "styleProps": [
+      "height",
+      "backgroundSize",
+      "backgroundPosition",
+      "backgroundAttachment",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight"
+    ],
+    "contentProps": [
+      "src"
+    ]
+  },
+  "list": {
+    "styleProps": [
+      "fontSize",
+      "color",
+      "lineHeight",
+      "marginTop",
+      "marginBottom"
+    ],
+    "contentProps": [
+      "html"
+    ]
+  },
+  "unordered-list": {
+    "styleProps": [
+      "fontSize",
+      "color",
+      "lineHeight",
+      "marginTop",
+      "marginBottom"
+    ],
+    "contentProps": [
+      "html"
+    ]
+  },
+  "table": {
+    "styleProps": [
+      "width",
+      "fontSize",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "backgroundColor"
+    ],
+    "contentProps": [
+      "html",
+      "tableCellPadding",
+      "tableBorderWidth",
+      "tableBorderColor",
+      "headerColor",
+      "headerTextColor",
+      "stripedRows",
+      "hoverHighlight"
+    ]
+  },
+  "map": {
+    "styleProps": [
+      "width",
+      "height",
+      "borderWidth",
+      "borderStyle",
+      "borderColor"
+    ],
+    "contentProps": [
+      "address"
+    ]
+  },
+  "price": {
+    "styleProps": [
+      "fontSize",
+      "fontWeight",
+      "textAlign",
+      "color",
+      "comparePriceColor",
+      "marginTop",
+      "marginBottom",
+      "paddingTop",
+      "paddingBottom"
+    ],
+    "contentProps": [
+      "showComparePrice"
+    ]
+  },
+  "add-to-cart": {
+    "styleProps": [
+      "fontSize",
+      "fontWeight",
+      "color",
+      "backgroundColor",
+      "width",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "marginLeft",
+      "marginRight",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius",
+      "hoverColor",
+      "hoverBackgroundColor",
+      "hoverBorderColor",
+      "hoverBorderStyle",
+      "hoverBorderWidth"
+    ],
+    "contentProps": [
+      "buttonText",
+      "showQuantity"
+    ]
+  },
+  "product-card": {
+    "styleProps": [
+      "backgroundColor",
+      "color",
+      "titleTextAlign",
+      "priceTextAlign",
+      "buttonColor",
+      "buttonBackgroundColor",
+      "width",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor",
+      "buttonHoverColor",
+      "buttonHoverBackgroundColor",
+      "buttonHoverBorderColor",
+      "buttonHoverAnimation"
+    ],
+    "contentProps": [
+      "showImage",
+      "showTitle",
+      "showPrice",
+      "showButton",
+      "buttonText"
+    ]
+  },
+  "product-grid": {
+    "styleProps": [
+      "gap",
+      "backgroundColor",
+      "color",
+      "buttonColor",
+      "buttonBackgroundColor",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius"
+    ],
+    "contentProps": [
+      "columns",
+      "rows",
+      "showPrice",
+      "showButton",
+      "buttonText"
+    ]
+  },
+  "collection-list": {
+    "styleProps": [
+      "gap",
+      "backgroundColor",
+      "color",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "marginTop",
+      "marginBottom",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius"
+    ],
+    "contentProps": [
+      "columns",
+      "showImage",
+      "showTitle",
+      "showCount"
+    ]
+  },
+  "variant-selector": {
+    "styleProps": [
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "color",
+      "backgroundColor",
+      "activeColor",
+      "activeBorderColor",
+      "width",
+      "gap",
+      "paddingTop",
+      "paddingBottom",
+      "marginTop",
+      "marginBottom",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius"
+    ],
+    "contentProps": [
+      "selectorStyle",
+      "showLabel",
+      "showPrice"
+    ]
+  },
+  "divider": {
+    "styleProps": [
+      "borderStyle",
+      "borderColor",
+      "borderWidth",
+      "width",
+      "marginTop",
+      "marginBottom",
+      "alignSelf"
+    ],
+    "contentProps": []
+  },
+  "accordion": {
+    "styleProps": [
+      "titleFontFamily",
+      "titleFontSize",
+      "titleFontWeight",
+      "contentFontSize",
+      "titleColor",
+      "titleBackgroundColor",
+      "contentBackgroundColor",
+      "borderColor",
+      "borderRadius",
+      "gap"
+    ],
+    "contentProps": [
+      "itemCount"
+    ]
+  },
+  "tabs": {
+    "styleProps": [
+      "tabFontFamily",
+      "tabFontSize",
+      "tabFontWeight",
+      "contentFontSize",
+      "tabBackgroundColor",
+      "tabActiveBackgroundColor",
+      "tabColor",
+      "tabActiveColor",
+      "contentBackgroundColor",
+      "borderColor"
+    ],
+    "contentProps": [
+      "tabCount"
+    ]
+  },
+  "countdown": {
+    "styleProps": [
+      "digitFontFamily",
+      "digitColor",
+      "labelColor",
+      "digitFontSize",
+      "labelFontSize",
+      "separatorStyle",
+      "backgroundColor"
+    ],
+    "contentProps": [
+      "targetDate",
+      "expiredMessage",
+      "showDays",
+      "showHours",
+      "showMinutes",
+      "showSeconds"
+    ]
+  },
+  "slideshow": {
+    "styleProps": [
+      "headingFontFamily",
+      "headingFontSize",
+      "headingFontWeight",
+      "textFontSize",
+      "height",
+      "slideBackgroundColor",
+      "arrowColor",
+      "dotColor",
+      "dotActiveColor"
+    ],
+    "contentProps": [
+      "slideCount",
+      "autoplay",
+      "autoplayInterval",
+      "showArrows",
+      "showDots"
+    ]
+  },
+  "form": {
+    "styleProps": [
+      "fontFamily",
+      "fontSize",
+      "color",
+      "backgroundColor",
+      "buttonColor",
+      "buttonBackgroundColor",
+      "width",
+      "gap",
+      "paddingTop",
+      "paddingBottom",
+      "marginTop",
+      "marginBottom",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius"
+    ],
+    "contentProps": [
+      "formAction",
+      "showName",
+      "showEmail",
+      "showPhone",
+      "showMessage",
+      "submitText",
+      "namePlaceholder",
+      "emailPlaceholder",
+      "phonePlaceholder",
+      "messagePlaceholder"
+    ]
+  },
+  "popup": {
+    "styleProps": [
+      "fontFamily",
+      "fontSize",
+      "titleFontSize",
+      "color",
+      "backgroundColor",
+      "overlayColor",
+      "buttonColor",
+      "buttonBackgroundColor",
+      "triggerButtonColor",
+      "triggerButtonBg",
+      "width",
+      "paddingTop",
+      "paddingBottom",
+      "paddingLeft",
+      "paddingRight",
+      "borderRadius",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor"
+    ],
+    "contentProps": [
+      "triggerText",
+      "popupTitle",
+      "popupContent",
+      "showEmailField",
+      "emailPlaceholder",
+      "submitText"
+    ]
+  },
+  "image-gallery": {
+    "styleProps": [
+      "columns",
+      "gap",
+      "borderRadius",
+      "aspectRatio",
+      "objectFit",
+      "marginTop",
+      "marginBottom"
+    ],
+    "contentProps": [
+      "imageCount",
+      "image_1",
+      "image_2",
+      "image_3",
+      "image_4",
+      "image_5",
+      "image_6",
+      "image_7",
+      "image_8",
+      "image_9",
+      "image_10",
+      "image_11",
+      "image_12",
+      "enableLightbox"
+    ]
+  },
+  "flip-card": {
+    "styleProps": [
+      "width",
+      "height",
+      "fontFamily",
+      "titleFontSize",
+      "fontSize",
+      "frontBackgroundColor",
+      "frontColor",
+      "backBackgroundColor",
+      "backColor",
+      "buttonBackgroundColor",
+      "buttonColor",
+      "borderRadius",
+      "boxShadowOffsetX",
+      "boxShadowOffsetY",
+      "boxShadowBlur",
+      "boxShadowSpread",
+      "boxShadowColor",
+      "marginTop",
+      "marginBottom",
+      "marginLeft",
+      "marginRight"
+    ],
+    "contentProps": [
+      "frontTitle",
+      "frontContent",
+      "frontImage",
+      "backTitle",
+      "backContent",
+      "backButtonText",
+      "backButtonUrl",
+      "flipDirection"
+    ]
+  },
+  "before-after": {
+    "styleProps": [
+      "width",
+      "height",
+      "borderRadius",
+      "sliderColor",
+      "labelColor",
+      "labelBackgroundColor",
+      "marginTop",
+      "marginBottom"
+    ],
+    "contentProps": [
+      "beforeImage",
+      "afterImage",
+      "beforeLabel",
+      "afterLabel",
+      "startPosition"
+    ]
+  },
+  "marquee": {
+    "styleProps": [
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "color",
+      "backgroundColor",
+      "paddingTop",
+      "paddingBottom",
+      "marginTop",
+      "marginBottom"
+    ],
+    "contentProps": [
+      "text",
+      "speed",
+      "pauseOnHover",
+      "direction"
+    ]
+  },
+  "blog-post": {
+    "styleProps": [
+      "columns",
+      "gap",
+      "fontFamily",
+      "titleFontSize",
+      "fontSize",
+      "color",
+      "backgroundColor",
+      "linkColor",
+      "borderWidth",
+      "borderStyle",
+      "borderColor",
+      "borderRadius",
+      "marginTop",
+      "marginBottom",
+      "marginLeft",
+      "marginRight"
+    ],
+    "contentProps": [
+      "postCount",
+      "showImage",
+      "showExcerpt",
+      "showDate",
+      "showAuthor",
+      "showReadMore",
+      "readMoreText"
+    ]
+  },
+  "stock-counter": {
+    "styleProps": [
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "inStockColor",
+      "lowStockColor",
+      "outOfStockColor",
+      "barColor",
+      "trackColor",
+      "barHeight",
+      "marginTop",
+      "marginBottom"
+    ],
+    "contentProps": [
+      "lowStockThreshold",
+      "showBar",
+      "showIcon",
+      "inStockText",
+      "lowStockText",
+      "outOfStockText",
+      "previewCount"
+    ]
+  }
+}

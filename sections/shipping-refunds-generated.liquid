@@ -1,0 +1,847 @@
+{% comment %}
+  Generated Shopify Section
+  Created with Blockify Builder
+{% endcomment %}
+
+<section class="shipping-refunds-section page-width" id="shipping-refunds-{{ section.id }}" data-section-id="{{ section.id }}">
+  <div class="shipping-refunds-container">
+    <div class="block-container" data-element-id="2e12d4ae-30d9-4c74-aa54-9b9c654b8940">
+      <div class="columns columns-1" data-element-id="41d73237-925b-4287-9403-52594efcd968">
+        <div class="column column-1">
+          <h2 class="block-heading" data-element-id="e57dd7d8-64a4-4775-85da-b34054f3effe">
+            {{ section.settings.s_mgb9cabn_00_text | default: "Shipping and Refunds Policy" }}
+          </h2>
+        </div>
+      </div>
+      <div class="columns columns-2" data-element-id="a7f985a5-511d-4844-9410-58f939958c41">
+        <div class="column column-1">
+          <h3 class="block-heading" data-element-id="5b990ed7-cb5e-4594-b502-c69cd8f0837c">
+            {{ section.settings.s_mgb9cabn_01_text | default: "Shipping Policy" }}
+          </h3>
+          <p class="block-text" data-element-id="a0f6af2d-1520-4dec-9189-00955560f495">
+            {{ section.settings.s_mgb9cabn_02_text | default: "All orders are processed within 3 to 5 business days (excluding weekends and holidays) after receiving your order confirmation email. You will receive another notification when your order has shipped. " }}
+          </p>
+          <ul class="block-list" data-element-id="2f84234e-651c-4f03-bc72-21279d178db7">
+            <li>{{ section.settings.s_mgb9cabn_03_list_item_0 | default: "For calculated shipping rates: Shipping charges for your order will be calculated and displayed at checkout. " }}</li>
+            <li>{{ section.settings.s_mgb9cabn_04_list_item_1 | default: "For simple flat rate shipping: We offer $10 flat rate shipping to USA or UK." }}</li>
+          </ul>
+          <div class="block-table-wrapper" data-element-id="8e6425bf-3017-400d-98e6-9d5f0f4ca654">
+            <table class="block-table">
+              <thead>
+                <tr>
+                  <th>{{ section.settings.s_mgb9cabn_05_header_0_0 | default: "Shipping Options" }}</th>
+                  <th>{{ section.settings.s_mgb9cabn_06_header_0_1 | default: "Price" }}</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{{ section.settings.s_mgb9cabn_07_cell_1_0 | default: "2-10 Day Shipping (Order under $99)" }}</td>
+                  <td>{{ section.settings.s_mgb9cabn_08_cell_1_1 | default: "$9.99" }}</td>
+                </tr>
+                <tr>
+                  <td>{{ section.settings.s_mgb9cabn_09_cell_2_0 | default: "2-10 Day Shipping (Order under $99)" }}</td>
+                  <td>{{ section.settings.s_mgb9cabn_0a_cell_2_1 | default: "Free" }}</td>
+                </tr>
+                <tr>
+                  <td>{{ section.settings.s_mgb9cabn_0b_cell_3_0 | default: "2-4 Day Shipping" }}</td>
+                  <td>{{ section.settings.s_mgb9cabn_0c_cell_3_1 | default: "Based on Total Order Weight" }}</td>
+                </tr>
+                <tr>
+                  <td>{{ section.settings.s_mgb9cabn_0d_cell_4_0 | default: "1-2 Day Shipping" }}</td>
+                  <td>{{ section.settings.s_mgb9cabn_0e_cell_4_1 | default: "Based on Total Order Weight" }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="block-text" data-element-id="77abc657-5c0e-44e0-be9c-8740ec56015b">
+            {{ section.settings.s_mgb9cabn_0f_text | default: "NOTE: We are not responsible for shipping carrier delays." }}
+          </p>
+        </div>
+        <div class="column column-2">
+          {% if section.settings.s_mgb9cabn_0g_image != blank %}
+            <img src="{{ section.settings.s_mgb9cabn_0g_image | image_url: width: 1200, height: 800 }}" alt="{{ section.settings.s_mgb9cabn_0h_alt | default: "Image" }}" width="1200" height="800" loading="lazy" class="block-image" data-element-id="cc50cba3-f40e-4e0e-ad15-1afb1e0c36ff">
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'block-image placeholder-image' }}
+          {% endif %}
+        </div>
+      </div>
+      <div class="columns columns-4" data-element-id="f4579d05-b868-43e4-983d-4acb85eb6c7b">
+        <div class="column column-1">
+          <div class="columns columns-2" data-element-id="67fa73dc-4e65-4e77-8799-fe0babe4059b">
+            <div class="column column-1">
+              {% if section.settings.s_mgb9cabn_0i_image != blank %}
+                <img src="{{ section.settings.s_mgb9cabn_0i_image | image_url: width: 1200, height: 800 }}" alt="{{ section.settings.s_mgb9cabn_0j_alt | default: "Image" }}" width="1200" height="800" loading="lazy" class="block-image" data-element-id="aa1bb670-0dbe-4805-a49c-00965f80b3bd">
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'block-image placeholder-image' }}
+              {% endif %}
+            </div>
+            <div class="column column-2">
+              <p class="block-text" data-element-id="9d6ff6fb-edee-491a-b0be-0bc4de371b66">
+                {{ section.settings.s_mgb9cabn_0k_text | default: "24/7 FriendlySupport" }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column column-2">
+          <div class="columns columns-2" data-element-id="280924bd-a581-4324-a901-49a81e67ea1c">
+            <div class="column column-1">
+              {% if section.settings.s_mgb9cabn_0l_image != blank %}
+                <img src="{{ section.settings.s_mgb9cabn_0l_image | image_url: width: 1200, height: 800 }}" alt="{{ section.settings.s_mgb9cabn_0m_alt | default: "Image" }}" width="1200" height="800" loading="lazy" class="block-image" data-element-id="1749f1c3-38f5-40d2-8410-c7d064c11447">
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'block-image placeholder-image' }}
+              {% endif %}
+            </div>
+            <div class="column column-2">
+              <p class="block-text" data-element-id="8f271e51-52b6-4665-b737-e67378d0eacb">
+                {{ section.settings.s_mgb9cabn_0n_text | default: "Free Shipping over $60" }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column column-3">
+          <div class="columns columns-2" data-element-id="eb56c0db-de51-4b54-817d-895d2e196322">
+            <div class="column column-1">
+              {% if section.settings.s_mgb9cabn_0o_image != blank %}
+                <img src="{{ section.settings.s_mgb9cabn_0o_image | image_url: width: 1200, height: 800 }}" alt="{{ section.settings.s_mgb9cabn_0p_alt | default: "Image" }}" width="1200" height="800" loading="lazy" class="block-image" data-element-id="25e0eeb1-0ea2-42ea-b73c-d99139a021cd">
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'block-image placeholder-image' }}
+              {% endif %}
+            </div>
+            <div class="column column-2">
+              <p class="block-text" data-element-id="2720799f-b274-4dbd-a3f8-875221463d13">
+                {{ section.settings.s_mgb9cabn_0q_text | default: "Secure Online Payment" }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column column-4">
+          <div class="columns columns-2" data-element-id="0bf6078f-e073-4a81-9c57-a7c7665eb5b9">
+            <div class="column column-1">
+              {% if section.settings.s_mgb9cabn_0r_image != blank %}
+                <img src="{{ section.settings.s_mgb9cabn_0r_image | image_url: width: 1200, height: 800 }}" alt="{{ section.settings.s_mgb9cabn_0s_alt | default: "Image" }}" width="1200" height="800" loading="lazy" class="block-image" data-element-id="246d92e4-15b7-4524-8782-076629a7030f">
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'block-image placeholder-image' }}
+              {% endif %}
+            </div>
+            <div class="column column-2">
+              <p class="block-text" data-element-id="4770c3c8-0609-48d4-b862-5a2d9c5883ca">
+                {{ section.settings.s_mgb9cabn_0t_text | default: "Money-back guarantee" }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns columns-1" data-element-id="146362ab-f34c-47e9-b225-b9d0ec3f931e">
+        <div class="column column-1">
+          <h2 class="block-heading" data-element-id="93edb44c-d5a0-4244-95f2-344774f23987">
+            {{ section.settings.s_mgb9cabn_0u_text | default: "Refunds Policy" }}
+          </h2>
+          <p class="block-text" data-element-id="53f4b4d2-a005-478f-ac18-96ba00e182bd">
+            {{ section.settings.s_mgb9cabn_0v_text | default: "We accept returns up to 07 days after delivery, if the item is unused and in its original condition, and we will refund the full order amount minus the shipping costs for the return. In the event that your order arrives damaged in any way, please email us as soon as possible at gemthemes@gmail.com with your order number and a photo of the item’s condition. We address these on a case-by-case basis but will try our best to work towards a satisfactory solution.We will send you an email once your return has been received and inspected to advise you that we have received your returned item. We will also notify you if your refund has been approved or rejected. If you are authorized, your refund will be processed and a credit will be made to your credit card or original mode of payment within a certain amount of days." }}
+          </p>
+          <div class="columns columns-2" data-element-id="7975dd41-914e-4c5f-b749-3f082551fb92">
+            <div class="column column-1">
+              {% if section.settings.s_mgb9cabn_0w_image != blank %}
+                <img src="{{ section.settings.s_mgb9cabn_0w_image | image_url: width: 1200, height: 800 }}" alt="{{ section.settings.s_mgb9cabn_0x_alt | default: "Image" }}" width="1200" height="800" loading="lazy" class="block-image" data-element-id="663ef18e-35d3-4eb2-920c-9c0dd493d057">
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'block-image placeholder-image' }}
+              {% endif %}
+            </div>
+            <div class="column column-2">
+              <h2 class="block-heading" data-element-id="c52e0bc1-53c3-45bd-8b6a-3f95b067d9dc">
+                {{ section.settings.s_mgb9cabn_0y_text | default: "ORDER PROCESS" }}
+              </h2>
+              <ul class="block-list" data-element-id="22137779-ada7-4e86-aab2-3118493ca847">
+                <li>{{ section.settings.s_mgb9cabn_0z_list_item_0 | default: "Orders are processed in 2-3 business days, excluding weekends and holidays. Items that are pre-ordered are processed within 2-3 business days of their arrival in stock." }}</li>
+                <li>{{ section.settings.s_mgb9cabn_10_list_item_1 | default: "Orders that are successfully placed will receive an e-mail confirmation with the order details. If you haven't received an email, please check your spam folder or contact us for confirmation." }}</li>
+                <li>{{ section.settings.s_mgb9cabn_11_list_item_2 | default: "If you have any questions about your order, please contact us right away at gemthemes@gmail.com We will be unable to make changes to your order once it has been shipped." }}</li>
+                <li>{{ section.settings.s_mgb9cabn_12_list_item_3 | default: "Please double-check that you have entered the correct address. We are not liable for non-delivery due to address errors that you provide. We will refund the original order if an order is returned due to an incorrect address" }}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Base styles */
+  #shipping-refunds-{{ section.id }} {
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+    background-color: {{ section.settings.background_color }};
+    color: {{ section.settings.text_color }};
+  }
+
+  #shipping-refunds-{{ section.id }} .shipping-refunds-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* Typography styles */
+  #shipping-refunds-{{ section.id }} h1,
+  #shipping-refunds-{{ section.id }} h2,
+  #shipping-refunds-{{ section.id }} h3,
+  #shipping-refunds-{{ section.id }} h4 {
+    margin: 1.5rem 0 1rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  #shipping-refunds-{{ section.id }} h1 { font-size: 2.5rem; }
+  #shipping-refunds-{{ section.id }} h2 { font-size: 2rem; }
+  #shipping-refunds-{{ section.id }} h3 { font-size: 1.5rem; }
+  #shipping-refunds-{{ section.id }} h4 { font-size: 1.25rem; }
+
+  #shipping-refunds-{{ section.id }} p {
+    margin: 1rem 0;
+    line-height: 1.6;
+  }
+
+  /* Column layouts */
+  #shipping-refunds-{{ section.id }} .columns {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #shipping-refunds-{{ section.id }} .columns-1 .column {
+    flex: 1;
+    min-width: 0;
+  }
+
+  #shipping-refunds-{{ section.id }} .columns-2 .column {
+    flex: 1;
+    min-width: 0;
+  }
+
+  #shipping-refunds-{{ section.id }} .columns-3 .column {
+    flex: 1;
+    min-width: 0;
+  }
+
+  #shipping-refunds-{{ section.id }} .columns-4 .column {
+    flex: 1;
+    min-width: 0;
+  }
+
+  #shipping-refunds-{{ section.id }} .columns-5 .column {
+    flex: 1;
+    min-width: 0;
+  }
+
+  #shipping-refunds-{{ section.id }} .columns-6 .column {
+    flex: 1;
+    min-width: 0;
+  }
+
+  /* Table styles */
+  #shipping-refunds-{{ section.id }} .block-table-wrapper {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+
+  #shipping-refunds-{{ section.id }} .block-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+
+  #shipping-refunds-{{ section.id }} .block-table th,
+  #shipping-refunds-{{ section.id }} .block-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+  }
+
+  #shipping-refunds-{{ section.id }} .block-table thead th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+    color: #333;
+  }
+
+  #shipping-refunds-{{ section.id }} .block-table tbody tr:hover {
+    background-color: #fafafa;
+  }
+
+  /* List styles */
+  #shipping-refunds-{{ section.id }} .block-list {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+  }
+
+  #shipping-refunds-{{ section.id }} .block-list li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+  }
+
+  #shipping-refunds-{{ section.id }} ul.block-list {
+    list-style-type: disc;
+  }
+
+  #shipping-refunds-{{ section.id }} ol.block-list {
+    list-style-type: decimal;
+  }
+
+  /* Image styles */
+  #shipping-refunds-{{ section.id }} .block-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #shipping-refunds-{{ section.id }} .placeholder-image {
+    background-color: #f4f4f4;
+    min-height: 200px;
+  }
+
+  /* Element-specific styles */
+  #shipping-refunds-{{ section.id }} [data-element-id="dd0e444e-1155-48d0-9e94-8c1a191b33a9"] {
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="e927dd39-afcc-4f4b-a6df-eb71e22b523f"] {
+    margin: 0;
+    padding: 0;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="e57dd7d8-64a4-4775-85da-b34054f3effe"] {
+    text-align: center;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="e164c9cf-d230-4d9f-af3f-5f3ad110894e"] {
+    text-align: center;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="5b990ed7-cb5e-4594-b502-c69cd8f0837c"] {
+    text-align: center;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="41d73237-925b-4287-9403-52594efcd968"] {
+    text-align: center;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="c52e0bc1-53c3-45bd-8b6a-3f95b067d9dc"] {
+    margin: 20px 0 0 0;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="67fa73dc-4e65-4e77-8799-fe0babe4059b"] {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: static;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="aa1bb670-0dbe-4805-a49c-00965f80b3bd"] {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="1749f1c3-38f5-40d2-8410-c7d064c11447"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="25e0eeb1-0ea2-42ea-b73c-d99139a021cd"] {
+    height: 30px;
+    width: 30px;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="246d92e4-15b7-4524-8782-076629a7030f"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="280924bd-a581-4324-a901-49a81e67ea1c"] {
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="eb56c0db-de51-4b54-817d-895d2e196322"] {
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="0bf6078f-e073-4a81-9c57-a7c7665eb5b9"] {
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="8f271e51-52b6-4665-b737-e67378d0eacb"] {
+    text-align: center;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="2720799f-b274-4dbd-a3f8-875221463d13"] {
+    text-align: center;
+  }
+
+  #shipping-refunds-{{ section.id }} [data-element-id="f4579d05-b868-43e4-983d-4acb85eb6c7b"] {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  /* Tablet styles */
+  @media screen and (max-width: 768px) {
+    #shipping-refunds-{{ section.id }} {
+      padding: {{ section.settings.mobile_padding_top }}px 0 {{ section.settings.mobile_padding_bottom }}px;
+    }
+
+    #shipping-refunds-{{ section.id }} .columns {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="dd0e444e-1155-48d0-9e94-8c1a191b33a9"] {
+      flex-direction: column;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="e57dd7d8-64a4-4775-85da-b34054f3effe"] {
+      text-align: center;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="5b990ed7-cb5e-4594-b502-c69cd8f0837c"] {
+      text-align: center;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="a7f985a5-511d-4844-9410-58f939958c41"] {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="c52e0bc1-53c3-45bd-8b6a-3f95b067d9dc"] {
+      text-align: center;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="67fa73dc-4e65-4e77-8799-fe0babe4059b"] {
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="aa1bb670-0dbe-4805-a49c-00965f80b3bd"] {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="1749f1c3-38f5-40d2-8410-c7d064c11447"] {
+      width: 30px;
+      height: 30px;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="25e0eeb1-0ea2-42ea-b73c-d99139a021cd"] {
+      width: 30px;
+      height: 30px;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="246d92e4-15b7-4524-8782-076629a7030f"] {
+      width: 30px;
+      height: 30px;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="280924bd-a581-4324-a901-49a81e67ea1c"] {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="eb56c0db-de51-4b54-817d-895d2e196322"] {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      align-items: center;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="0bf6078f-e073-4a81-9c57-a7c7665eb5b9"] {
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="9d6ff6fb-edee-491a-b0be-0bc4de371b66"] {
+      font-size: 12px;
+      text-align: center;
+      margin: 0;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="8f271e51-52b6-4665-b737-e67378d0eacb"] {
+      font-size: 12px;
+      text-align: center;
+      margin: 0;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="2720799f-b274-4dbd-a3f8-875221463d13"] {
+      font-size: 12px;
+      text-align: center;
+      margin: 0;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="4770c3c8-0609-48d4-b862-5a2d9c5883ca"] {
+      font-size: 12px;
+      text-align: center;
+      margin: 0;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="7975dd41-914e-4c5f-b749-3f082551fb92"] {
+      flex-direction: column;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="93edb44c-d5a0-4244-95f2-344774f23987"] {
+      text-align: center;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="53f4b4d2-a005-478f-ac18-96ba00e182bd"] {
+      text-align: center;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="cc50cba3-f40e-4e0e-ad15-1afb1e0c36ff"] {
+      width: 500px;
+      text-align: center;
+    }
+
+  }
+
+  /* Mobile styles */
+  @media screen and (max-width: 480px) {
+    #shipping-refunds-{{ section.id }} [data-element-id="dd0e444e-1155-48d0-9e94-8c1a191b33a9"] {
+      flex-direction: column;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="e57dd7d8-64a4-4775-85da-b34054f3effe"] {
+      text-align: center;
+    }
+
+    #shipping-refunds-{{ section.id }} [data-element-id="a7f985a5-511d-4844-9410-58f939958c41"] {
+      flex-direction: column-reverse;
+    }
+
+  }
+</style>
+
+{% schema %}
+{
+  "name": "shipping-refunds",
+  "tag": "section",
+  "class": "section-shipping-refunds",
+  "settings": [
+    {
+      "type": "header",
+      "content": "General Settings"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#333333"
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "s_mgb9cabn_00_text",
+      "label": "Heading: Shipping and Refunds Policy",
+      "default": "Shipping and Refunds Policy"
+    },
+    {
+      "type": "text",
+      "id": "s_mgb9cabn_01_text",
+      "label": "Heading: Shipping Policy",
+      "default": "Shipping Policy"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_02_text",
+      "label": "Text: All orders are processed withi...",
+      "default": "All orders are processed within 3 to 5 business days (excluding weekends and holidays) after receiving your order confirmation email. You will receive another notification when your order has shipped. "
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_03_list_item_0",
+      "label": "List-item: <strong>For calculated shippin...",
+      "default": "For calculated shipping rates: Shipping charges for your order will be calculated and displayed at checkout. "
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_04_list_item_1",
+      "label": "List-item: <strong>For simple flat rate s...",
+      "default": "For simple flat rate shipping: We offer $10 flat rate shipping to USA or UK."
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_05_header_0_0",
+      "label": "Table-cell: Shipping Options",
+      "default": "Shipping Options"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_06_header_0_1",
+      "label": "Table-cell: Price",
+      "default": "Price"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_07_cell_1_0",
+      "label": "Table-cell: 2-10 Day Shipping (Order under...",
+      "default": "2-10 Day Shipping (Order under $99)"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_08_cell_1_1",
+      "label": "Table-cell: $9.99",
+      "default": "$9.99"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_09_cell_2_0",
+      "label": "Table-cell: 2-10 Day Shipping (Order under...",
+      "default": "2-10 Day Shipping (Order under $99)"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0a_cell_2_1",
+      "label": "Table-cell: Free",
+      "default": "Free"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0b_cell_3_0",
+      "label": "Table-cell: 2-4 Day Shipping",
+      "default": "2-4 Day Shipping"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0c_cell_3_1",
+      "label": "Table-cell: Based on Total Order Weight",
+      "default": "Based on Total Order Weight"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0d_cell_4_0",
+      "label": "Table-cell: 1-2 Day Shipping",
+      "default": "1-2 Day Shipping"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0e_cell_4_1",
+      "label": "Table-cell: Based on Total Order Weight",
+      "default": "Based on Total Order Weight"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0f_text",
+      "label": "Text: NOTE: We are not responsible f...",
+      "default": "NOTE: We are not responsible for shipping carrier delays."
+    },
+    {
+      "type": "image_picker",
+      "id": "s_mgb9cabn_0g_image",
+      "label": "Image cc50cba3"
+    },
+    {
+      "type": "text",
+      "id": "s_mgb9cabn_0h_alt",
+      "label": "Image alt text",
+      "default": "boxes.jpg"
+    },
+    {
+      "type": "image_picker",
+      "id": "s_mgb9cabn_0i_image",
+      "label": "Image aa1bb670"
+    },
+    {
+      "type": "text",
+      "id": "s_mgb9cabn_0j_alt",
+      "label": "Image alt text",
+      "default": "call center.png"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0k_text",
+      "label": "Text: 24/7 FriendlySupport",
+      "default": "24/7 FriendlySupport"
+    },
+    {
+      "type": "image_picker",
+      "id": "s_mgb9cabn_0l_image",
+      "label": "Image 1749f1c3"
+    },
+    {
+      "type": "text",
+      "id": "s_mgb9cabn_0m_alt",
+      "label": "Image alt text",
+      "default": "shipping.png"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0n_text",
+      "label": "Text: Free Shipping over $60",
+      "default": "Free Shipping over $60"
+    },
+    {
+      "type": "image_picker",
+      "id": "s_mgb9cabn_0o_image",
+      "label": "Image 25e0eeb1"
+    },
+    {
+      "type": "text",
+      "id": "s_mgb9cabn_0p_alt",
+      "label": "Image alt text",
+      "default": "secure payment.png"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0q_text",
+      "label": "Text: Secure Online Payment",
+      "default": "Secure Online Payment"
+    },
+    {
+      "type": "image_picker",
+      "id": "s_mgb9cabn_0r_image",
+      "label": "Image 246d92e4"
+    },
+    {
+      "type": "text",
+      "id": "s_mgb9cabn_0s_alt",
+      "label": "Image alt text",
+      "default": "money back.png"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0t_text",
+      "label": "Text: Money-back guarantee",
+      "default": "Money-back guarantee"
+    },
+    {
+      "type": "text",
+      "id": "s_mgb9cabn_0u_text",
+      "label": "Heading: Refunds Policy",
+      "default": "Refunds Policy"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0v_text",
+      "label": "Text: We accept returns up to 07 day...",
+      "default": "We accept returns up to 07 days after delivery, if the item is unused and in its original condition, and we will refund the full order amount minus the shipping costs for the return. In the event that your order arrives damaged in any way, please email us as soon as possible at gemthemes@gmail.com with your order number and a photo of the item’s condition. We address these on a case-by-case basis but will try our best to work towards a satisfactory solution.We will send you an email once your return has been received and inspected to advise you that we have received your returned item. We will also notify you if your refund has been approved or rejected. If you are authorized, your refund will be processed and a credit will be made to your credit card or original mode of payment within a certain amount of days."
+    },
+    {
+      "type": "image_picker",
+      "id": "s_mgb9cabn_0w_image",
+      "label": "Image 663ef18e"
+    },
+    {
+      "type": "text",
+      "id": "s_mgb9cabn_0x_alt",
+      "label": "Image alt text",
+      "default": "lady.jpg"
+    },
+    {
+      "type": "text",
+      "id": "s_mgb9cabn_0y_text",
+      "label": "Heading: ORDER PROCESS",
+      "default": "ORDER PROCESS"
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_0z_list_item_0",
+      "label": "List-item: Orders are processed in 2-3 bu...",
+      "default": "Orders are processed in 2-3 business days, excluding weekends and holidays. Items that are pre-ordered are processed within 2-3 business days of their arrival in stock."
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_10_list_item_1",
+      "label": "List-item: Orders that are successfully p...",
+      "default": "Orders that are successfully placed will receive an e-mail confirmation with the order details. If you haven't received an email, please check your spam folder or contact us for confirmation."
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_11_list_item_2",
+      "label": "List-item: If you have any questions abou...",
+      "default": "If you have any questions about your order, please contact us right away at gemthemes@gmail.com We will be unable to make changes to your order once it has been shipped."
+    },
+    {
+      "type": "textarea",
+      "id": "s_mgb9cabn_12_list_item_3",
+      "label": "List-item: Please double-check that you h...",
+      "default": "Please double-check that you have entered the correct address. We are not liable for non-delivery due to address errors that you provide. We will refund the original order if an order is returned due to an incorrect address"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Desktop padding top",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Desktop padding bottom",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Mobile padding top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Mobile padding bottom",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "shipping-refunds",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

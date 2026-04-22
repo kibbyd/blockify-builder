@@ -1,0 +1,4 @@
+node_modules
+.next
+blocks.claude/blockify-main/
+.env

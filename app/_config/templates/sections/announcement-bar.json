@@ -1,0 +1,101 @@
+{
+  "id": "announcement-bar",
+  "name": "Announcement Bar",
+  "category": "section",
+  "subcategory": "promo",
+  "description": "Top-of-page promotional banner with urgency messaging",
+  "elements": [
+    {
+      "type": "container",
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "maxWidth": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "gap": "12px",
+        "backgroundColor": "#1a1a1a",
+        "paddingTop": "12px",
+        "paddingBottom": "12px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "marginTop": "0",
+        "marginBottom": "0",
+        "marginRight": "0",
+        "marginLeft": "0",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      },
+      "children": [
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "Free shipping on all orders over $50"
+          },
+          "styleOverrides": {
+            "lineHeight": "1",
+            "display": "block",
+            "fontSize": "13px",
+            "color": "#e1e4e8",
+            "fontFamily": "inherit",
+            "fontWeight": "500",
+            "letterSpacing": "0.5px",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "textAlign": "center",
+            "paddingTop": "0",
+            "paddingRight": "0",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "marginRight": "0",
+            "marginLeft": "0"
+          },
+          "responsiveStyles": {
+            "xs": {
+              "fontSize": "11px"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "propOverrides": {
+            "text": "Shop Now",
+            "href": "",
+            "url": ""
+          },
+          "styleOverrides": {
+            "color": "#ffffff",
+            "borderRadius": "3px",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "fontSize": "11px",
+            "fontFamily": "inherit",
+            "fontWeight": "600",
+            "letterSpacing": "0.5px",
+            "paddingTop": "6px",
+            "paddingRight": "16px",
+            "paddingBottom": "6px",
+            "paddingLeft": "16px",
+            "marginTop": "0",
+            "marginRight": "0",
+            "marginBottom": "0",
+            "marginLeft": "0",
+            "backgroundColor": "#667eea",
+            "borderWidth": "1px",
+            "borderStyle": "solid",
+            "borderColor": "#667eea",
+            "hoverColor": "#ffffff",
+            "hoverBackgroundColor": "#667eea",
+            "hoverBorderColor": "#667eea",
+            "hoverAnimation": "none"
+          }
+        }
+      ]
+    }
+  ]
+}

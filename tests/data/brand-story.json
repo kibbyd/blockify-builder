@@ -1,0 +1,204 @@
+{
+  "id": "brand-story",
+  "name": "Brand Story",
+  "category": "section",
+  "subcategory": "content",
+  "description": "Founder/mission split section with image and narrative text",
+  "elements": [
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "columns-2",
+          "propOverrides": {
+            "columns": 2
+          },
+          "columns": [
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "Our story",
+                  "settingId": "image"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "100%",
+                  "height": "100%",
+                  "objectFit": "cover",
+                  "minHeight": "400px"
+                }
+              }
+            ],
+            [
+              {
+                "type": "container",
+                "responsiveStyles": {
+                  "xs": {
+                    "paddingTop": "30px",
+                    "paddingBottom": "30px",
+                    "paddingLeft": "16px",
+                    "paddingRight": "16px"
+                  },
+                  "sm": {
+                    "paddingTop": "42px",
+                    "paddingBottom": "42px"
+                  }
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "OUR STORY"
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "1",
+                      "fontFamily": "inherit",
+                      "fontSize": "11px",
+                      "color": "#667eea",
+                      "fontWeight": "700",
+                      "letterSpacing": "2px",
+                      "marginTop": "0",
+                      "marginBottom": "0"
+                    }
+                  },
+                  {
+                    "type": "heading",
+                    "propOverrides": {
+                      "text": "Built with Purpose",
+                      "level": "h2",
+                      "tag": "h2"
+                    },
+                    "responsiveStyles": {
+                      "xs": {
+                        "fontSize": "20px"
+                      },
+                      "sm": {
+                        "fontSize": "24px"
+                      }
+                    },
+                    "styleOverrides": {
+                      "fontWeight": "700",
+                      "fontFamily": "inherit",
+                      "lineHeight": "1.2",
+                      "fontSize": "32px",
+                      "color": "#1a1a1a",
+                      "marginTop": "16px",
+                      "marginBottom": "0",
+                      "textAlign": "left"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "We started with a simple belief: everyone deserves access to quality products that don't compromise on sustainability. From our small workshop to your doorstep, every product is crafted with care, using ethically sourced materials and fair labor practices."
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "1.8",
+                      "fontWeight": "400",
+                      "fontFamily": "inherit",
+                      "fontSize": "15px",
+                      "color": "#586069",
+                      "marginTop": "16px",
+                      "marginBottom": "0"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "propOverrides": {
+                      "text": "Our commitment goes beyond products. For every purchase, we donate 1% to environmental causes that protect our planet for future generations."
+                    },
+                    "styleOverrides": {
+                      "lineHeight": "1.8",
+                      "fontWeight": "400",
+                      "fontFamily": "inherit",
+                      "fontSize": "15px",
+                      "color": "#586069",
+                      "marginTop": "16px",
+                      "marginBottom": "0"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "propOverrides": {
+                      "text": "Learn More About Us",
+                      "href": "",
+                      "url": ""
+                    },
+                    "styleOverrides": {
+                      "color": "#667eea",
+                      "hoverColor": "#667eea",
+                      "backgroundColor": "#d3d3d3",
+                      "hoverBackgroundColor": "#d3d3d3",
+                      "borderRadius": "4px",
+                      "cursor": "pointer",
+                      "display": "inline-block",
+                      "fontSize": "13px",
+                      "fontWeight": "600",
+                      "fontFamily": "inherit",
+                      "paddingTop": "12px",
+                      "paddingRight": "28px",
+                      "paddingBottom": "12px",
+                      "paddingLeft": "28px",
+                      "marginTop": "24px",
+                      "marginRight": "0",
+                      "marginBottom": "0",
+                      "marginLeft": "0",
+                      "borderWidth": "1px",
+                      "borderStyle": "solid",
+                      "borderColor": "#d3d3d3",
+                      "hoverBorderColor": "#d3d3d3",
+                      "hoverAnimation": "none"
+                    }
+                  }
+                ],
+                "styleOverrides": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "height": "100%",
+                  "width": "100%",
+                  "boxSizing": "border-box",
+                  "overflow": "hidden",
+                  "flex": "1",
+                  "paddingTop": "60px",
+                  "paddingBottom": "60px",
+                  "paddingLeft": "40px",
+                  "paddingRight": "40px",
+                  "alignItems": "flex-start",
+                  "borderWidth": "0px",
+                  "borderStyle": "none"
+                }
+              }
+            ]
+          ],
+          "columnStyles": {
+            "0": {},
+            "1": {}
+          },
+          "styleOverrides": {
+            "flexDirection": "row",
+            "gap": "24px"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "backgroundColor": "#fafbfc",
+        "paddingTop": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "0",
+        "paddingRight": "0",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

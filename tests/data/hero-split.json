@@ -1,0 +1,175 @@
+{
+  "id": "hero-split",
+  "name": "Split Hero",
+  "category": "section",
+  "subcategory": "hero",
+  "description": "Hero with text on one side and image on the other",
+  "elements": [
+    {
+      "type": "container",
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "maxWidth": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "backgroundColor": "#ffffff",
+        "paddingTop": "0",
+        "paddingBottom": "0",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "marginTop": "0",
+        "marginBottom": "0",
+        "marginRight": "0",
+        "marginLeft": "0",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      },
+      "children": [
+        {
+          "type": "columns-2",
+          "propOverrides": {
+            "columns": 2
+          },
+          "styleOverrides": {
+            "flexDirection": "row",
+            "alignItems": "stretch",
+            "justifyContent": "flex-start"
+          },
+          "columnStyles": {
+            "0": {
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "alignItems": "flex-start",
+              "backgroundColor": "#ffffff",
+              "paddingTop": "60px",
+              "paddingBottom": "60px",
+              "paddingLeft": "40px",
+              "paddingRight": "40px"
+            },
+            "1": {
+            }
+          },
+          "responsiveStyles": {
+            "col-0-paddingTop": { "xs": "30px", "sm": "42px" },
+            "col-0-paddingBottom": { "xs": "30px", "sm": "42px" },
+            "col-0-paddingLeft": { "xs": "16px" },
+            "col-0-paddingRight": { "xs": "16px" }
+          },
+          "columns": [
+            [
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "Build Something Amazing",
+                  "level": "h1",
+                  "tag": "h1"
+                },
+                "responsiveStyles": {
+                  "sm": {
+                    "fontSize": "32px"
+                  },
+                  "xs": {
+                    "fontSize": "25px"
+                  }
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "fontFamily": "inherit",
+                  "lineHeight": "1.2",
+                  "display": "block",
+                  "fontSize": "42px",
+                  "color": "#1a1a1a",
+                  "marginTop": "0",
+                  "marginBottom": "0",
+                  "textAlign": "left",
+                  "paddingTop": "0",
+                  "paddingRight": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "marginRight": "0",
+                  "marginLeft": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "Describe your product or service with a concise, compelling paragraph that highlights the key benefits."
+                },
+                "styleOverrides": {
+                  "lineHeight": "1.6",
+                  "display": "block",
+                  "fontSize": "16px",
+                  "fontFamily": "inherit",
+                  "fontWeight": "400",
+                  "color": "#586069",
+                  "marginTop": "20px",
+                  "marginBottom": "0",
+                  "textAlign": "left",
+                  "paddingTop": "20px",
+                  "paddingRight": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "marginRight": "0",
+                  "marginLeft": "0"
+                }
+              },
+              {
+                "type": "button",
+                "propOverrides": {
+                  "text": "Learn More",
+                  "href": "",
+                  "url": ""
+                },
+                "styleOverrides": {
+                  "backgroundColor": "#667eea",
+                  "color": "#ffffff",
+                  "borderRadius": "6px",
+                  "cursor": "pointer",
+                  "display": "inline-block",
+                  "fontSize": "15px",
+                  "fontWeight": "600",
+                  "paddingTop": "14px",
+                  "paddingRight": "32px",
+                  "paddingBottom": "14px",
+                  "paddingLeft": "32px",
+                  "marginTop": "24px",
+                  "marginRight": "0",
+                  "marginBottom": "0",
+                  "marginLeft": "0",
+                  "borderWidth": "1px",
+                  "borderStyle": "solid",
+                  "borderColor": "#d3d3d3",
+                  "hoverBorderColor": "#d3d3d3"
+                }
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "Hero image",
+                  "settingId": "image"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "100%",
+                  "height": "100%",
+                  "objectFit": "cover",
+                  "marginTop": "0",
+                  "marginRight": "0",
+                  "marginBottom": "0",
+                  "marginLeft": "0"
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

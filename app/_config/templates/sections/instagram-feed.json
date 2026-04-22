@@ -1,0 +1,200 @@
+{
+  "id": "instagram-feed",
+  "name": "Instagram / UGC Feed",
+  "category": "section",
+  "subcategory": "gallery",
+  "description": "Social proof image grid mimicking an Instagram or user-generated content feed",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "30px",
+          "paddingBottom": "30px"
+        },
+        "sm": {
+          "paddingTop": "42px",
+          "paddingBottom": "42px"
+        }
+      },
+      "children": [
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "#YOURBRAND"
+          },
+          "styleOverrides": {
+            "lineHeight": "1",
+            "fontSize": "12px",
+            "color": "#6a737d",
+            "fontWeight": "600",
+            "fontFamily": "inherit",
+            "letterSpacing": "2px",
+            "textAlign": "center",
+            "marginTop": "0",
+            "marginBottom": "0"
+          }
+        },
+        {
+          "type": "heading",
+          "propOverrides": {
+            "text": "Share Your Style",
+            "level": "h2",
+            "tag": "h2"
+          },
+          "responsiveStyles": {
+            "xs": {
+              "fontSize": "20px"
+            },
+            "sm": {
+              "fontSize": "24px"
+            }
+          },
+          "styleOverrides": {
+            "fontWeight": "700",
+            "lineHeight": "1.2",
+            "fontSize": "32px",
+            "color": "#1a1a1a",
+            "fontFamily": "inherit",
+            "textAlign": "center",
+            "marginTop": "12px",
+            "marginBottom": "10px"
+          }
+        },
+        {
+          "type": "columns-6",
+          "propOverrides": {
+            "columns": 6
+          },
+          "columnStyles": {
+            "0": { "alignItems": "center" },
+            "1": { "alignItems": "center" },
+            "2": { "alignItems": "center" },
+            "3": { "alignItems": "center" },
+            "4": { "alignItems": "center" },
+            "5": { "alignItems": "center" }
+          },
+          "columns": [
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "UGC 1",
+                  "settingId": "image"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "160px",
+                  "height": "160px",
+                  "objectFit": "cover"
+                }
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "UGC 2",
+                  "settingId": "image_2"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "160px",
+                  "height": "160px",
+                  "objectFit": "cover"
+                }
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "UGC 3",
+                  "settingId": "image_3"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "160px",
+                  "height": "160px",
+                  "objectFit": "cover"
+                }
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "UGC 4",
+                  "settingId": "image_4"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "160px",
+                  "height": "160px",
+                  "objectFit": "cover"
+                }
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "UGC 5",
+                  "settingId": "image_5"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "160px",
+                  "height": "160px",
+                  "objectFit": "cover"
+                }
+              }
+            ],
+            [
+              {
+                "type": "image",
+                "propOverrides": {
+                  "src": "/images/placeholder.svg",
+                  "alt": "UGC 6",
+                  "settingId": "image_6"
+                },
+                "styleOverrides": {
+                  "display": "block",
+                  "width": "160px",
+                  "height": "160px",
+                  "objectFit": "cover"
+                }
+              }
+            ]
+          ],
+          "styleOverrides": {
+            "flexDirection": "row",
+            "gap": "24px"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "backgroundColor": "#fafbfc",
+        "paddingTop": "60px",
+        "paddingBottom": "60px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

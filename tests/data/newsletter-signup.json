@@ -1,0 +1,159 @@
+{
+  "id": "newsletter-signup",
+  "name": "Newsletter Signup",
+  "category": "section",
+  "subcategory": "cta",
+  "description": "Email signup strip with heading, description, and form",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "30px",
+          "paddingBottom": "30px"
+        },
+        "sm": {
+          "paddingTop": "42px",
+          "paddingBottom": "42px"
+        }
+      },
+      "children": [
+        {
+          "type": "columns-1",
+          "propOverrides": {
+            "columns": 1
+          },
+          "columns": [
+            [
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "Stay in the Loop",
+                  "level": "h2",
+                  "tag": "h2"
+                },
+                "responsiveStyles": {
+                  "xs": {
+                    "fontSize": "20px"
+                  },
+                  "sm": {
+                    "fontSize": "24px"
+                  }
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "lineHeight": "1.2",
+                  "display": "block",
+                  "fontSize": "32px",
+                  "color": "#1a1a1a",
+                  "textAlign": "center",
+                  "marginTop": "0",
+                  "marginBottom": "0",
+                  "paddingTop": "0",
+                  "paddingRight": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "marginRight": "0",
+                  "marginLeft": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "Subscribe for exclusive offers, new arrivals, and 10% off your first order."
+                },
+                "styleOverrides": {
+                  "lineHeight": "1.6",
+                  "display": "block",
+                  "fontSize": "15px",
+                  "color": "#586069",
+                  "textAlign": "center",
+                  "marginTop": "0",
+                  "marginBottom": "0",
+                  "paddingTop": "0",
+                  "paddingRight": "0",
+                  "paddingBottom": "0",
+                  "paddingLeft": "0",
+                  "marginRight": "0",
+                  "marginLeft": "0"
+                }
+              }
+            ]
+          ],
+          "columnStyles": {
+            "0": {}
+          },
+          "styleOverrides": {
+            "gap": "24px",
+            "alignItems": "stretch",
+            "justifyContent": "flex-start"
+          }
+        },
+        {
+          "type": "columns-1",
+          "propOverrides": {
+            "columns": 1
+          },
+          "columns": [
+            [
+              {
+                "type": "form",
+                "propOverrides": {
+                  "fields": [
+                    {
+                      "type": "email",
+                      "label": "Email",
+                      "placeholder": "Enter your email",
+                      "required": true
+                    }
+                  ],
+                  "submitText": "Subscribe",
+                  "emailPlaceholder": "Enter your email",
+                  "action": "#"
+                },
+                "styleOverrides": {
+                  "width": "100%",
+                  "buttonColor": "#ffffff",
+                  "buttonBackgroundColor": "#000000",
+                  "marginTop": "24px",
+                  "marginRight": "0",
+                  "marginBottom": "0",
+                  "marginLeft": "0"
+                }
+              }
+            ]
+          ],
+          "columnStyles": {
+            "0": {}
+          },
+          "styleOverrides": {
+            "gap": "24px",
+            "alignItems": "stretch",
+            "justifyContent": "flex-start"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "maxWidth": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "backgroundColor": "#f6f8fa",
+        "paddingTop": "60px",
+        "paddingBottom": "60px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "marginTop": "0",
+        "marginBottom": "0",
+        "marginRight": "0",
+        "marginLeft": "0",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

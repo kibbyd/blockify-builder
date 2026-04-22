@@ -1,0 +1,123 @@
+{
+  "id": "cta-banner",
+  "name": "Banner CTA",
+  "category": "section",
+  "subcategory": "cta",
+  "description": "Full-width call-to-action banner with heading, text, and button",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "30px",
+          "paddingBottom": "30px"
+        },
+        "sm": {
+          "paddingTop": "42px",
+          "paddingBottom": "42px"
+        }
+      },
+      "children": [
+        {
+          "type": "heading",
+          "propOverrides": {
+            "text": "Ready to Get Started?",
+            "level": "h2",
+            "tag": "h2"
+          },
+          "responsiveStyles": {
+            "sm": {
+              "fontSize": "28px"
+            },
+            "xs": {
+              "fontSize": "22px"
+            }
+          },
+          "styleOverrides": {
+            "fontWeight": "700",
+            "fontFamily": "inherit",
+            "lineHeight": "1.2",
+            "fontSize": "36px",
+            "color": "#ffffff",
+            "marginTop": "0",
+            "marginBottom": "0",
+            "textAlign": "center"
+          }
+        },
+        {
+          "type": "text",
+          "propOverrides": {
+            "text": "Join thousands of satisfied customers and transform your business today."
+          },
+          "responsiveStyles": {
+            "xs": {
+              "fontSize": "14px"
+            }
+          },
+          "styleOverrides": {
+            "fontWeight": "400",
+            "fontFamily": "inherit",
+            "lineHeight": "1.6",
+            "fontSize": "18px",
+            "color": "#e1e4e8",
+            "maxWidth": "500px",
+            "marginTop": "16px",
+            "marginBottom": "0",
+            "textAlign": "center"
+          }
+        },
+        {
+          "type": "button",
+          "propOverrides": {
+            "text": "Start Free Trial",
+            "href": "",
+            "url": ""
+          },
+          "styleOverrides": {
+            "backgroundColor": "#ffffff",
+            "color": "#667eea",
+            "borderRadius": "6px",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "fontFamily": "inherit",
+            "paddingTop": "16px",
+            "paddingRight": "40px",
+            "paddingBottom": "16px",
+            "paddingLeft": "40px",
+            "marginTop": "24px",
+            "marginRight": "0",
+            "marginBottom": "0",
+            "marginLeft": "0",
+            "borderColor": "#ffffff",
+            "hoverColor": "#667eea",
+            "hoverBackgroundColor": "#ffffff",
+            "hoverBorderColor": "#ffffff",
+            "hoverAnimation": "none",
+            "borderWidth": "1px",
+            "borderStyle": "solid"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "height": "100%",
+        "width": "100%",
+        "boxSizing": "border-box",
+        "overflow": "hidden",
+        "flex": "1",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "textAlign": "center",
+        "backgroundColor": "#667eea",
+        "paddingTop": "60px",
+        "paddingBottom": "60px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}

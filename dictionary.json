@@ -1,0 +1,132 @@
+{
+  "orientation": "Read this file first. Every rule here is non-negotiable. Violating any rule wastes Commander's time.",
+
+  "commander": {
+    "name": "Daniel",
+    "callSign": "Commander",
+    "cognitiveProfile": "Pattern-recognition thinker. Two modes: extracting (discussion, questions, testing — NOT a request to act) and applying (moves fast, no hand-holding). Recognize which mode he is in.",
+    "rules": [
+      "Discussion is not permission to execute. Wait for explicit signal: go, do it, proceed.",
+      "Never act without explicit instruction.",
+      "Never move on without being told.",
+      "Never add, remove, or change anything he didn't ask for.",
+      "After every change, immediately show the updated table.",
+      "If unsure what he means, ask. Don't guess.",
+      "No hedging, no softening, no restating what he said.",
+      "No unsolicited suggestions, no extra cleanup, no improvements he didn't ask for."
+    ],
+    "stakes": "Blockify must succeed so he can stay home with his sick wife. Every wasted minute costs him. Get it right."
+  },
+
+  "blockify": {
+    "description": "Drag-and-drop builder that exports owned Shopify Liquid code. Elements on a canvas export as Liquid HTML, CSS with Liquid variables, and Shopify schema JSON.",
+    "differentiator": "Merchant pastes exported code into Shopify. It works immediately. They can uninstall the app and keep everything. No lock-in.",
+    "pricing": "$39/mo with 30 templates included."
+  },
+
+  "threeLocations": {
+    "description": "Every template property exists in up to 3 places. These are the ONLY places that matter for templates.",
+    "locations": {
+      "json": {
+        "path": "app/_config/templates/sections/{name}.json",
+        "role": "Single source of truth. styleOverrides for styles, propOverrides for content. Also has responsiveStyles for xs/sm viewports."
+      },
+      "filterMap": {
+        "path": "app/_config/elementDefinitions.js → templatePropertyMaps",
+        "role": "Gates Path 1. Properties listed here become Liquid vars with Shopify schema controls."
+      },
+      "templateCSS": {
+        "path": "app/_utils/templateCSS.js",
+        "role": "Handles Path 2. Properties here become hardcoded static CSS in the export."
+      }
+    }
+  },
+
+  "fourRoutes": {
+    "description": "Every property follows exactly one route.",
+    "route1_userOptIn": "Property exists in panel, no default, no toggle. Inert until user acts.",
+    "route2_defaultEditable": "In panel, toggled on by default, has a value, always in schema. Requires getDefaultStyle or getDefaultProps, getDefaultSchemaToggles set to true, and canBeSchemaEditable: true in elementDefinitions.",
+    "route3_structural": "Not in panel. Not editable. Hardcoded CSS only. Things like display:flex, box-sizing, cursor:pointer.",
+    "templateRoute": "Adds filtering on top of Routes 1-3. Every property is in exactly one of two places: filter map (editable, Liquid var) or templateCSS (hardcoded). Nothing in neither. Nothing in both. Ever."
+  },
+
+  "exportPaths": {
+    "path1": {
+      "name": "Filter Map → Liquid var",
+      "flow": "Property in filter map → getElementDef keeps it → cssGeneration.js writes Liquid var → schemaGeneration.js writes schema JSON → EXPORT",
+      "requirement": "Value MUST exist in JSON styleOverrides or propOverrides. Filter map without value = empty Liquid var."
+    },
+    "path2": {
+      "name": "templateCSS → Hardcoded CSS",
+      "flow": "Property NOT in filter map → templateCSS.js writes it as static CSS → EXPORT",
+      "requirement": "Value MUST exist in JSON. templateCSS without JSON = no source of truth."
+    }
+  },
+
+  "invariants": [
+    "Every exported value must have schema editable checked.",
+    "Nothing exports without that flag.",
+    "Zero values (0, 0px, empty string) are valid — never strip them.",
+    "No property can be both in the filter map and hardcoded in templateCSS.",
+    "xl and sm go through schema as Liquid vars — do NOT hardcode them in templateCSS.",
+    "Every JSON property must also be in filter map OR templateCSS. Never JSON only.",
+    "Every templateCSS property must also be in JSON. Never templateCSS only.",
+    "Every filter map property must also be in JSON. Never filter map only."
+  ],
+
+  "commands": {
+    "remove": "Delete from every place the property appears — JSON, filter map, templateCSS. If it's in 2 places, remove from 2. If it's in 3, remove from 3.",
+    "moveToFilterMap": "Add to filter map in elementDefinitions.js. Remove from templateCSS.js. Leave JSON alone.",
+    "moveToTemplateCSS": "Add to templateCSS.js. Remove from filter map in elementDefinitions.js. Leave JSON alone.",
+    "showTable": "Read the current state of all 3 files. Show audit table with columns: Property, JSON, Filter Map, templateCSS, Path. Value or dash. No parentheticals, no annotations, no invented labels.",
+    "showUpdatedTable": "After EVERY change, immediately show the updated table. No exceptions. Don't make Commander ask.",
+    "showNextTable": "Move to the next element. Only when Commander says."
+  },
+
+  "auditTable": {
+    "columns": ["Property", "JSON", "Filter Map", "templateCSS", "Path"],
+    "pathValues": {
+      "1": "In filter map (Liquid var, editable in Shopify)",
+      "2": "In templateCSS (hardcoded static CSS)",
+      "BOTH": "In filter map AND templateCSS — this is a violation, must be resolved"
+    },
+    "rules": [
+      "Show value or dash. Nothing else.",
+      "No parentheticals, no emphasis, no invented labels.",
+      "xs and md viewports are not relevant to the audit. Do not include them.",
+      "sm IS relevant — it goes through schema as Liquid var."
+    ]
+  },
+
+  "responsiveViewports": {
+    "xs": "Hardcoded CSS, only if user set value. Not in audit tables.",
+    "sm": "Liquid var, mobile schema breakpoint.",
+    "md": "Hardcoded CSS, only if user set value. Not in audit tables.",
+    "lg": "Base CSS (no media query), desktop schema breakpoint.",
+    "xl": "Liquid var, fullscreen schema breakpoint."
+  },
+
+  "templateWork": {
+    "neverTouchBaseElements": "When working on templates, NEVER modify base element definitions (getDefaultStyle, getDefaultProps, getDefaultSchemaToggles, or base styleProps/contentProps in elementDefinitions.js). Only touch: template JSON, template filter map entry, template templateCSS function.",
+    "columnSchemaToggles": "Auto-generated from filter map in templateUtils.js. No manual schemaToggles in JSON. Column filter map applies to ALL columns — every column needs values in columnStyles.",
+    "beforeAnyWork": "Read the template JSON, filter map, and templateCSS. Verify the 3 are in sync. Do not rely on memory."
+  },
+
+  "standardEditableSets": {
+    "container": ["backgroundColor", "paddingTop", "paddingBottom"],
+    "heading": ["text", "fontSize", "fontWeight", "fontFamily", "color", "textAlign", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "text": ["text", "fontSize", "fontWeight", "fontFamily", "color", "textAlign", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+    "button": ["text", "fontSize", "fontWeight", "fontFamily", "color", "hoverColor", "backgroundColor", "hoverBackgroundColor", "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"],
+    "note": "Exceptions to standard sets are decided by Commander only."
+  },
+
+  "keyFiles": {
+    "elementDefinitions": "app/_config/elementDefinitions.js — Property definitions, templatePropertyMaps",
+    "blockBuilder": "app/_components/BlockBuilder.jsx — getDefaultStyle, getDefaultProps, getDefaultSchemaToggles",
+    "cssGeneration": "app/_utils/cssGeneration.js — CSS export, Liquid vars, calls templateCSS",
+    "schemaGeneration": "app/_utils/schemaGeneration.js — Shopify schema JSON export",
+    "templateCSS": "app/_utils/templateCSS.js — Hardcoded template CSS generators",
+    "jsonToLiquid": "app/_utils/jsonToLiquid.js — Orchestrator, combines all 3 generators",
+    "templateUtils": "app/_utils/templateUtils.js — Template instantiation, auto-generates schema toggles from filter map"
+  }
+}

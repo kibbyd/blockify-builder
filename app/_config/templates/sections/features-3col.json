@@ -1,0 +1,250 @@
+{
+  "id": "features-3col",
+  "name": "3-Column Features",
+  "category": "section",
+  "subcategory": "features",
+  "description": "Three-column feature grid with icons, headings, and descriptions",
+  "elements": [
+    {
+      "type": "container",
+      "responsiveStyles": {
+        "xs": {
+          "paddingTop": "30px",
+          "paddingBottom": "30px"
+        },
+        "sm": {
+          "paddingTop": "42px",
+          "paddingBottom": "42px"
+        }
+      },
+      "children": [
+        {
+          "type": "heading",
+          "propOverrides": {
+            "text": "Why Choose Us",
+            "level": "h2",
+            "tag": "h2"
+          },
+          "responsiveStyles": {
+            "xs": {
+              "fontSize": "22px"
+            },
+            "sm": {
+              "fontSize": "27px"
+            }
+          },
+          "styleOverrides": {
+            "fontWeight": "700",
+            "fontFamily": "inherit",
+            "lineHeight": "1.2",
+            "display": "block",
+            "fontSize": "36px",
+            "color": "#1a1a1a",
+            "textAlign": "center",
+            "marginTop": "20px",
+            "marginBottom": "10px"
+          }
+        },
+        {
+          "type": "columns-3",
+          "propOverrides": {
+            "columns": 3
+          },
+          "columnStyles": {
+            "0": {
+              "alignItems": "center"
+            },
+            "1": {
+              "alignItems": "center"
+            },
+            "2": {
+              "alignItems": "center"
+            }
+          },
+          "columns": [
+            [
+              {
+                "type": "icon",
+                "propOverrides": {
+                  "src": "/icons/star-o.svg",
+                  "alt": "Feature 1",
+                  "iconCategory": "icons",
+                  "uploadedFileName": "star-o.svg",
+                  "size": "48px"
+                },
+                "styleOverrides": {
+                  "display": "inline-block",
+                  "width": "48px",
+                  "height": "48px",
+                  "iconSize": "48px",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "Fast Performance",
+                  "level": "h3",
+                  "tag": "h3"
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "fontFamily": "inherit",
+                  "fontSize": "20px",
+                  "color": "#1a1a1a",
+                  "textAlign": "center",
+                  "marginTop": "16px",
+                  "marginBottom": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "Lightning-fast load times that keep your visitors engaged and improve conversions."
+                },
+                "styleOverrides": {
+                  "lineHeight": "1.6",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "fontFamily": "inherit",
+                  "color": "#586069",
+                  "textAlign": "center",
+                  "marginTop": "16px",
+                  "marginBottom": "0"
+                }
+              }
+            ],
+            [
+              {
+                "type": "icon",
+                "propOverrides": {
+                  "src": "/icons/star-o.svg",
+                  "alt": "Feature 2",
+                  "iconCategory": "icons",
+                  "uploadedFileName": "star-o.svg",
+                  "size": "48px"
+                },
+                "styleOverrides": {
+                  "display": "inline-block",
+                  "width": "48px",
+                  "height": "48px",
+                  "iconSize": "48px",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "Easy to Use",
+                  "level": "h3",
+                  "tag": "h3"
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "fontFamily": "inherit",
+                  "fontSize": "20px",
+                  "color": "#1a1a1a",
+                  "textAlign": "center",
+                  "marginTop": "16px",
+                  "marginBottom": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "Intuitive interface designed for everyone, no technical expertise required."
+                },
+                "styleOverrides": {
+                  "lineHeight": "1.6",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "fontFamily": "inherit",
+                  "color": "#586069",
+                  "textAlign": "center",
+                  "marginTop": "16px",
+                  "marginBottom": "0"
+                }
+              }
+            ],
+            [
+              {
+                "type": "icon",
+                "propOverrides": {
+                  "src": "/icons/star-o.svg",
+                  "alt": "Feature 3",
+                  "iconCategory": "icons",
+                  "uploadedFileName": "star-o.svg",
+                  "size": "48px"
+                },
+                "styleOverrides": {
+                  "display": "inline-block",
+                  "width": "48px",
+                  "height": "48px",
+                  "iconSize": "48px",
+                  "marginTop": "0",
+                  "marginRight": "auto",
+                  "marginBottom": "0",
+                  "marginLeft": "auto"
+                }
+              },
+              {
+                "type": "heading",
+                "propOverrides": {
+                  "text": "Fully Responsive",
+                  "level": "h3",
+                  "tag": "h3"
+                },
+                "styleOverrides": {
+                  "fontWeight": "700",
+                  "fontFamily": "inherit",
+                  "fontSize": "20px",
+                  "color": "#1a1a1a",
+                  "textAlign": "center",
+                  "marginTop": "16px",
+                  "marginBottom": "0"
+                }
+              },
+              {
+                "type": "text",
+                "propOverrides": {
+                  "text": "Looks perfect on every device, from desktop to mobile, automatically."
+                },
+                "styleOverrides": {
+                  "lineHeight": "1.6",
+                  "fontSize": "14px",
+                  "fontWeight": "400",
+                  "fontFamily": "inherit",
+                  "color": "#586069",
+                  "textAlign": "center",
+                  "marginTop": "16px",
+                  "marginBottom": "0"
+                }
+              }
+            ]
+          ],
+          "styleOverrides": {
+            "flexDirection": "row",
+            "gap": "24px"
+          }
+        }
+      ],
+      "styleOverrides": {
+        "flexDirection": "column",
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "paddingTop": "60px",
+        "paddingBottom": "60px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "borderWidth": "0px",
+        "borderStyle": "none"
+      }
+    }
+  ]
+}
