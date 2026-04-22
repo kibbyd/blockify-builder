@@ -92,8 +92,27 @@ function collectAllElements(element) {
  */
 function extractBaseCSSPropertyNames(cssString) {
   const props = new Set();
-  // Strip all @media blocks to get only base CSS
-  const baseCSS = cssString.replace(/@media[^{]*\{[^}]*\{[^}]*\}[^}]*\}/g, '');
+  // Strip all @media blocks by tracking brace depth
+  let baseCSS = '';
+  let i = 0;
+  while (i < cssString.length) {
+    if (cssString.slice(i, i + 6) === '@media') {
+      // Skip past the opening brace of the @media block
+      while (i < cssString.length && cssString[i] !== '{') i++;
+      // Now track brace depth to find the matching close
+      let depth = 0;
+      for (; i < cssString.length; i++) {
+        if (cssString[i] === '{') depth++;
+        else if (cssString[i] === '}') {
+          depth--;
+          if (depth === 0) { i++; break; }
+        }
+      }
+    } else {
+      baseCSS += cssString[i];
+      i++;
+    }
+  }
   const matches = baseCSS.match(/^\s+([\w-]+)\s*:/gm) || [];
   matches.forEach(m => {
     const name = m.trim().replace(/\s*:$/, '');

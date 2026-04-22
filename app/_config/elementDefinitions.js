@@ -7191,7 +7191,7 @@ const templatePropertyMaps = {
     },
     heading: {
       contentProps: ["text"],
-      styleProps: ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+      styleProps: ["fontSize", "fontWeight", "fontFamily", "color", "lineHeight", "paddingTop", "paddingBottom", "paddingLeft", "paddingRight", "marginTop", "marginBottom", "marginLeft", "marginRight"],
     },
     countdown: {
       contentProps: [],
@@ -7211,7 +7211,7 @@ const templatePropertyMaps = {
     },
     heading: {
       contentProps: ["text"],
-      styleProps: ["fontSize", "fontFamily", "fontWeight", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+      styleProps: ["fontSize", "fontFamily", "fontWeight", "color", "lineHeight", "paddingTop", "paddingBottom", "paddingLeft", "paddingRight", "marginTop", "marginBottom", "marginLeft", "marginRight"],
     },
     text: {
       contentProps: ["text"],
@@ -7235,7 +7235,7 @@ const templatePropertyMaps = {
     },
     heading: {
       contentProps: ["text"],
-      styleProps: ["fontSize", "fontWeight", "fontFamily", "color", "paddingTop", "paddingBottom", "marginTop", "marginBottom"],
+      styleProps: ["fontSize", "fontWeight", "fontFamily", "color", "lineHeight", "paddingTop", "paddingBottom", "paddingLeft", "paddingRight", "marginTop", "marginBottom", "marginLeft", "marginRight"],
     },
     text: {
       contentProps: ["text"],
@@ -7369,7 +7369,7 @@ const templatePropertyMaps = {
   "bestsellers-row": {
     container: { contentProps: [], styleProps: [] },
     "columns-2": { contentProps: [], styleProps: [] },
-    "columns-4": { contentProps: [], styleProps: [] },
+    "columns-4": { contentProps: [], styleProps: ["gap"] },
     column: { contentProps: [], styleProps: [] },
     heading: { contentProps: ["text"], styleProps: ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
     button: { contentProps: ["text"], styleProps: ["fontSize", "fontWeight", "fontFamily", "color", "hoverColor", "backgroundColor", "hoverBackgroundColor", "borderColor", "hoverBorderColor", "hoverAnimation", "marginTop", "marginBottom", "marginRight", "marginLeft"] },
@@ -7426,7 +7426,7 @@ const templatePropertyMaps = {
   },
   "features-3col": {
     container: { contentProps: [], styleProps: ["backgroundColor", "paddingTop", "paddingBottom"] },
-    heading: { contentProps: ["text"], styleProps: ["fontSize", "fontWeight", "fontFamily", "color", "marginTop", "marginBottom"] },
+    heading: { contentProps: ["text"], styleProps: ["fontSize", "fontWeight", "fontFamily", "color", "lineHeight", "marginTop", "marginBottom"] },
     "columns-3": { contentProps: [], styleProps: ["flexDirection", "gap"] },
     column: { contentProps: [], styleProps: [] },
     icon: { contentProps: ["src", "alt"], styleProps: ["iconSize", "marginTop", "marginBottom"] },

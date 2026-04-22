@@ -326,7 +326,6 @@ const generate_bestsellers_row_CSS = (element, elementDef, selector, sectionId) 
         padding-left: 24px;
         border-width: 1px;
         border-style: solid;
-        border-color: #667eea;
       }
 `;
     }
@@ -884,8 +883,6 @@ const generate_content_text_image_CSS = (element, elementDef, selector, sectionI
         box-sizing: border-box;
         overflow: hidden;
         flex: 1;
-        padding-top: 40px;
-        padding-bottom: 40px;
         padding-left: 40px;
         padding-right: 40px;
         align-items: flex-start;
@@ -895,17 +892,8 @@ const generate_content_text_image_CSS = (element, elementDef, selector, sectionI
 `;
       css += `@media (max-width: 575px) {
         ${selector} {
-          padding-top: 20px;
-          padding-bottom: 20px;
           padding-left: 16px;
           padding-right: 16px;
-        }
-      }
-`;
-      css += `@media (min-width: 576px) and (max-width: 767px) {
-        ${selector} {
-          padding-top: 28px;
-          padding-bottom: 28px;
         }
       }
 `;
@@ -1233,29 +1221,9 @@ const generate_cta_split_CSS = (element, elementDef, selector, sectionId) => {
         box-sizing: border-box;
         overflow: hidden;
         flex: 1;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
         align-items: flex-start;
         border-width: 0px;
         border-style: none;
-      }
-`;
-      css += `@media (max-width: 575px) {
-        ${selector} {
-          padding-top: 20px;
-          padding-bottom: 20px;
-          padding-left: 16px;
-          padding-right: 16px;
-        }
-      }
-`;
-      css += `@media (min-width: 576px) and (max-width: 767px) {
-        ${selector} {
-          padding-top: 28px;
-          padding-bottom: 28px;
-        }
       }
 `;
     }
@@ -1296,28 +1264,8 @@ const generate_cta_split_CSS = (element, elementDef, selector, sectionId) => {
         box-sizing: border-box;
         overflow: hidden;
         flex: 1;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
         border-width: 0px;
         border-style: none;
-      }
-`;
-      css += `@media (max-width: 575px) {
-        ${selector} {
-          padding-top: 20px;
-          padding-bottom: 20px;
-          padding-left: 16px;
-          padding-right: 16px;
-        }
-      }
-`;
-      css += `@media (min-width: 576px) and (max-width: 767px) {
-        ${selector} {
-          padding-top: 28px;
-          padding-bottom: 28px;
-        }
       }
 `;
     }
@@ -1844,8 +1792,6 @@ const generate_hero_split_CSS = (element, elementDef, selector, sectionId) => {
         flex: 1;
         display: flex;
         flex-direction: column;
-        padding-left: 0;
-        padding-right: 0;
         margin-top: 0;
         margin-bottom: 0;
         margin-right: 0;
@@ -1865,7 +1811,6 @@ const generate_hero_split_CSS = (element, elementDef, selector, sectionId) => {
 `;
       const col0Selector = `#${sectionId}-{{ section.id }} [data-element-id="${element.id}-col-0"]`;
       css += `${col0Selector} {
-        flex-direction: column;
         justify-content: center;
         align-items: flex-start;
         background-color: #ffffff;
@@ -2599,7 +2544,6 @@ const generate_shipping_guarantee_bar_CSS = (element, elementDef, selector, sect
       for (let i = 0; i < 4; i++) {
         const colSelector = selector.replace(element.id, `${element.id}-col-${i}`);
         css += `${colSelector} {
-        flex-direction: column;
         align-items: center;
       }
 `;
@@ -2819,12 +2763,8 @@ const generate_testimonial_spotlight_CSS = (element, elementDef, selector, secti
     if (elementIndex === 1) {
       css += `${selector} {
         line-height: 1.8;
-        font-size: 24px;
-        color: #e1e4e8;
         font-style: italic;
         max-width: 700px;
-        margin-top: 0;
-        margin-bottom: 0;
       }
 `;
       css += `@media (min-width: 576px) and (max-width: 767px) {
@@ -2843,14 +2783,6 @@ const generate_testimonial_spotlight_CSS = (element, elementDef, selector, secti
 
     // [2] container > text // "Alex Turner"
     if (elementIndex === 2) {
-      css += `${selector} {
-        font-size: 16px;
-        color: #e1e4e8;
-        font-weight: 600;
-        margin-top: 24px;
-        margin-bottom: 0;
-      }
-`;
     }
 
     // [3] container > text // "VP of Engineering, GlobalTech"
@@ -2858,10 +2790,6 @@ const generate_testimonial_spotlight_CSS = (element, elementDef, selector, secti
       css += `${selector} {
         line-height: 1;
         display: block;
-        font-size: 13px;
-        color: #e1e4e8;
-        margin-top: 6px;
-        margin-bottom: 0;
         padding-top: 6px;
         padding-right: 0;
         padding-bottom: 0;
@@ -2978,11 +2906,7 @@ const generate_testimonials_cards_CSS = (element, elementDef, selector, sectionI
     if (elementIndex === 4) {
       css += `${selector} {
         line-height: 1.6;
-        font-size: 15px;
-        color: #586069;
         font-style: italic;
-        margin-top: 0;
-        margin-bottom: 0;
       }
 `;
     }
@@ -2991,11 +2915,6 @@ const generate_testimonials_cards_CSS = (element, elementDef, selector, sectionI
     if (elementIndex === 5) {
       css += `${selector} {
         line-height: 1;
-        font-size: 14px;
-        color: #586069;
-        font-weight: 600;
-        margin-top: 16px;
-        margin-bottom: 0;
       }
 `;
     }
@@ -3004,10 +2923,6 @@ const generate_testimonials_cards_CSS = (element, elementDef, selector, sectionI
     if (elementIndex === 6) {
       css += `${selector} {
         line-height: 1;
-        font-size: 12px;
-        color: #6a737d;
-        margin-top: 4px;
-        margin-bottom: 0;
       }
 `;
     }
@@ -3046,11 +2961,7 @@ const generate_testimonials_cards_CSS = (element, elementDef, selector, sectionI
     if (elementIndex === 8) {
       css += `${selector} {
         line-height: 1.6;
-        font-size: 15px;
-        color: #586069;
         font-style: italic;
-        margin-top: 0;
-        margin-bottom: 0;
       }
 `;
     }
@@ -3059,11 +2970,6 @@ const generate_testimonials_cards_CSS = (element, elementDef, selector, sectionI
     if (elementIndex === 9) {
       css += `${selector} {
         line-height: 1;
-        font-size: 14px;
-        color: #586069;
-        font-weight: 600;
-        margin-top: 16px;
-        margin-bottom: 0;
       }
 `;
     }
@@ -3072,10 +2978,6 @@ const generate_testimonials_cards_CSS = (element, elementDef, selector, sectionI
     if (elementIndex === 10) {
       css += `${selector} {
         line-height: 1;
-        font-size: 12px;
-        color: #6a737d;
-        margin-top: 4px;
-        margin-bottom: 0;
       }
 `;
     }
@@ -3114,11 +3016,7 @@ const generate_testimonials_cards_CSS = (element, elementDef, selector, sectionI
     if (elementIndex === 12) {
       css += `${selector} {
         line-height: 1.6;
-        font-size: 15px;
-        color: #586069;
         font-style: italic;
-        margin-top: 0;
-        margin-bottom: 0;
       }
 `;
     }
@@ -3127,11 +3025,6 @@ const generate_testimonials_cards_CSS = (element, elementDef, selector, sectionI
     if (elementIndex === 13) {
       css += `${selector} {
         line-height: 1;
-        font-size: 14px;
-        color: #586069;
-        font-weight: 600;
-        margin-top: 16px;
-        margin-bottom: 0;
       }
 `;
     }
@@ -3140,10 +3033,6 @@ const generate_testimonials_cards_CSS = (element, elementDef, selector, sectionI
     if (elementIndex === 14) {
       css += `${selector} {
         line-height: 1;
-        font-size: 12px;
-        color: #6a737d;
-        margin-top: 4px;
-        margin-bottom: 0;
       }
 `;
     }
