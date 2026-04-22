@@ -86,13 +86,7 @@
             "labelColor": "#cccccc",
             "digitFontSize": "36px",
             "labelFontSize": "12px",
-            "separatorStyle": "colon",
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "marginTop": "20px",
-            "marginRight": "0",
-            "marginBottom": "0",
-            "marginLeft": "0"
+            "separatorStyle": "colon"
           }
         },
         {

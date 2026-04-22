@@ -332,10 +332,6 @@ const generate_bestsellers_row_CSS = (element, elementDef, selector, sectionId) 
 
     // [4] container > columns-4
     if (elementIndex === 4) {
-      css += `${selector} {
-        gap: 24px;
-      }
-`;
     }
 
     // [5] container > columns-4 > col-0 > image

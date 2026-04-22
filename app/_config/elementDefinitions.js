@@ -7195,7 +7195,7 @@ const templatePropertyMaps = {
     },
     countdown: {
       contentProps: [],
-      styleProps: ["digitFontSize", "digitColor", "labelFontSize", "labelColor", "separatorStyle", "paddingTop", "paddingBottom", "marginTop"],
+      styleProps: ["digitFontSize", "digitColor", "labelFontSize", "labelColor", "separatorStyle"],
     },
     button: {
       contentProps: ["text"],
