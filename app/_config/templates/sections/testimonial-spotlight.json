@@ -69,6 +69,8 @@
             "display": "block",
             "fontSize": "13px",
             "color": "#e1e4e8",
+            "fontFamily": "inherit",
+            "fontWeight": "400",
             "marginTop": "6px",
             "marginBottom": "0",
             "paddingTop": "6px",
