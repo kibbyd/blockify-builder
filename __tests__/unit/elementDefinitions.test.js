@@ -5,7 +5,7 @@ describe('Element Definitions', () => {
   const requiredElements = [
     'button', 'column', 'columns-1', 'columns-2', 'columns-3', 'columns-4',
     'columns-5', 'columns-6', 'container', 'heading', 'icon', 'image',
-    'image-background', 'list', 'map', 'spacer', 'table', 'text',
+    'image-background', 'background-overlay', 'list', 'map', 'spacer', 'table', 'text',
     'unordered-list', 'video', 'divider',
     // Shopify elements
     'price', 'add-to-cart', 'product-card', 'product-grid', 'collection-list', 'variant-selector',
