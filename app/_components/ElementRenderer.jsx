@@ -2433,7 +2433,7 @@ const BackgroundOverlayElement = ({
   breakpoint,
   responsiveStyles,
 }) => {
-  const allowedChildren = ["heading", "text", "button"];
+  const allowedChildren = ["heading", "text"];
 
   const [{ isOver, draggedItem, canDrop }, drop] = useDrop({
     accept: ["component", "element"],
@@ -2537,7 +2537,7 @@ const BackgroundOverlayElement = ({
             <br />
             <small>Drag image from Media tab or set URL in properties</small>
             <br />
-            <small>Drop heading, text, or button to overlay</small>
+            <small>Drop heading or text to overlay</small>
           </div>
         )}
 
@@ -2573,10 +2573,10 @@ const BackgroundOverlayElement = ({
           }}
         >
           <div style={{ fontWeight: "bold", marginBottom: "5px" }}>
-            Only Heading, Text & Button Allowed
+            Only Heading & Text Allowed
           </div>
           <div style={{ fontSize: "12px", color: "#666" }}>
-            Background overlay only accepts heading, text, and button elements
+            Background overlay only accepts heading and text elements
           </div>
         </div>
       )}
