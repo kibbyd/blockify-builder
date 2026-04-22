@@ -485,6 +485,20 @@ const ElementRenderer = ({
             />
           );
 
+        case "background-overlay":
+          return (
+            <BackgroundOverlayElement
+              element={element}
+              style={commonStyle}
+              onAddChildElement={onAddChildElement}
+              onUpdateElement={onUpdateElement}
+              onSelectElement={onSelectElement}
+              selectedElement={selectedElement}
+              breakpoint={breakpoint}
+              responsiveStyles={responsiveStyles}
+            />
+          );
+
         case "columns":
         case "columns-1":
         case "columns-2":
@@ -1194,6 +1208,7 @@ const ElementRenderer = ({
     element.type === "unordered-list" ||
     element.type === "divider" ||
     element.type === "image-background" ||
+    element.type === "background-overlay" ||
     element.type === "product-grid" ||
     element.type === "collection-list" ||
     element.type === "variant-selector" ||
@@ -1421,8 +1436,8 @@ const ContainerElement = ({
   const [{ isOver, draggedItem, canDrop }, drop] = useDrop({
     accept: ["component", "element"],
     canDrop: (item) => {
-      // Block image-background elements from being dropped into containers
-      if (item.type === "image-background") {
+      // Block image-background and background-overlay elements from being dropped into containers
+      if (item.type === "image-background" || item.type === "background-overlay") {
         return false;
       }
       return true;
@@ -1447,8 +1462,8 @@ const ContainerElement = ({
     }),
   });
 
-  // Check if dragging image-background
-  const isDraggingImageBackground = draggedItem?.type === "image-background";
+  // Check if dragging image-background or background-overlay
+  const isDraggingImageBackground = draggedItem?.type === "image-background" || draggedItem?.type === "background-overlay";
 
   return (
     <div
@@ -1897,8 +1912,8 @@ const DropColumn = ({
   const [{ isOver, canDrop, draggedItem }, drop] = useDrop({
     accept: ["component", "element"],
     canDrop: (item) => {
-      // Block image-background elements from being dropped into columns
-      if (item.type === "image-background") {
+      // Block image-background and background-overlay elements from being dropped into columns
+      if (item.type === "image-background" || item.type === "background-overlay") {
         return false;
       }
       // Block containers from being dropped into columns
@@ -1947,8 +1962,8 @@ const DropColumn = ({
     }),
   });
 
-  // Check if dragging image-background
-  const isDraggingImageBackground = draggedItem?.type === "image-background";
+  // Check if dragging image-background or background-overlay
+  const isDraggingImageBackground = draggedItem?.type === "image-background" || draggedItem?.type === "background-overlay";
 
   // Check if dragging container
   const isDraggingContainer = draggedItem?.type === "container";
@@ -2404,6 +2419,196 @@ const ImageBackgroundElement = ({
                 : "Drag elements here to overlay on background"}
             </div>
           )}
+    </div>
+  );
+};
+
+const BackgroundOverlayElement = ({
+  element,
+  style,
+  onAddChildElement,
+  onUpdateElement,
+  onSelectElement,
+  selectedElement,
+  breakpoint,
+  responsiveStyles,
+}) => {
+  const allowedChildren = ["heading", "text", "button"];
+
+  const [{ isOver, draggedItem, canDrop }, drop] = useDrop({
+    accept: ["component", "element"],
+    canDrop: (item) => {
+      // Only allow heading, text, button
+      if (item.type && !allowedChildren.includes(item.type)) {
+        // Allow image drops to replace background
+        if (item.type === "image" && item.isUploadedMedia) return true;
+        return false;
+      }
+      return true;
+    },
+    drop: (item, monitor) => {
+      if (!monitor.didDrop()) {
+        // Image drop replaces background
+        if (item.type === "image" && item.isUploadedMedia && onUpdateElement) {
+          onUpdateElement(element.id, {
+            props: {
+              ...element.props,
+              src: item.src,
+              alt: item.alt || "",
+              uploadedFileName: item.alt,
+            },
+          });
+        } else if (onAddChildElement) {
+          if (item.type) {
+            onAddChildElement(element.id, item.type, item);
+          }
+        }
+      }
+    },
+    collect: (monitor) => ({
+      isOver: !!monitor.isOver({ shallow: true }),
+      draggedItem: monitor.getItem(),
+      canDrop: !!monitor.canDrop(),
+    }),
+  });
+
+  const isDraggingImage =
+    draggedItem?.type === "image" && draggedItem?.isUploadedMedia;
+
+  const isDraggingInvalidType =
+    draggedItem &&
+    draggedItem.type &&
+    !allowedChildren.includes(draggedItem.type) &&
+    !(draggedItem.type === "image" && draggedItem.isUploadedMedia);
+
+  const backgroundStyle = {
+    ...style,
+    backgroundImage: element.props.src ? `url(${element.props.src})` : "none",
+    border:
+      isOver && !canDrop
+        ? "3px dashed #f44336"
+        : isOver && isDraggingImage
+          ? "3px dashed #2196f3"
+          : isOver && canDrop
+            ? "2px dashed #0066cc"
+            : `${style.borderWidth || "0px"} ${style.borderStyle || "none"} ${style.borderColor || "transparent"}`,
+    backgroundColor:
+      isOver && !canDrop
+        ? "#ffebee"
+        : isOver && isDraggingImage
+          ? "#e3f2fd"
+          : isOver && canDrop
+            ? "rgba(0, 102, 204, 0.05)"
+            : !element.props.src
+              ? style.backgroundColor || "#1a1a1a"
+              : style.backgroundColor || "transparent",
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    overflow: "hidden",
+  };
+
+  const overlayStyle = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: style.alignItems || "center",
+    justifyContent: style.justifyContent || "center",
+    width: "100%",
+    flex: 1,
+    boxSizing: "border-box",
+    position: "relative",
+    zIndex: 1,
+  };
+
+  return (
+    <div ref={drop} style={backgroundStyle}>
+      {!element.props.src &&
+        !isDraggingImage &&
+        element.children?.length === 0 && (
+          <div
+            style={{
+              textAlign: "center",
+              color: "#999",
+              pointerEvents: "none",
+              padding: "20px",
+            }}
+          >
+            Background Overlay
+            <br />
+            <small>Drag image from Media tab or set URL in properties</small>
+            <br />
+            <small>Drop heading, text, or button to overlay</small>
+          </div>
+        )}
+
+      {!element.props.src && isDraggingImage && isOver && (
+        <div
+          style={{
+            textAlign: "center",
+            color: "#1976d2",
+            fontWeight: "bold",
+            fontSize: "18px",
+            pointerEvents: "none",
+          }}
+        >
+          Drop to set background image
+        </div>
+      )}
+
+      {isOver && isDraggingInvalidType && !canDrop && (
+        <div
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            backgroundColor: "#fff3cd",
+            border: "2px solid #ffc107",
+            borderRadius: "8px",
+            padding: "20px",
+            zIndex: 1000,
+            pointerEvents: "none",
+            textAlign: "center",
+            maxWidth: "300px",
+          }}
+        >
+          <div style={{ fontWeight: "bold", marginBottom: "5px" }}>
+            Only Heading, Text & Button Allowed
+          </div>
+          <div style={{ fontSize: "12px", color: "#666" }}>
+            Background overlay only accepts heading, text, and button elements
+          </div>
+        </div>
+      )}
+
+      <div style={overlayStyle}>
+        {element.children?.map((child) => (
+          <div
+            key={child.id}
+            onClick={(e) => {
+              e.stopPropagation();
+              onSelectElement && onSelectElement(child.id);
+            }}
+            className={selectedElement === child.id ? "selected-child" : ""}
+            style={{
+              width: "100%",
+              position: "relative",
+              zIndex: 10,
+            }}
+          >
+            <ElementRenderer
+              element={child}
+              isSelected={selectedElement === child.id}
+              onAddChildElement={onAddChildElement}
+              onUpdateElement={onUpdateElement}
+              onSelectElement={onSelectElement}
+              selectedElement={selectedElement}
+              breakpoint={breakpoint}
+              responsiveStyles={responsiveStyles}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

@@ -1068,6 +1068,33 @@ export const generateElementHTML = (element, indent = '  ') => {
       break;
     }
 
+    case 'background-overlay': {
+      const boSrcProp = elementDef.contentProps?.find(p => p.name === 'src');
+      const boIsSrcSchemaEnabled = shouldEnableInSchema(element.type, 'src', element.schemaToggles, element.style);
+      const boUploadedFileName = element.props?.uploadedFileName || '';
+
+      let boSrc = element.props?.src || '';
+
+      if (boIsSrcSchemaEnabled && !(boSrc.startsWith('data:') && boUploadedFileName)) {
+        boSrc = generateContentLiquidVar(element.id, 'src');
+      }
+
+      const boEntranceAttr = buildEntranceAttr(element);
+      html += `${indent}<div data-element-id="${element.id}"${boEntranceAttr} class="background-overlay-container">\n`;
+      html += `${indent}  <div class="bg-overlay-content">\n`;
+
+      // Render children inside overlay
+      if (element.children && element.children.length > 0) {
+        element.children.forEach(child => {
+          html += generateElementHTML(child, indent + '    ');
+        });
+      }
+
+      html += `${indent}  </div>\n`;
+      html += `${indent}</div>\n`;
+      break;
+    }
+
     case 'list':
     case 'unordered-list': {
       const htmlProp = elementDef.contentProps?.find(p => p.name === 'html');

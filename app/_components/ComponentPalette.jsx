@@ -8,7 +8,7 @@ import {
   ChevronDown, PanelTop, Timer, SlidersHorizontal, FileText, MessageSquare,
   RotateCw, ArrowLeftRight, ScrollText,
   DollarSign, ShoppingCart, CreditCard, LayoutGrid, Library, Palette, Flame,
-  ImagePlus, Lightbulb, Zap, ShoppingBag
+  ImagePlus, Lightbulb, Zap, ShoppingBag, Layers
 } from 'lucide-react';
 
 const ComponentPalette = ({ onAddElement }) => {
@@ -30,6 +30,7 @@ const ComponentsTab = ({ onAddElement }) => {
       components: [
         { type: 'container', Icon: Square, label: 'Container', tooltip: 'Add this first!' },
         { type: 'image-background', Icon: ImagePlus, label: 'Image Background' },
+        { type: 'background-overlay', Icon: Layers, label: 'Background Overlay' },
         { type: 'columns-1', Icon: RectangleHorizontal, label: '1 Column', columnConfig: 1, tooltip: 'Must be inside Container' },
         { type: 'columns-2', Icon: Columns2, label: '2 Columns', columnConfig: 2, tooltip: 'Must be inside Container' },
         { type: 'columns-3', Icon: Columns3, label: '3 Columns', columnConfig: 3, tooltip: 'Must be inside Container' },

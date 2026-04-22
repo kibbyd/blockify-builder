@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from 'react';
 import { useDrag, useDrop } from 'react-dnd';
-import { Compass, X, ChevronDown, ChevronRight, Square, Heading, Type, ImageIcon, Video, RectangleHorizontal, Columns2, Star, ArrowUpDown, ImagePlus, ListOrdered, List, Table, Circle } from 'lucide-react';
+import { Compass, X, ChevronDown, ChevronRight, Square, Heading, Type, ImageIcon, Video, RectangleHorizontal, Columns2, Star, ArrowUpDown, ImagePlus, Layers, ListOrdered, List, Table, Circle } from 'lucide-react';
 
 const Navigator = ({
   elements,
@@ -211,6 +211,7 @@ const NavigatorItem = ({
       'icon': Star,
       'spacer': ArrowUpDown,
       'image-background': ImagePlus,
+      'background-overlay': Layers,
       'list': ListOrdered,
       'unordered-list': List,
       'table': Table,
@@ -236,6 +237,7 @@ const NavigatorItem = ({
       'icon': 'Icon',
       'spacer': 'Spacer',
       'image-background': 'Background Image',
+      'background-overlay': 'Background Overlay',
       'list': 'Ordered List',
       'unordered-list': 'Unordered List',
       'table': 'Table',

@@ -1864,6 +1864,11 @@ const getDefaultProps = (type, columnConfig = null) => {
         src: "/images/placeholder.svg",
         alt: "",
       };
+    case "background-overlay":
+      return {
+        src: "/images/placeholder.svg",
+        alt: "",
+      };
     case "button":
       return { text: "Button Text", url: "" };
     case "container":
@@ -2091,6 +2096,20 @@ const getDefaultStyle = (type) => {
         backgroundSize: "cover",
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
+        alignItems: "center",
+        justifyContent: "center",
+      };
+    case "background-overlay":
+      return {
+        paddingTop: "80px",
+        paddingBottom: "80px",
+        paddingLeft: "20px",
+        paddingRight: "20px",
+        minHeight: "500px",
+        backgroundSize: "cover",
+        backgroundPosition: "center center",
+        backgroundRepeat: "no-repeat",
+        backgroundColor: "#1a1a1a",
         alignItems: "center",
         justifyContent: "center",
       };
@@ -2406,6 +2425,21 @@ const getDefaultSchemaToggles = (type) => {
       paddingLeft: true,
       paddingRight: true,
       height: true,
+      alignItems: true,
+      justifyContent: true,
+    },
+    "background-overlay": {
+      src: true,
+      alt: true,
+      backgroundSize: true,
+      backgroundPosition: true,
+      backgroundRepeat: true,
+      paddingTop: true,
+      paddingBottom: true,
+      paddingLeft: true,
+      paddingRight: true,
+      minHeight: true,
+      backgroundColor: true,
       alignItems: true,
       justifyContent: true,
     },

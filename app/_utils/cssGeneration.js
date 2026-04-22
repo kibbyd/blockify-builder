@@ -297,8 +297,8 @@ export const generateElementCSS = (element, sectionId) => {
     }
   }
 
-  // Generate gradient background for container/image-background elements
-  if (element.type === 'container' || element.type === 'image-background') {
+  // Generate gradient background for container/image-background/background-overlay elements
+  if (element.type === 'container' || element.type === 'image-background' || element.type === 'background-overlay') {
     const hasGradient = shouldEnableInSchema(element.type, 'gradientType', element.schemaToggles, element.style);
     if (hasGradient || element.style?.gradientType) {
       const gradTypeSetting = generateSettingId(element.id, 'gradientType');
@@ -1107,8 +1107,8 @@ export const generateElementCSS = (element, sectionId) => {
     css += `\n`;
   }
 
-  // Generate image-background CSS (background-image URL)
-  if (element.type === 'image-background') {
+  // Generate image-background/background-overlay CSS (background-image URL)
+  if (element.type === 'image-background' || element.type === 'background-overlay') {
     const isSrcEnabled = shouldEnableInSchema(element.type, 'src', element.schemaToggles, element.style);
     if (isSrcEnabled) {
       const srcSettingId = generateSettingId(element.id, 'src');
@@ -1515,6 +1515,25 @@ export const generateLiquidStyles = (elements, sectionId) => {
     display: flex;
     overflow: hidden;
     position: relative;
+  }
+
+  #${sectionId}-{{ section.id }} .background-overlay-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #${sectionId}-{{ section.id }} .background-overlay-container > .bg-overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: inherit;
+    width: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
   }
 
   #${sectionId}-{{ section.id }} ol,
